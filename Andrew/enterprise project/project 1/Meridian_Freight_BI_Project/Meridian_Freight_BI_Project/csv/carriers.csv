@@ -1,0 +1,11 @@
+carrier_id,carrier_name,carrier_type,transport_mode,is_inhouse,abn,contract_start
+1,Meridian Linehaul,In-House,Road,1,93 794 194 282,2021-04-17
+2,Meridian Metro Fleet,In-House,Road,1,79 989 805 918,2019-02-01
+3,Southern Cross Transport,Subcontractor,Road,0,48116605149,2022-02-26
+4,Nullarbor Freightways,Subcontractor,Road,0,44 933 241 781,2021-03-16
+5,Great Dividing Haulage,Subcontractor,Road,0,34 734 810 267,2020-07-10
+6,AusRail Intermodal,Subcontractor,Rail,0,20 423 316 584,2019-04-06
+7,Pacific Air Freight,Subcontractor,Air,0,50183442528,2019-04-26
+8,Bass Strait Sea Freight,Subcontractor,Sea,0,53260331979,2022-11-28
+9,Outback Courier Co,Subcontractor,Road,0,54824103500,2020-11-16
+10,Coastline Express Pty Ltd,Subcontractor,Road,0,25 366 177 120,2020-08-09

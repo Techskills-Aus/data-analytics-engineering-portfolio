@@ -1,0 +1,12 @@
+scan_type_id,scan_code,scan_description,sequence_rank
+1,PU,Picked Up,10
+2,DIN,Depot Inbound,20
+3,SRT,Sorted,30
+4,LHO,Linehaul Departed,40
+5,LHI,Linehaul Arrived,50
+6,OFD,Out For Delivery,60
+7,DEL,Delivered,70
+8,ATT,Delivery Attempted,65
+9,EXC,Exception Raised,55
+10,RTS,Return To Sender,80
+11,HLD,Held At Depot,45

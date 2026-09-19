@@ -1,0 +1,15 @@
+exception_reason_id,exception_code,exception_description,exception_stage,responsible_party,is_controllable
+1,EX01,Customer Not Home,Delivery,Customer,0
+2,EX02,Incorrect Address,Delivery,Customer,0
+3,EX03,Refused by Consignee,Delivery,Customer,0
+4,EX04,Vehicle Breakdown,Linehaul,Carrier,1
+5,EX05,Driver Unavailable,Linehaul,Carrier,1
+6,EX06,Depot Sort Missort,Depot,Meridian,1
+7,EX07,Capacity Shortfall,Depot,Meridian,1
+8,EX08,Severe Weather,Network,External,0
+9,EX09,Road Closure,Network,External,0
+10,EX10,Damaged in Transit,Handling,Meridian,1
+11,EX11,Lost Consignment,Handling,Meridian,1
+12,EX12,Customs / Quarantine Hold,Network,External,0
+13,EX13,Late Pickup by Carrier,Pickup,Carrier,1
+14,EX14,Consignee Site Closed,Delivery,Customer,0

@@ -1,0 +1,261 @@
+staff_id,employee_code,first_name,last_name,job_title,facility_id,manager_staff_id,hire_date,employment_type,is_active
+1,E00001,Bridie,Kaur,Warehouse Supervisor,42,259,2023-10-26,Full Time,1
+2,E00002,Noah,Patel,Linehaul Planner,31,102,2023-05-18,Full Time,1
+3,E00003,Darcy,Ryan,Customer Service Officer,30,259,2022-11-16,Full Time,1
+4,E00004,Anahera,Thompson,Customer Service Officer,23,185,2018-05-15,Casual,1
+5,E00005,Aisha,Kumar,Account Manager,22,78,2017-08-28,Part Time,0
+6,E00006,Isla,Anderson,Dock Coordinator,6,258,2014-12-01,Full Time,1
+7,E00007,Dmitri,O'Brien,Customer Service Officer,39,258,2020-05-10,Full Time,1
+8,E00008,Charlotte,Chen,Dock Coordinator,8,62,2021-03-28,Full Time,1
+9,E00009,Bridie,Rahman,Fleet Controller,47,231,2022-05-07,Full Time,1
+10,E00010,Jack,Martin,Linehaul Planner,2,258,2022-10-15,Casual,1
+11,E00011,Thomas,Taylor,Linehaul Planner,1,102,2014-05-08,Part Time,1
+12,E00012,Priya,Murphy,Account Manager,46,102,2017-01-16,Full Time,1
+13,E00013,Darcy,Kumar,Operations Supervisor,40,209,2018-12-05,Part Time,1
+14,E00014,Tahlia,Brown,Account Manager,13,55,2019-07-10,Full Time,1
+15,E00015,Kai,Kaur,Account Manager,41,55,2021-04-07,Full Time,1
+16,E00016,Rangi,Chen,Fleet Controller,38,231,2023-08-08,Full Time,1
+17,E00017,Dmitri,Kaur,Customer Service Officer,6,62,2015-07-23,Full Time,1
+18,E00018,Priya,Anderson,Fleet Controller,12,78,2018-09-06,Full Time,1
+19,E00019,Rangi,Taylor,Operations Supervisor,34,251,2015-04-06,Full Time,1
+20,E00020,Katya,Patel,Linehaul Planner,37,185,2016-08-12,Part Time,1
+21,E00021,Mason,Horvat,Customer Service Officer,20,230,2014-02-25,Full Time,1
+22,E00022,William,Jones,Warehouse Supervisor,39,78,2023-08-10,Casual,1
+23,E00023,Henry,Brown,Operations Supervisor,48,118,2019-11-24,Full Time,1
+24,E00024,Aisha,Tuiletufuga,Dock Coordinator,46,258,2016-06-10,Full Time,1
+25,E00025,Mateo,Kelly,Dock Coordinator,28,62,2021-06-22,Part Time,1
+26,E00026,Hamish,Rahman,Customer Service Officer,5,55,2020-01-26,Full Time,1
+27,E00027,Darcy,Nguyen,Operations Supervisor,31,102,2017-08-17,Full Time,1
+28,E00028,Charlotte,Rossi,Operations Supervisor,14,69,2023-12-03,Full Time,1
+29,E00029,Katya,Ferreira,Account Manager,22,185,2024-03-28,Full Time,1
+30,E00030,Darcy,Anderson,Account Manager,8,185,2014-10-28,Full Time,1
+31,E00031,Noah,Ferreira,Customer Service Officer,44,118,2014-12-26,Part Time,1
+32,E00032,Katya,Ahmed,Warehouse Supervisor,29,251,2021-12-25,Full Time,1
+33,E00033,Mei,Kaur,Dock Coordinator,19,173,2019-08-10,Full Time,1
+34,E00034,Charlotte,Horvat,Operations Supervisor,26,251,2023-05-11,Full Time,1
+35,E00035,Ana,Papadopoulos,Account Manager,12,126,2023-03-18,Full Time,1
+36,E00036,Wei,Anderson,Customer Service Officer,11,62,2023-07-05,Full Time,1
+37,E00037,Elena,Williams,Depot Manager,27,224,2014-04-07,Part Time,1
+38,E00038,Jack,Anderson,Regional Operations Manager,38,200,2023-03-14,Casual,1
+39,E00039,Sione,Anderson,Fleet Controller,19,231,2014-08-19,Full Time,1
+40,E00040,Aisha,Nikolic,Warehouse Supervisor,34,209,2016-07-19,Full Time,1
+41,E00041,Dmitri,Chen,Warehouse Supervisor,1,173,2020-09-25,Full Time,1
+42,E00042,Mason,Papadopoulos,Warehouse Supervisor,21,69,2022-01-08,Full Time,1
+43,E00043,Mei,Kaufusi,Customer Service Officer,21,78,2019-06-11,Full Time,1
+44,E00044,Charlotte,Ryan,Regional Operations Manager,9,200,2016-04-23,Full Time,1
+45,E00045,Amelia,Costa,Regional Operations Manager,16,200,2019-04-23,Full Time,1
+46,E00046,Anahera,Ferreira,Warehouse Supervisor,39,62,2018-11-20,Full Time,1
+47,E00047,Thomas,Kelly,Regional Operations Manager,20,200,2019-04-11,Part Time,1
+48,E00048,Wei,Costa,Linehaul Planner,48,55,2021-08-18,Full Time,1
+49,E00049,Aisha,Patel,Fleet Controller,22,118,2016-05-20,Casual,1
+50,E00050,Bridie,Nikolic,Customer Service Officer,33,78,2023-07-06,Part Time,1
+51,E00051,Bridie,Costa,Linehaul Planner,23,78,2017-04-13,Full Time,1
+52,E00052,Aarav,Nguyen,Operations Supervisor,45,259,2016-08-25,Full Time,1
+53,E00053,Mia,Papadopoulos,Dock Coordinator,19,102,2023-08-17,Full Time,1
+54,E00054,Mia,Kaur,Regional Operations Manager,6,200,2014-05-03,Full Time,1
+55,E00055,William,Williams,Depot Manager,25,95,2019-04-16,Full Time,1
+56,E00056,Sophie,Papadopoulos,Account Manager,31,251,2015-10-01,Full Time,1
+57,E00057,Elena,Tuiletufuga,Linehaul Planner,36,173,2015-08-21,Casual,1
+58,E00058,Chloe,Horvat,Operations Supervisor,48,173,2016-03-28,Full Time,1
+59,E00059,Priya,Brown,Fleet Controller,14,118,2015-02-04,Part Time,1
+60,E00060,Oliver,Chen,Operations Supervisor,45,251,2024-03-18,Full Time,1
+61,E00061,Olivia,Kaufusi,Fleet Controller,29,259,2020-04-21,Full Time,1
+62,E00062,Charlotte,Nikolic,Depot Manager,28,89,2020-10-06,Full Time,1
+63,E00063,Chloe,Williams,National Operations Manager,31,,2020-04-15,Full Time,1
+64,E00064,Ruby,Kelly,Account Manager,24,251,2019-08-31,Full Time,1
+65,E00065,Mia,Murphy,Warehouse Supervisor,44,209,2021-12-26,Full Time,1
+66,E00066,Amelia,Singh,Warehouse Supervisor,15,126,2017-09-24,Full Time,1
+67,E00067,Nikau,Singh,Operations Supervisor,2,209,2020-02-19,Full Time,1
+68,E00068,Zoe,Rahman,Account Manager,32,55,2022-01-07,Full Time,1
+69,E00069,Mason,Murphy,Depot Manager,50,180,2014-12-01,Full Time,1
+70,E00070,Thomas,Chen,Dock Coordinator,25,55,2021-05-11,Full Time,1
+71,E00071,Aarav,Nguyen,Dock Coordinator,13,258,2021-05-18,Casual,0
+72,E00072,Amelia,Taylor,Customer Service Officer,38,251,2023-03-20,Casual,1
+73,E00073,Katya,Nikolic,Fleet Controller,31,102,2019-04-20,Part Time,1
+74,E00074,Zoe,Kumar,Customer Service Officer,18,126,2014-10-28,Full Time,1
+75,E00075,Amelia,Kaufusi,Customer Service Officer,44,78,2019-08-18,Full Time,1
+76,E00076,Mason,Wilson,Dock Coordinator,5,251,2019-08-26,Casual,1
+77,E00077,Oliver,Horvat,Regional Operations Manager,21,200,2022-09-02,Full Time,1
+78,E00078,Katya,O'Brien,Depot Manager,33,180,2022-10-01,Full Time,1
+79,E00079,Katya,Kelly,Customer Service Officer,37,37,2018-01-06,Full Time,1
+80,E00080,Charlotte,Anderson,National Operations Manager,46,,2024-03-06,Full Time,1
+81,E00081,Amelia,Nguyen,Customer Service Officer,49,126,2024-05-14,Full Time,1
+82,E00082,Thomas,Papadopoulos,Operations Supervisor,15,78,2022-02-18,Full Time,1
+83,E00083,Isla,Brown,Regional Operations Manager,45,200,2016-09-12,Full Time,1
+84,E00084,Dmitri,Patel,Account Manager,16,230,2020-06-04,Full Time,0
+85,E00085,Katya,Anderson,Dock Coordinator,1,258,2020-09-04,Full Time,1
+86,E00086,Amelia,Papadopoulos,Account Manager,18,251,2022-12-07,Part Time,1
+87,E00087,Charlotte,Jones,Fleet Controller,6,62,2020-09-01,Full Time,1
+88,E00088,Ana,Patel,Customer Service Officer,33,185,2022-02-18,Full Time,0
+89,E00089,Jack,Martin,Regional Operations Manager,25,200,2023-05-15,Casual,1
+90,E00090,Jack,Kaufusi,Account Manager,5,102,2020-04-07,Full Time,1
+91,E00091,Charlotte,Ahmed,Customer Service Officer,24,173,2015-11-13,Full Time,1
+92,E00092,Mei,Anderson,Regional Operations Manager,48,200,2017-03-05,Full Time,1
+93,E00093,William,Nikolic,Customer Service Officer,18,185,2023-04-16,Full Time,1
+94,E00094,Henry,Jones,Customer Service Officer,29,259,2017-05-01,Full Time,1
+95,E00095,Thomas,Papadopoulos,Regional Operations Manager,37,200,2016-03-31,Full Time,1
+96,E00096,Chloe,Singh,Linehaul Planner,12,258,2014-09-14,Full Time,1
+97,E00097,Tahlia,Kaufusi,Account Manager,18,173,2022-12-06,Full Time,1
+98,E00098,Darcy,Ryan,Customer Service Officer,36,62,2020-06-29,Part Time,1
+99,E00099,Sophie,Horvat,Warehouse Supervisor,42,258,2017-06-20,Full Time,1
+100,E00100,Kai,Ferreira,Customer Service Officer,8,231,2015-01-18,Full Time,1
+101,E00101,Priya,Ferreira,Operations Supervisor,2,230,2014-03-27,Full Time,1
+102,E00102,Amelia,Singh,Depot Manager,4,83,2019-02-07,Full Time,0
+103,E00103,Elena,Wilson,Dock Coordinator,1,126,2016-07-30,Full Time,1
+104,E00104,William,Ryan,Account Manager,42,37,2024-01-30,Casual,1
+105,E00105,Chloe,Wang,Operations Supervisor,12,259,2018-09-07,Full Time,1
+106,E00106,Chloe,Kaur,Operations Supervisor,31,55,2023-10-23,Casual,1
+107,E00107,Mason,Kaur,Customer Service Officer,4,78,2019-06-15,Full Time,1
+108,E00108,Yusuf,Wilson,Account Manager,48,126,2016-05-23,Part Time,1
+109,E00109,Oliver,Kumar,Customer Service Officer,11,118,2015-07-29,Full Time,1
+110,E00110,Ethan,Horvat,Dock Coordinator,15,69,2015-08-31,Full Time,1
+111,E00111,Priya,Kaur,Customer Service Officer,46,209,2020-08-18,Full Time,1
+112,E00112,Ethan,Ryan,Customer Service Officer,7,251,2020-11-26,Casual,1
+113,E00113,Aisha,Tuiletufuga,Warehouse Supervisor,50,209,2018-06-18,Full Time,1
+114,E00114,Grace,Horvat,Customer Service Officer,5,173,2023-10-03,Casual,1
+115,E00115,Mia,Rahman,Customer Service Officer,36,69,2022-08-06,Full Time,1
+116,E00116,Anahera,Wilson,Linehaul Planner,5,231,2016-12-09,Casual,1
+117,E00117,Thomas,Patel,Customer Service Officer,17,251,2022-12-28,Casual,1
+118,E00118,Sione,Tuiletufuga,Depot Manager,18,194,2018-01-06,Full Time,0
+119,E00119,William,Anderson,Regional Operations Manager,34,200,2016-01-16,Full Time,1
+120,E00120,Noah,Brown,Operations Supervisor,47,126,2024-05-03,Part Time,1
+121,E00121,Mason,Wang,Dock Coordinator,15,259,2017-05-13,Full Time,1
+122,E00122,Ruby,O'Brien,Linehaul Planner,26,258,2021-05-08,Full Time,1
+123,E00123,Isla,Costa,Account Manager,42,259,2015-03-25,Full Time,1
+124,E00124,Aisha,Kaufusi,Dock Coordinator,13,173,2018-12-22,Full Time,0
+125,E00125,Sophie,Kaur,Dock Coordinator,6,251,2023-06-04,Part Time,1
+126,E00126,Thomas,Martin,Depot Manager,39,194,2022-08-20,Full Time,1
+127,E00127,Amelia,Nikolic,Dock Coordinator,4,37,2023-07-16,Part Time,1
+128,E00128,Wei,Patel,Operations Supervisor,6,55,2022-10-20,Full Time,1
+129,E00129,Mei,Patel,Dock Coordinator,5,78,2022-03-11,Full Time,1
+130,E00130,Darcy,Williams,Operations Supervisor,13,258,2022-05-17,Part Time,1
+131,E00131,Katya,Ahmed,Customer Service Officer,41,185,2017-05-01,Part Time,1
+132,E00132,William,Horvat,Account Manager,43,173,2015-02-13,Casual,1
+133,E00133,Henry,Thompson,Dock Coordinator,37,231,2020-08-03,Casual,1
+134,E00134,Isla,Rossi,Customer Service Officer,22,69,2022-02-19,Casual,1
+135,E00135,Olivia,Anderson,Fleet Controller,23,69,2014-04-02,Full Time,1
+136,E00136,Rangi,Martin,Account Manager,33,231,2014-09-06,Full Time,1
+137,E00137,Aisha,Nikolic,Account Manager,23,126,2014-09-19,Full Time,1
+138,E00138,Olivia,Costa,Operations Supervisor,28,126,2018-05-20,Full Time,1
+139,E00139,Noah,Smith,Warehouse Supervisor,18,55,2014-12-31,Full Time,1
+140,E00140,Ruby,Jones,Dock Coordinator,15,62,2016-01-20,Full Time,1
+141,E00141,William,Rahman,Fleet Controller,34,78,2016-09-11,Full Time,1
+142,E00142,Mateo,Ferreira,Operations Supervisor,3,118,2023-06-30,Casual,1
+143,E00143,Katya,Ferreira,Linehaul Planner,3,78,2017-03-14,Full Time,1
+144,E00144,Darcy,Nguyen,Linehaul Planner,48,209,2019-02-01,Part Time,0
+145,E00145,Charlotte,Kaufusi,Warehouse Supervisor,4,230,2018-10-11,Part Time,1
+146,E00146,Grace,Thompson,Account Manager,42,69,2022-05-28,Full Time,1
+147,E00147,Thomas,Singh,Customer Service Officer,18,209,2016-06-30,Full Time,1
+148,E00148,Grace,Taylor,Warehouse Supervisor,44,231,2017-04-29,Full Time,1
+149,E00149,Jack,Tuiletufuga,Regional Operations Manager,3,200,2023-06-04,Full Time,1
+150,E00150,Priya,Kaufusi,Linehaul Planner,20,118,2018-04-30,Full Time,1
+151,E00151,Anahera,Patel,Operations Supervisor,34,62,2020-08-15,Part Time,1
+152,E00152,Charlotte,Martin,Operations Supervisor,20,78,2023-06-05,Full Time,1
+153,E00153,Zoe,Tuiletufuga,Regional Operations Manager,34,200,2016-02-11,Full Time,1
+154,E00154,Amelia,Patel,Account Manager,1,102,2023-03-20,Part Time,1
+155,E00155,Olivia,Williams,Warehouse Supervisor,1,118,2019-08-19,Full Time,1
+156,E00156,Oliver,Thompson,Operations Supervisor,9,185,2022-08-08,Full Time,1
+157,E00157,Noah,Rahman,Linehaul Planner,38,78,2017-09-02,Full Time,0
+158,E00158,Aarav,Wilson,National Operations Manager,7,,2018-09-08,Part Time,1
+159,E00159,Priya,Ferreira,Regional Operations Manager,49,200,2019-08-06,Full Time,1
+160,E00160,Aisha,Papadopoulos,Customer Service Officer,27,185,2017-07-31,Full Time,0
+161,E00161,Zoe,Wang,Linehaul Planner,38,102,2015-10-16,Full Time,1
+162,E00162,Darcy,Williams,Dock Coordinator,44,230,2017-04-07,Full Time,1
+163,E00163,Henry,Ahmed,Customer Service Officer,31,259,2019-06-22,Full Time,1
+164,E00164,Amelia,Horvat,Regional Operations Manager,38,200,2021-05-13,Full Time,1
+165,E00165,Amelia,Kaur,Warehouse Supervisor,31,230,2022-11-13,Casual,1
+166,E00166,Wei,Taylor,Operations Supervisor,39,185,2015-07-23,Full Time,1
+167,E00167,Zoe,Wilson,Account Manager,40,78,2014-07-15,Part Time,1
+168,E00168,Mateo,Singh,Operations Supervisor,23,251,2020-06-28,Full Time,1
+169,E00169,Grace,Horvat,Linehaul Planner,7,37,2019-06-21,Full Time,1
+170,E00170,Katya,Thompson,Customer Service Officer,2,55,2015-07-23,Casual,1
+171,E00171,Mia,Rossi,Account Manager,17,37,2016-10-18,Casual,1
+172,E00172,Lucas,Smith,Warehouse Supervisor,21,173,2020-10-31,Full Time,1
+173,E00173,Liam,Jones,Depot Manager,26,260,2014-09-05,Full Time,1
+174,E00174,Wei,Wilson,Dock Coordinator,27,78,2016-05-29,Full Time,1
+175,E00175,Isla,Singh,Linehaul Planner,49,231,2017-03-11,Part Time,1
+176,E00176,Lucas,Wilson,Warehouse Supervisor,6,258,2020-04-10,Part Time,1
+177,E00177,Darcy,Anderson,Account Manager,4,62,2019-10-28,Full Time,1
+178,E00178,Henry,Brown,Account Manager,9,62,2017-03-06,Full Time,1
+179,E00179,Olivia,O'Brien,Customer Service Officer,6,37,2018-09-14,Full Time,1
+180,E00180,Dmitri,Chen,Regional Operations Manager,36,200,2021-05-15,Full Time,1
+181,E00181,Anahera,Murphy,Dock Coordinator,44,37,2023-12-14,Full Time,1
+182,E00182,Chloe,Wilson,Warehouse Supervisor,37,251,2020-10-19,Full Time,1
+183,E00183,Katya,Kaufusi,Operations Supervisor,6,173,2022-03-23,Full Time,1
+184,E00184,Noah,Horvat,Fleet Controller,1,62,2022-08-10,Casual,1
+185,E00185,Henry,Kaufusi,Depot Manager,12,47,2021-12-28,Full Time,1
+186,E00186,Mia,Smith,Customer Service Officer,15,118,2022-06-24,Full Time,1
+187,E00187,Ruby,Kaur,Customer Service Officer,12,102,2020-09-12,Full Time,0
+188,E00188,Zoe,Tuiletufuga,Customer Service Officer,32,230,2018-01-17,Full Time,1
+189,E00189,Ana,Jones,Warehouse Supervisor,14,231,2020-07-04,Part Time,1
+190,E00190,Sione,Horvat,Account Manager,15,55,2019-06-21,Full Time,1
+191,E00191,Thomas,Ferreira,Warehouse Supervisor,33,118,2023-12-26,Full Time,1
+192,E00192,Grace,Ryan,Warehouse Supervisor,4,258,2017-12-28,Full Time,1
+193,E00193,Yusuf,Singh,National Operations Manager,30,,2024-03-21,Full Time,1
+194,E00194,Priya,O'Brien,Regional Operations Manager,4,200,2017-12-04,Full Time,1
+195,E00195,Bridie,Brown,Operations Supervisor,48,69,2016-05-04,Full Time,1
+196,E00196,Mei,Smith,Linehaul Planner,21,185,2016-04-11,Full Time,1
+197,E00197,Dmitri,Tuiletufuga,Operations Supervisor,25,251,2017-10-08,Full Time,1
+198,E00198,Tahlia,Martin,Linehaul Planner,27,258,2021-02-27,Part Time,1
+199,E00199,Zoe,Patel,Customer Service Officer,35,55,2023-12-07,Full Time,1
+200,E00200,Katya,Martin,National Operations Manager,42,,2022-07-23,Full Time,1
+201,E00201,Lucas,Costa,Dock Coordinator,33,231,2015-03-31,Full Time,1
+202,E00202,Sophie,Taylor,Warehouse Supervisor,24,209,2020-02-17,Full Time,1
+203,E00203,Olivia,Wilson,Fleet Controller,28,118,2018-06-11,Full Time,1
+204,E00204,Thomas,Chen,Customer Service Officer,47,185,2020-02-09,Full Time,1
+205,E00205,Hamish,Brown,Operations Supervisor,12,78,2016-12-05,Casual,1
+206,E00206,Liam,Nikolic,Account Manager,8,231,2021-02-02,Full Time,1
+207,E00207,Isla,Nikolic,Account Manager,25,118,2019-07-14,Full Time,1
+208,E00208,Yusuf,Williams,Account Manager,36,230,2017-03-23,Full Time,1
+209,E00209,Sione,Ryan,Depot Manager,10,164,2021-02-27,Full Time,1
+210,E00210,Tahlia,Thompson,Fleet Controller,26,62,2022-02-15,Full Time,1
+211,E00211,Sophie,Rossi,Warehouse Supervisor,20,258,2022-01-16,Full Time,1
+212,E00212,Elena,Tuiletufuga,Linehaul Planner,25,69,2023-01-28,Full Time,1
+213,E00213,Yusuf,Anderson,Account Manager,16,62,2023-07-23,Full Time,1
+214,E00214,Liam,Kaur,Dock Coordinator,15,173,2017-01-16,Full Time,1
+215,E00215,Anahera,Williams,Warehouse Supervisor,13,259,2015-12-29,Full Time,1
+216,E00216,Sione,Rossi,Customer Service Officer,15,230,2019-07-31,Full Time,1
+217,E00217,Elena,Kaufusi,Customer Service Officer,3,209,2014-02-24,Full Time,1
+218,E00218,Mateo,O'Brien,Warehouse Supervisor,43,69,2018-09-15,Full Time,1
+219,E00219,Charlotte,Martin,National Operations Manager,48,,2018-03-27,Casual,0
+220,E00220,Hamish,Singh,Customer Service Officer,16,185,2017-03-15,Part Time,1
+221,E00221,Noah,Wilson,Dock Coordinator,40,230,2022-05-12,Full Time,1
+222,E00222,Henry,Kumar,Operations Supervisor,37,102,2020-05-16,Part Time,1
+223,E00223,Sophie,O'Brien,Account Manager,45,173,2014-07-16,Part Time,1
+224,E00224,Charlotte,Wang,Regional Operations Manager,14,200,2017-10-13,Full Time,1
+225,E00225,Katya,Horvat,Fleet Controller,17,185,2022-11-25,Full Time,1
+226,E00226,Henry,Anderson,Operations Supervisor,13,185,2014-08-29,Full Time,1
+227,E00227,Anahera,Costa,Account Manager,31,102,2014-05-11,Full Time,1
+228,E00228,Mia,Costa,Warehouse Supervisor,3,251,2023-05-22,Full Time,1
+229,E00229,Mei,Wang,Warehouse Supervisor,21,37,2017-06-26,Part Time,1
+230,E00230,Isla,Thompson,Depot Manager,18,153,2017-10-10,Full Time,1
+231,E00231,Liam,Papadopoulos,Depot Manager,2,95,2019-03-06,Full Time,1
+232,E00232,Noah,Brown,Warehouse Supervisor,5,126,2021-06-08,Casual,1
+233,E00233,Noah,Rahman,Dock Coordinator,36,78,2020-02-14,Full Time,1
+234,E00234,Wei,Rahman,Account Manager,15,102,2023-04-08,Full Time,1
+235,E00235,Anahera,Wilson,Operations Supervisor,23,209,2016-04-30,Full Time,1
+236,E00236,Kai,Kaufusi,Warehouse Supervisor,24,173,2020-01-03,Full Time,1
+237,E00237,Kai,Tuiletufuga,Customer Service Officer,21,173,2018-03-01,Full Time,1
+238,E00238,Liam,Murphy,Account Manager,35,251,2017-03-03,Part Time,1
+239,E00239,Isla,Singh,Dock Coordinator,45,259,2019-02-08,Full Time,1
+240,E00240,Kai,Patel,National Operations Manager,12,,2021-12-14,Full Time,1
+241,E00241,Katya,Thompson,Account Manager,10,258,2022-05-11,Full Time,1
+242,E00242,Aisha,Taylor,Customer Service Officer,37,55,2017-08-20,Full Time,1
+243,E00243,Mia,Thompson,Warehouse Supervisor,16,102,2022-09-04,Full Time,1
+244,E00244,Mateo,O'Brien,Account Manager,39,251,2022-11-05,Full Time,1
+245,E00245,Sione,Rossi,Warehouse Supervisor,36,259,2019-09-22,Casual,1
+246,E00246,Priya,Wang,Customer Service Officer,25,118,2019-08-25,Part Time,1
+247,E00247,Liam,Nguyen,Fleet Controller,3,37,2023-08-01,Full Time,1
+248,E00248,Katya,Ferreira,Operations Supervisor,36,258,2023-08-08,Part Time,1
+249,E00249,Grace,Kumar,Dock Coordinator,35,78,2019-12-22,Full Time,1
+250,E00250,Rangi,Patel,Customer Service Officer,2,231,2017-01-09,Casual,1
+251,E00251,Mason,Nikolic,Depot Manager,17,260,2015-05-06,Casual,1
+252,E00252,Dmitri,Tuiletufuga,Customer Service Officer,35,126,2016-06-29,Casual,1
+253,E00253,Jack,Ryan,Customer Service Officer,33,209,2023-04-10,Full Time,1
+254,E00254,Ana,Costa,Customer Service Officer,46,231,2023-03-02,Full Time,1
+255,E00255,Amelia,Ryan,Fleet Controller,46,55,2023-11-15,Full Time,1
+256,E00256,Darcy,Singh,Account Manager,16,209,2015-05-20,Full Time,1
+257,E00257,Anahera,Kumar,Dock Coordinator,21,173,2017-03-19,Full Time,1
+258,E00258,Grace,Ferreira,Depot Manager,3,77,2021-02-09,Full Time,1
+259,E00259,Mason,Martin,Depot Manager,32,119,2022-02-06,Casual,1
+260,E00260,Henry,Brown,Regional Operations Manager,8,200,2019-04-29,Full Time,1

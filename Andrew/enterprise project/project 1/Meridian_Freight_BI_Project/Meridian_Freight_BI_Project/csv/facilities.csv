@@ -1,0 +1,51 @@
+facility_id,facility_code,facility_name,facility_type,location_id,dock_doors,storage_pallet_capacity,opened_date,is_active
+1,VIC001,Truganina Distribution Centre,Distribution Centre,1,6,1500,2016-04-02,1
+2,VIC002,Laverton North Linehaul Hub,Linehaul Hub,2,18,1500,2018-03-09,1
+3,VIC003,Derrimut Metro Depot,Metro Depot,3,32,3000,2020-11-05,1
+4,VIC004,Dandenong South Linehaul Hub,Linehaul Hub,4,24,0,2020-03-05,1
+5,VIC005,Somerton Distribution Centre,Distribution Centre,5,6,0,2017-11-08,1
+6,VIC006,Altona North Metro Depot,Metro Depot,6,18,0,2023-02-18,1
+7,VIC007,Geelong North Regional Depot,Regional Depot,7,12,0,2017-11-21,1
+8,VIC008,Ballarat Central Regional Depot,Regional Depot,8,8,800,2020-01-20,1
+9,NSW009,Eastern Creek Metro Depot,Metro Depot,9,18,6000,2021-08-11,1
+10,NSW010,Prestons Distribution Centre,Distribution Centre,10,8,6000,2016-10-02,1
+11,NSW011,Chullora Linehaul Hub,Linehaul Hub,11,12,0,2019-01-08,1
+12,NSW012,Erskine Park Distribution Centre,Distribution Centre,12,18,800,2016-09-29,1
+13,NSW013,Botany Metro Depot,Metro Depot,13,18,3000,2021-01-18,1
+14,NSW014,Wetherill Park Linehaul Hub,Linehaul Hub,14,8,0,2017-02-14,0
+15,NSW015,Newcastle West Metro Depot,Metro Depot,15,18,800,2021-10-30,1
+16,NSW016,Wollongong Regional Depot,Regional Depot,16,6,0,2016-01-26,0
+17,QLD017,Wacol Linehaul Hub,Linehaul Hub,17,6,3000,2018-01-10,1
+18,QLD018,Larapinta Distribution Centre,Distribution Centre,18,8,3000,2021-05-20,1
+19,QLD019,Hemmant Distribution Centre,Distribution Centre,19,18,0,2017-04-16,1
+20,QLD020,Yatala Metro Depot,Metro Depot,20,8,3000,2020-12-09,1
+21,QLD021,Cairns City Metro Depot,Metro Depot,21,24,0,2019-02-27,1
+22,QLD022,Townsville City Regional Depot,Regional Depot,22,8,0,2020-01-06,1
+23,QLD023,Toowoomba City Regional Depot,Regional Depot,23,8,0,2020-08-09,0
+24,WA024,Kewdale Linehaul Hub,Linehaul Hub,24,8,0,2022-12-31,1
+25,WA025,Canning Vale Metro Depot,Metro Depot,25,32,0,2015-06-24,1
+26,WA026,Bibra Lake Linehaul Hub,Linehaul Hub,26,8,0,2019-07-19,1
+27,WA027,Port Hedland Metro Depot,Metro Depot,27,8,1500,2018-09-03,1
+28,WES028,Kalgoorlie Metro Depot,Metro Depot,28,24,1500,2015-02-18,1
+29,SA029,Regency Park Distribution Centre,Distribution Centre,29,12,1500,2022-07-06,1
+30,SA030,Wingfield Linehaul Hub,Linehaul Hub,30,12,1500,2017-06-29,1
+31,SA031,Mile End Distribution Centre,Distribution Centre,31,12,1500,2019-01-30,1
+32,SA032,Whyalla Norrie Metro Depot,Metro Depot,32,8,1500,2015-11-14,1
+33,TAS033,Derwent Park Metro Depot,Metro Depot,33,8,6000,2016-02-24,1
+34,TAS034,Launceston Metro Depot,Metro Depot,34,6,0,2015-08-31,1
+35,TAS035,Devonport Regional Depot,Regional Depot,35,12,0,2019-07-13,1
+36,AUS036,Hume Regional Depot,Regional Depot,36,18,3000,2019-09-05,1
+37,ACT037,Mitchell Metro Depot,Metro Depot,37,12,0,2020-06-28,1
+38,NT038,Winnellie Regional Depot,Regional Depot,38,12,6000,2022-10-10,1
+39,NOR039,Alice Springs Metro Depot,Metro Depot,39,18,3000,2017-05-10,1
+40,NT040,Berrimah Regional Depot,Regional Depot,40,12,0,2016-08-23,1
+41,VIC041,Mildura Metro Depot,Metro Depot,41,32,3000,2019-05-09,1
+42,VIC042,Shepparton Metro Depot,Metro Depot,42,8,800,2023-02-04,1
+43,NSW043,Wagga Wagga Regional Depot,Regional Depot,43,18,0,2021-11-05,1
+44,NSW044,Dubbo Metro Depot,Metro Depot,44,6,800,2023-01-14,1
+45,NSW045,Coffs Harbour Metro Depot,Metro Depot,45,24,0,2022-06-13,1
+46,QLD046,Rockhampton City Metro Depot,Metro Depot,46,12,3000,2016-03-26,1
+47,QLD047,Mackay Metro Depot,Metro Depot,47,6,0,2022-06-18,1
+48,WA048,Bunbury Metro Depot,Metro Depot,48,12,0,2015-09-13,1
+49,SA049,Mount Gambier Metro Depot,Metro Depot,49,12,0,2021-12-30,1
+50,SA050,Port Augusta Regional Depot,Regional Depot,50,8,1500,2023-01-04,1
