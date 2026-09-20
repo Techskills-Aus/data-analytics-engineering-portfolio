@@ -1,0 +1,43 @@
+customer_id,customer_name,account_number,industry,customer_tier,billing_location_id,contact_email,credit_limit_aud,payment_terms_days,onboarded_date,account_manager_staff_id,is_active
+40,Banksia Agencies,MFG000040,Healthcare,Silver,49,accounts@banksia67.com.au,50000,30,6/3/24,123,1
+633,banksia agencies,MFG000633,Healthcare,Silver,49,ACCOUNTS@BANKSIA67.COM.AU,50000,30,6/3/24,213,1
+641,Banksia  Distribution,MFG000641,Agriculture,Silver,44,accounts@banksia42.com.au,100000,30,20/8/21,177,1
+269,Banksia Distribution,MFG000269,Agriculture,Silver,44,accounts@banksia42.com.au,100000,30,20/8/21,108,1
+94,Banksia Enterprises,MFG000094,Healthcare,Silver,41,accounts@banksia63.com.au,250000,45,12/5/20,178,1
+629,Banksia Enterprises,MFG000629,Healthcare,Silver,41,ACCOUNTS@BANKSIA63.COM.AU,250000,45,12/5/20,68,1
+109,Banksia Freight Services,MFG000109,Retail,Gold,23,accounts@banksia20.com.au,50000,45,22/2/20,84,1
+628,banksia freight services,MFG000628,Retail,Gold,23,accounts@banksia20.com.au,50000,45,22/2/20,132,1
+335,Bellarine Solutions,MFG000335,Agriculture,Bronze,37,accounts@bellarine53.com.au,250000,60,16/12/23,227,1
+630,bellarine solutions,MFG000630,Agriculture,Bronze,37,ACCOUNTS@BELLARINE53.COM.AU,250000,60,16/12/23,256,1
+646,Blackwood  Solutions,MFG000646,Healthcare,Bronze,46,ACCOUNTS@BLACKWOOD92.COM.AU,100000,45,9/6/23,190,1
+320,Blackwood Solutions,MFG000320,Healthcare,Bronze,46,accounts@blackwood92.com.au,100000,45,9/6/23,234,1
+298,Blackwood Trading,MFG000298,Grocery,Gold,34,accounts@blackwood51.com.au,250000,30,24/6/20,178,1
+631,Blackwood  Trading,MFG000631,Grocery,Gold,34,accounts@blackwood51.com.au,250000,30,24/6/20,14,1
+640,Brisbane  River  Industries,MFG000640,Hospitality,Silver,4,accounts@brisbane29.com.au,25000,14,14/6/22,64,1
+387,Brisbane River Industries,MFG000387,Hospitality,Silver,4,accounts@brisbane29.com.au,25000,14,14/6/22,171,1
+158,Coolabah Solutions,MFG000158,Hospitality,Bronze,13,accounts@coolabah74.com.au,25000,45,7/5/24,241,1
+625, Coolabah Solutions,MFG000625,,Bronze,13,accounts@coolabah74.com.au,25000,45,7/5/24,171,1
+409,Coolabah Supply Co,MFG000409,Healthcare,Silver,3,accounts@coolabah90.com.au,25000,14,14/12/20,238,1
+626, Coolabah Supply Co,MFG000626,Healthcare,Silver,3,accounts@coolabah90.com.au,25000,14,14/12/20,234,1
+621,Derwent Traders,MFG000621,Apparel,Silver,27,accounts@derwent24.com.au,500000,30,5/11/19,223,1
+611,Derwent Traders,MFG000611,Apparel,Silver,27,accounts@derwent24.com.au,500000,30,5/11/19,35,1
+634,derwent trading,MFG000634,Mining Services,Bronze,17,ACCOUNTS@DERWENT7.COM.AU,100000,14,12/3/18,256,1
+531,Derwent Trading,MFG000531,Mining Services,Bronze,17,accounts@derwent7.com.au,100000,14,12/3/18,167,1
+647,Grampians Industries,MFG000647,Hospitality,Silver,42,ACCOUNTS@GRAMPIANS32.COM.AU,100000,45,14/6/20,167,1
+151,Grampians Industries,MFG000151,Hospitality,Silver,42,accounts@grampians32.com.au,100000,45,14/6/20,190,1
+637,hunter logistics partners,MFG000637,Industrial,Silver,29,accounts@hunter14.com.au,500000,30,13/2/18,84,1
+1,Hunter Logistics Partners,MFG000001,Industrial,Silver,29,accounts@hunter14.com.au,500000,30,13/2/18,256,1
+622,mornington holdings,MFG000622,FMCG,Gold,42,ACCOUNTS@MORNINGTON90.COM.AU,25000,30,25/1/19,234,1
+70,Mornington Holdings,MFG000070,FMCG,Gold,42,accounts@mornington90.com.au,25000,30,25/1/19,84,1
+562,Mornington Merchants,MFG000562,Retail,Silver,32,accounts@mornington3.com.au,500000,60,5/1/19,15,1
+645,mornington merchants,MFG000645,Retail,Silver,32,ACCOUNTS@MORNINGTON3.COM.AU,500000,60,5/1/19,14,1
+236,Redgum Supply Co,MFG000236,Healthcare,Bronze,36,accounts@redgum35.com.au,50000,30,14/9/20,35,1
+643, Redgum Supply Co,MFG000643,Healthcare,Bronze,36,accounts@redgum35.com.au,50000,30,14/9/20,12,1
+547,Swan Industries,MFG000547,Healthcare,Bronze,38,accounts@swan64.com.au,50000,30,10/8/23,238,1
+638,swan industries,MFG000638,,Bronze,38,ACCOUNTS@SWAN64.COM.AU,50000,30,10/8/23,178,1
+591,Swan Logistics Partners,MFG000591,Industrial,Gold,26,accounts@swan79.com.au,50000,30,20/12/18,35,1
+642,Swan Logistics Partners,MFG000642,Industrial,Gold,26,accounts@swan79.com.au,50000,30,20/12/18,64,1
+624,Torrens  Warehousing,MFG000624,Automotive,Gold,27,accounts@torrens92.com.au,100000,30,20/3/19,64,1
+78,Torrens Warehousing,MFG000078,Automotive,Gold,27,accounts@torrens92.com.au,100000,30,20/3/19,35,1
+632,WATTLE SOLUTIONS,MFG000632,Automotive,Bronze,25,accounts@wattle5.com.au,25000,30,1/4/23,171,1
+205,Wattle Solutions,MFG000205,Automotive,Bronze,25,accounts@wattle5.com.au,25000,30,1/4/23,15,1
