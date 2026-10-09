@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: stg_admission
+    columns:
+      - name: admission_id
+        data_tests: [unique, not_null]
+      - name: admission_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['EMERGENCY', 'ELECTIVE', 'TRANSFER']
+      - name: admission_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTIVE', 'DISCHARGED']
+  - name: stg_bed
+    columns:
+      - name: bed_id
+        data_tests: [unique, not_null]
+  - name: stg_department
+    columns:
+      - name: department_id
+        data_tests: [unique, not_null]
+  - name: stg_diagnosis
+    columns:
+      - name: diagnosis_id
+        data_tests: [unique, not_null]
+  - name: stg_discharge
+    columns:
+      - name: discharge_id
+        data_tests: [unique, not_null]
+      - name: discharge_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['COMPLETED']
+  - name: stg_encounter
+    columns:
+      - name: encounter_id
+        data_tests: [unique, not_null]
+      - name: encounter_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['FINISHED']
+  - name: stg_facility
+    columns:
+      - name: facility_id
+        data_tests: [unique, not_null]
+  - name: stg_patient
+    columns:
+      - name: patient_id
+        data_tests: [unique, not_null]
+  - name: stg_patient_transfer
+    columns:
+      - name: transfer_id
+        data_tests: [unique, not_null]
+  - name: stg_procedure
+    columns:
+      - name: procedure_id
+        data_tests: [unique, not_null]
+  - name: stg_staff_roster
+    columns:
+      - name: shift_id
+        data_tests: [unique, not_null]
