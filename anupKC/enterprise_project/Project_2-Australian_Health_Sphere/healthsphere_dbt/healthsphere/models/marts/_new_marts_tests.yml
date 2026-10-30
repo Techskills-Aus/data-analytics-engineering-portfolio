@@ -28,7 +28,7 @@ models:
       - name: shift_status
         data_tests:
           - accepted_values:
-              values: ['ABSENT', 'AGENCY', 'COMPLETED']
+              values: ["ABSENT", "AGENCY", "COMPLETED"]
 
   - name: fact_department_target
     columns:
@@ -44,24 +44,96 @@ models:
       - name: transfer_id
         data_tests: [unique, not_null]
       - name: from_facility_id
-        data_tests: [not_null]
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_facility')
+              field: facility_id
+      - name: to_facility_id
+        data_tests:
+          - relationships:
+              to: ref('dim_facility')
+              field: facility_id
+      - name: from_department_id
+        data_tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_id
+      - name: to_department_id
+        data_tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_id
+      - name: from_bed_id
+        data_tests:
+          - relationships:
+              to: ref('dim_bed')
+              field: bed_id
+      - name: to_bed_id
+        data_tests:
+          - relationships:
+              to: ref('dim_bed')
+              field: bed_id
 
   - name: fact_diagnosis
     columns:
       - name: diagnosis_id
         data_tests: [unique, not_null]
+      - name: patient_id
+        data_tests:
+          - relationships:
+              to: ref('dim_patient')
+              field: patient_id
       - name: facility_id
-        data_tests: [not_null]
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_facility')
+              field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_id
 
   - name: fact_procedure
     columns:
       - name: procedure_id
         data_tests: [unique, not_null]
-
+      - name: patient_id
+        data_tests:
+          - relationships:
+              to: ref('dim_patient')
+              field: patient_id
+      - name: facility_id
+        data_tests:
+          - relationships:
+              to: ref('dim_facility')
+              field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_id
   - name: fact_ed_triage
     columns:
       - name: encounter_id
         data_tests: [unique, not_null]
+      - name: facility_id
+        data_tests:
+          - relationships:
+              to: ref('dim_facility')
+              field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_id
+      - name: triage_category
+        data_tests:
+          - relationships:
+              to: ref('dim_triage_category')
+              field: triage_category
       - name: is_seen_within_target
         data_tests:
           - accepted_values:
