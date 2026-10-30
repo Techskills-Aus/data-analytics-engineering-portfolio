@@ -1,0 +1,86 @@
+version: 2
+
+models:
+  - name: dim_facility
+    columns:
+      - name: facility_id
+        data_tests: [unique, not_null]
+  - name: dim_department
+    columns:
+      - name: department_id
+        data_tests: [unique, not_null]
+  - name: dim_bed
+    columns:
+      - name: bed_id
+        data_tests: [unique, not_null]
+  - name: dim_patient
+    columns:
+      - name: patient_id
+        data_tests: [unique, not_null]
+
+  - name: fact_admission
+    columns:
+      - name: admission_id
+        data_tests: [unique, not_null]
+      - name: patient_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_patient')
+                field: patient_id
+      - name: facility_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_facility')
+                field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_department')
+                field: department_id
+      - name: bed_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_bed')
+                field: bed_id
+
+  - name: fact_encounter
+    columns:
+      - name: encounter_id
+        data_tests: [unique, not_null]
+      - name: patient_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_patient')
+                field: patient_id
+      - name: facility_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_facility')
+                field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_department')
+                field: department_id
+
+  - name: fact_daily_occupancy
+    columns:
+      - name: facility_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_facility')
+                field: facility_id
+      - name: department_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_department')
+                field: department_id
