@@ -1,0 +1,6 @@
+.venv/
+logs/
+healthsphere/target/
+healthsphere/dbt_packages/
+healthsphere/logs/
+.DS_Store
