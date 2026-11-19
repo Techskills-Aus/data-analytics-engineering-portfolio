@@ -1,0 +1,649 @@
+customer_id,customer_name,account_number,industry,customer_tier,billing_location_id,contact_email,credit_limit_aud,payment_terms_days,onboarded_date,account_manager_staff_id,is_active
+1,Hunter Logistics Partners,MFG000001,Industrial,Silver,29,accounts@hunter14.com.au,500000,30,2018-02-13,256,1
+2,Riverina Freight Services,MFG000002,Agriculture,Bronze,3,accounts@riverina62.com.au,50000,60,2020-06-02,238,1
+3,Yarra Group,MFG000003,Automotive,Gold,3,accounts@yarra75.com.au,50000,14,2022-02-04,12,1
+4,Kakadu Imports,MFG000004,Hospitality,Silver,32,accounts@kakadu87.com.au,25000,30,2019-04-04,190,1
+5,Murray Merchants,MFG000005,Apparel,Silver,42,accounts@murray32.com.au,50000,45,2022-09-25,206,1
+6,Torrens Manufacturing,MFG000006,Hospitality,Silver,44,accounts@torrens53.com.au,50000,60,2018-12-16,178,1
+7,Mallee Distribution,MFG000007,Hospitality,Platinum,7,accounts@mallee91.com.au,1000000,60,2019-09-11,238,1
+8,Grampians Commodities,MFG000008,Hospitality,Bronze,37,accounts@grampians38.com.au,50000,30,2021-06-13,84,1
+9,Riverina Traders,MFG000009,Hospitality,Silver,15,accounts@riverina22.com.au,100000,30,2024-01-06,146,1
+10,Grampians Provisions,MFG000010,Automotive,Gold,39,accounts@grampians61.com.au,100000,30,2024-03-10,244,1
+11,Riverina Warehousing,MFG000011,Mining Services,Bronze,29,accounts@riverina36.com.au,500000,30,2019-03-02,223,1
+12,Coolabah Retail Group,MFG000012,FMCG,Bronze,35,accounts@coolabah42.com.au,25000,60,2023-09-02,208,1
+13,Gippsland Components,MFG000013,Electronics,Silver,5,accounts@gippsland59.com.au,50000,30,2024-05-17,84,1
+14,Tanami Partners,MFG000014,Healthcare,Bronze,3,accounts@tanami92.com.au,100000,30,2023-05-30,84,1
+15,Banksia Wholesale,MFG000015,Apparel,Bronze,34,accounts@banksia36.com.au,250000,45,2023-04-01,256,1
+16,Gippsland Imports,MFG000016,FMCG,Silver,17,accounts@gippsland22.com.au,100000,45,2022-02-06,244,1
+17,Tanami Merchants,MFG000017,Grocery,Bronze,20,accounts@tanami23.com.au,1000000,60,2020-05-06,68,1
+18,Blackwood Holdings,MFG000018,Agriculture,Silver,38,accounts@blackwood17.com.au,25000,30,2019-01-07,68,1
+19,Sunraysia Partners,MFG000019,Apparel,Silver,38,accounts@sunraysia30.com.au,1000000,30,2019-02-09,56,1
+20,Bellarine Exports,MFG000020,Healthcare,Bronze,4,accounts@bellarine76.com.au,50000,45,2019-05-09,167,1
+21,Tanami Wholesale,MFG000021,Grocery,Silver,6,accounts@tanami70.com.au,500000,14,2018-04-26,35,1
+22,Banksia Provisions,MFG000022,Agriculture,Gold,2,accounts@banksia48.com.au,250000,30,2018-11-02,167,1
+23,Swan Group,MFG000023,Mining Services,Gold,5,accounts@swan14.com.au,250000,30,2020-08-13,223,1
+24,Kimberley Exports,MFG000024,Industrial,Silver,25,accounts@kimberley72.com.au,250000,30,2024-06-28,146,1
+25,Sunraysia Solutions,MFG000025,Grocery,Bronze,35,accounts@sunraysia74.com.au,500000,14,2021-03-19,241,1
+26,Torrens Group,MFG000026,Mining Services,Silver,24,accounts@torrens91.com.au,50000,30,2018-12-09,146,1
+27,Kakadu Provisions,MFG000027,FMCG,Bronze,16,accounts@kakadu91.com.au,100000,30,2023-10-25,213,1
+28,Kimberley Imports,MFG000028,FMCG,Silver,11,accounts@kimberley43.com.au,25000,30,2021-04-20,86,1
+29,Redgum Group,MFG000029,Healthcare,Bronze,9,accounts@redgum1.com.au,50000,60,2022-08-18,190,1
+30,Harbour Freight Services,MFG000030,Agriculture,Bronze,31,accounts@harbour62.com.au,50000,45,2023-09-24,132,1
+31,Gippsland Distribution,MFG000031,Industrial,Silver,30,accounts@gippsland51.com.au,25000,30,2023-10-11,84,1
+32,Blackwood Components,MFG000032,Industrial,Silver,11,accounts@blackwood53.com.au,50000,60,2021-06-12,64,1
+33,Sunraysia Freight Services,MFG000033,Grocery,Gold,4,accounts@sunraysia89.com.au,100000,30,2023-12-08,15,1
+34,Sunraysia Components,MFG000034,Hospitality,Gold,24,accounts@sunraysia51.com.au,100000,45,2023-04-22,5,1
+35,Daintree Traders,MFG000035,Industrial,Silver,37,accounts@daintree54.com.au,500000,30,2019-08-25,177,1
+36,Tanami Exports,MFG000036,Grocery,Bronze,41,accounts@tanami32.com.au,25000,30,2019-05-11,256,1
+37,Sunraysia Enterprises,MFG000037,Mining Services,Bronze,9,accounts@sunraysia47.com.au,1000000,30,2019-03-08,35,1
+38,Kingsford Supply Co,MFG000038,Apparel,Silver,22,accounts@kingsford73.com.au,1000000,30,2023-07-28,104,1
+39,Mallee Partners,MFG000039,Grocery,Gold,42,accounts@mallee88.com.au,25000,60,2018-05-18,177,1
+40,Banksia Agencies,MFG000040,Healthcare,Silver,49,accounts@banksia67.com.au,50000,30,2024-03-06,123,1
+41,Torrens Exports,MFG000041,,Bronze,35,accounts@torrens69.com.au,50000,60,2018-09-10,30,1
+42,Mallee Supply Co,MFG000042,,Platinum,33,accounts@mallee38.com.au,50000,14,2021-05-24,167,1
+43,Redgum Exports,MFG000043,Construction,Silver,23,accounts@redgum50.com.au,500000,45,2024-04-04,123,1
+44,Bellarine Manufacturing,MFG000044,Hospitality,Bronze,11,accounts@bellarine7.com.au,25000,30,2019-04-09,5,1
+45,Blackwood Manufacturing,MFG000045,Automotive,Bronze,24,accounts@blackwood3.com.au,25000,30,2020-11-06,29,1
+46,Banksia Retail Group,MFG000046,Healthcare,Platinum,24,accounts@banksia44.com.au,25000,30,2024-01-06,256,1
+47,Grampians Trading,MFG000047,Grocery,Silver,40,accounts@grampians31.com.au,25000,45,2018-04-10,208,1
+48,Flinders Foods,MFG000048,Mining Services,Gold,36,accounts@flinders91.com.au,25000,60,2020-10-11,177,1
+49,Swan Agencies,MFG000049,Automotive,Gold,46,accounts@swan13.com.au,25000,30,2021-10-11,154,1
+50,Kingsford Provisions,MFG000050,Hospitality,Bronze,21,accounts@kingsford55.com.au,500000,30,2018-07-11,132,1
+51,Hunter Traders,MFG000051,Mining Services,Silver,16,accounts@hunter67.com.au,100000,30,2022-11-21,68,1
+52,Daintree Merchants,MFG000052,Industrial,Gold,1,accounts@daintree52.com.au,250000,14,2018-08-03,86,1
+53,Nullarbor Manufacturing,MFG000053,,Silver,7,accounts@nullarbor42.com.au,50000,45,2024-05-18,5,1
+54,Bellarine Imports,MFG000054,Healthcare,Bronze,29,accounts@bellarine37.com.au,500000,45,2021-03-01,132,1
+55,Redgum Industries,MFG000055,Retail,Bronze,29,accounts@redgum48.com.au,50000,30,2021-08-08,234,1
+56,Mornington Manufacturing,MFG000056,Mining Services,Bronze,24,accounts@mornington14.com.au,25000,30,2022-08-26,137,1
+57,Derwent Distribution,MFG000057,Grocery,Silver,1,accounts@derwent5.com.au,25000,60,2023-11-20,206,1
+58,Yarra Components,MFG000058,FMCG,Bronze,10,accounts@yarra94.com.au,100000,45,2018-02-10,108,1
+59,Hunter Holdings,MFG000059,Automotive,Gold,21,accounts@hunter78.com.au,25000,30,2018-05-15,227,1
+60,Redgum Foods,MFG000060,Agriculture,Silver,25,accounts@redgum81.com.au,500000,30,2024-02-18,206,1
+61,Yarra Freight Services,MFG000061,Agriculture,Silver,48,accounts@yarra5.com.au,100000,30,2018-06-14,206,1
+62,Riverina Exports,MFG000062,Electronics,Platinum,19,accounts@riverina19.com.au,50000,30,2018-08-06,84,1
+63,Yarra Exports,MFG000063,FMCG,Bronze,14,accounts@yarra13.com.au,500000,60,2023-07-11,35,1
+64,Riverina Manufacturing,MFG000064,,Silver,48,accounts@riverina15.com.au,100000,45,2019-03-21,213,1
+65,Harbour Provisions,MFG000065,Apparel,Bronze,38,accounts@harbour26.com.au,100000,45,2018-08-22,84,1
+66,Banksia Warehousing,MFG000066,Hospitality,Bronze,20,accounts@banksia79.com.au,100000,30,2018-02-10,244,1
+67,Gippsland Warehousing,MFG000067,Construction,Gold,26,accounts@gippsland21.com.au,50000,60,2019-06-07,244,1
+68,Redgum Solutions,MFG000068,Construction,Platinum,11,accounts@redgum59.com.au,50000,60,2021-04-19,123,1
+69,Harbour Holdings,MFG000069,Retail,Gold,39,accounts@harbour59.com.au,100000,60,2022-08-23,35,1
+70,Mornington Holdings,MFG000070,FMCG,Gold,42,accounts@mornington90.com.au,25000,30,2019-01-25,84,1
+71,Murray Components,MFG000071,Mining Services,Silver,13,accounts@murray99.com.au,250000,60,2018-03-30,137,1
+72,Brisbane River Solutions,MFG000072,Construction,Bronze,18,accounts@brisbane42.com.au,250000,30,2018-10-16,238,1
+73,Wattle Traders,MFG000073,Retail,Bronze,2,accounts@wattle32.com.au,100000,45,2018-10-12,213,1
+74,Yarra Holdings,MFG000074,Healthcare,Bronze,40,accounts@yarra36.com.au,25000,30,2024-01-12,15,1
+75,Mallee Warehousing,MFG000075,Retail,Gold,14,accounts@mallee4.com.au,250000,45,2020-12-31,97,1
+76,Blackwood Exports,MFG000076,FMCG,Silver,11,accounts@blackwood32.com.au,100000,30,2022-04-16,12,1
+77,Bellarine Retail Group,MFG000077,Retail,Gold,26,accounts@bellarine89.com.au,25000,30,2021-12-05,64,1
+78,Torrens Warehousing,MFG000078,Automotive,Gold,27,accounts@torrens92.com.au,100000,30,2019-03-20,35,1
+79,Grampians Foods,MFG000079,Electronics,Gold,47,accounts@grampians89.com.au,250000,45,2022-07-17,238,1
+80,Arnhem Partners,MFG000080,FMCG,Silver,37,accounts@arnhem23.com.au,50000,14,2018-03-30,15,1
+81,Nullarbor Partners,MFG000081,Healthcare,Gold,24,accounts@nullarbor9.com.au,100000,30,2018-10-15,177,1
+82,Barossa Foods,MFG000082,Construction,Bronze,49,accounts@barossa58.com.au,25000,30,2019-10-01,177,1
+83,Coolabah Warehousing,MFG000083,Apparel,Platinum,50,accounts@coolabah37.com.au,250000,30,2021-10-24,146,1
+84,Mornington Solutions,MFG000084,Hospitality,Bronze,23,accounts@mornington33.com.au,250000,14,2018-06-07,171,1
+85,Banksia Partners,MFG000085,,Bronze,30,accounts@banksia46.com.au,100000,30,2023-11-11,167,1
+86,Derwent Manufacturing,MFG000086,FMCG,Silver,1,accounts@derwent61.com.au,50000,30,2020-07-27,104,1
+87,Torrens Provisions,MFG000087,Industrial,Gold,39,accounts@torrens62.com.au,100000,60,2018-01-19,30,1
+88,Torrens Freight Services,MFG000088,Mining Services,Platinum,28,accounts@torrens95.com.au,250000,30,2019-03-15,56,1
+89,Nullarbor Imports,MFG000089,Construction,Bronze,15,accounts@nullarbor5.com.au,25000,30,2021-06-01,227,1
+90,Murray Holdings,MFG000090,Retail,Silver,47,accounts@murray94.com.au,100000,14,2019-03-20,15,1
+91,Grampians Retail Group,MFG000091,Automotive,Silver,13,accounts@grampians55.com.au,500000,14,2020-01-03,223,1
+92,Kimberley Solutions,MFG000092,Agriculture,Gold,32,accounts@kimberley98.com.au,25000,60,2019-05-02,238,1
+93,Bellarine Holdings,MFG000093,,Silver,44,accounts@bellarine35.com.au,25000,30,2023-12-24,190,1
+94,Banksia Enterprises,MFG000094,Healthcare,Silver,41,accounts@banksia63.com.au,250000,45,2020-05-12,178,1
+95,Nullarbor Industries,MFG000095,Mining Services,Gold,10,accounts@nullarbor64.com.au,25000,14,2021-12-09,190,1
+96,Redgum Warehousing,MFG000096,Construction,Silver,16,accounts@redgum92.com.au,100000,30,2020-05-26,132,1
+97,Barossa Distribution,MFG000097,Automotive,Bronze,43,accounts@barossa29.com.au,1000000,30,2020-01-07,132,1
+98,Hunter Imports,MFG000098,Hospitality,Bronze,35,accounts@hunter49.com.au,250000,30,2020-04-06,146,1
+99,Gippsland Group,MFG000099,Grocery,Silver,41,accounts@gippsland48.com.au,500000,30,2024-02-23,12,1
+100,Torrens Components,MFG000100,Grocery,Silver,23,accounts@torrens99.com.au,25000,30,2023-04-14,68,1
+101,Murray Provisions,MFG000101,FMCG,Gold,5,accounts@murray89.com.au,100000,60,2022-08-23,29,1
+102,Riverina Partners,MFG000102,Hospitality,Gold,6,accounts@riverina49.com.au,100000,60,2021-07-08,146,1
+103,Kimberley Commodities,MFG000103,Hospitality,Bronze,12,accounts@kimberley62.com.au,100000,60,2022-07-20,207,1
+104,Riverina Merchants,MFG000104,Agriculture,Bronze,16,accounts@riverina7.com.au,250000,60,2020-12-08,104,1
+105,Banksia Industries,MFG000105,Automotive,Silver,10,accounts@banksia55.com.au,500000,30,2019-01-20,108,1
+106,Blackwood Industries,MFG000106,Apparel,Bronze,27,accounts@blackwood18.com.au,25000,45,2020-12-27,206,1
+107,Bellarine Logistics Partners,MFG000107,Apparel,Gold,38,accounts@bellarine47.com.au,25000,45,2021-09-28,178,1
+108,Arnhem Traders,MFG000108,Grocery,Silver,9,accounts@arnhem53.com.au,25000,60,2023-05-23,29,1
+109,Banksia Freight Services,MFG000109,Retail,Gold,23,accounts@banksia20.com.au,50000,45,2020-02-22,84,1
+110,Swan Foods,MFG000110,Agriculture,Bronze,42,accounts@swan82.com.au,250000,14,2023-09-21,84,1
+111,Bellarine Group,MFG000111,Automotive,Bronze,2,accounts@bellarine41.com.au,50000,14,2018-10-21,90,1
+112,Harbour Group,MFG000112,Industrial,Bronze,5,accounts@harbour72.com.au,100000,30,2018-04-13,104,1
+113,Kakadu Traders,MFG000113,Grocery,Gold,22,accounts@kakadu3.com.au,25000,14,2023-12-23,223,1
+114,Mornington Freight Services,MFG000114,Construction,Silver,2,accounts@mornington92.com.au,25000,30,2023-01-01,5,1
+115,Tanami Agencies,MFG000115,Grocery,Bronze,41,accounts@tanami45.com.au,50000,30,2023-03-17,29,1
+116,Pilbara Manufacturing,MFG000116,Apparel,Bronze,44,accounts@pilbara30.com.au,100000,60,2019-10-15,171,1
+117,Kakadu Freight Services,MFG000117,Healthcare,Silver,10,accounts@kakadu48.com.au,100000,60,2023-05-10,90,1
+118,Blackwood Imports,MFG000118,Electronics,Bronze,33,accounts@blackwood56.com.au,25000,45,2018-12-06,178,1
+119,Gippsland Industries,MFG000119,Healthcare,Bronze,6,accounts@gippsland73.com.au,25000,30,2020-01-20,68,1
+120,Harbour Wholesale,MFG000120,Construction,Bronze,20,accounts@harbour72.com.au,500000,30,2021-06-04,29,1
+121,Hunter Commodities,MFG000121,,Bronze,14,accounts@hunter51.com.au,250000,30,2021-11-02,108,1
+122,Mornington Group,MFG000122,FMCG,Platinum,27,accounts@mornington51.com.au,50000,30,2021-09-08,190,1
+123,Blackwood Merchants,MFG000123,Hospitality,Platinum,32,accounts@blackwood73.com.au,1000000,30,2020-08-28,234,1
+124,Gippsland Wholesale,MFG000124,Electronics,Bronze,46,accounts@gippsland88.com.au,500000,30,2023-01-23,56,1
+125,Bellarine Supply Co,MFG000125,Grocery,Bronze,9,accounts@bellarine55.com.au,100000,45,2021-12-17,167,1
+126,Flinders Commodities,MFG000126,Apparel,Bronze,6,accounts@flinders18.com.au,25000,30,2018-04-15,256,1
+127,Murray Distribution,MFG000127,,Gold,43,accounts@murray13.com.au,100000,30,2020-03-19,14,1
+128,Grampians Components,MFG000128,Grocery,Gold,29,accounts@grampians74.com.au,25000,30,2019-05-21,234,1
+129,Mornington Imports,MFG000129,Healthcare,Silver,10,accounts@mornington96.com.au,50000,30,2024-02-12,146,1
+130,Riverina Holdings,MFG000130,Electronics,Bronze,5,accounts@riverina11.com.au,250000,60,2020-10-09,12,1
+131,Nullarbor Commodities,MFG000131,Agriculture,Silver,7,accounts@nullarbor57.com.au,500000,14,2022-11-30,178,1
+132,Tanami Industries,MFG000132,Construction,Gold,26,accounts@tanami66.com.au,25000,30,2019-09-20,208,1
+133,Mallee Imports,MFG000133,Hospitality,Bronze,31,accounts@mallee14.com.au,100000,14,2019-02-22,90,1
+134,Murray Enterprises,MFG000134,Apparel,Gold,15,accounts@murray47.com.au,250000,30,2023-10-12,123,1
+135,Kakadu Partners,MFG000135,Retail,Silver,26,accounts@kakadu71.com.au,250000,30,2019-06-17,86,1
+136,Harbour Industries,MFG000136,,Bronze,43,accounts@harbour65.com.au,50000,14,2020-02-15,207,1
+137,Torrens Distribution,MFG000137,Hospitality,Platinum,50,accounts@torrens65.com.au,100000,45,2022-08-04,97,1
+138,Brisbane River Merchants,MFG000138,FMCG,Silver,21,accounts@brisbane40.com.au,100000,30,2023-07-13,208,1
+139,Redgum Partners,MFG000139,Mining Services,Gold,4,accounts@redgum78.com.au,50000,30,2023-02-28,5,1
+140,Daintree Solutions,MFG000140,Electronics,Silver,18,accounts@daintree15.com.au,500000,30,2021-08-21,84,1
+141,Murray Solutions,MFG000141,Agriculture,Silver,2,accounts@murray3.com.au,250000,30,2022-11-24,108,1
+142,Hunter Supply Co,MFG000142,Electronics,Bronze,6,accounts@hunter27.com.au,25000,30,2018-03-27,132,1
+143,Swan Enterprises,MFG000143,Grocery,Bronze,16,accounts@swan5.com.au,100000,30,2023-03-24,35,1
+144,Tanami Solutions,MFG000144,FMCG,Silver,11,accounts@tanami62.com.au,25000,45,2022-08-23,146,1
+145,Bellarine Partners,MFG000145,Healthcare,Bronze,45,accounts@bellarine51.com.au,500000,14,2022-05-28,108,1
+146,Redgum Holdings,MFG000146,Construction,Gold,4,accounts@redgum72.com.au,500000,30,2021-04-18,206,1
+147,Kimberley Manufacturing,MFG000147,Industrial,Silver,25,accounts@kimberley31.com.au,500000,45,2023-08-24,64,1
+148,Wattle Components,MFG000148,Hospitality,Bronze,4,accounts@wattle80.com.au,25000,30,2019-06-22,241,1
+149,Grampians Merchants,MFG000149,Hospitality,Silver,40,accounts@grampians36.com.au,50000,30,2024-03-07,208,1
+150,Mornington Agencies,MFG000150,,Bronze,49,accounts@mornington85.com.au,1000000,30,2021-12-30,213,1
+151,Grampians Industries,MFG000151,Hospitality,Silver,42,accounts@grampians32.com.au,100000,45,2020-06-14,190,1
+152,Coolabah Manufacturing,MFG000152,Hospitality,Bronze,21,accounts@coolabah16.com.au,25000,14,2019-01-09,227,1
+153,Kimberley Wholesale,MFG000153,Hospitality,Bronze,14,accounts@kimberley71.com.au,50000,60,2019-09-28,234,1
+154,Bellarine Traders,MFG000154,Electronics,Gold,18,accounts@bellarine47.com.au,25000,45,2021-05-09,104,1
+155,Wattle Holdings,MFG000155,Industrial,Bronze,34,accounts@wattle96.com.au,50000,30,2023-02-14,84,1
+156,Mornington Provisions,MFG000156,Hospitality,Silver,36,accounts@mornington57.com.au,25000,30,2020-02-06,5,1
+157,Torrens Partners,MFG000157,Mining Services,Gold,16,accounts@torrens40.com.au,100000,60,2022-01-29,137,1
+158,Coolabah Solutions,MFG000158,Hospitality,Bronze,13,accounts@coolabah74.com.au,25000,45,2024-05-07,241,1
+159,Grampians Exports,MFG000159,Healthcare,Bronze,27,accounts@grampians5.com.au,100000,14,2018-01-02,64,1
+160,Flinders Components,MFG000160,Retail,Bronze,6,accounts@flinders36.com.au,25000,14,2024-05-15,137,1
+161,Derwent Merchants,MFG000161,Apparel,Gold,11,accounts@derwent71.com.au,25000,45,2023-03-02,123,1
+162,Bellarine Merchants,MFG000162,Grocery,Platinum,44,accounts@bellarine24.com.au,25000,45,2021-04-15,167,1
+163,Barossa Logistics Partners,MFG000163,Electronics,Bronze,43,accounts@barossa91.com.au,100000,30,2024-06-15,56,1
+164,Brisbane River Commodities,MFG000164,Mining Services,Bronze,15,accounts@brisbane43.com.au,25000,30,2019-07-19,137,1
+165,Swan Imports,MFG000165,Agriculture,Platinum,48,accounts@swan92.com.au,25000,14,2018-03-14,167,1
+166,Mallee Logistics Partners,MFG000166,Construction,Bronze,36,accounts@mallee29.com.au,25000,45,2019-11-28,244,1
+167,Torrens Wholesale,MFG000167,Grocery,Bronze,49,accounts@torrens29.com.au,100000,30,2021-11-21,123,1
+168,Yarra Logistics Partners,MFG000168,Hospitality,Bronze,20,accounts@yarra90.com.au,100000,60,2021-02-20,190,1
+169,Kimberley Warehousing,MFG000169,Grocery,Bronze,27,accounts@kimberley79.com.au,50000,60,2020-10-29,104,1
+170,Nullarbor Trading,MFG000170,Apparel,Bronze,21,accounts@nullarbor93.com.au,25000,30,2022-07-26,29,1
+171,Redgum Distribution,MFG000171,Retail,Gold,17,accounts@redgum45.com.au,500000,14,2024-07-09,256,1
+172,Redgum Agencies,MFG000172,Apparel,Bronze,19,accounts@redgum87.com.au,100000,45,2021-09-02,256,1
+173,Daintree Holdings,MFG000173,Industrial,Silver,33,accounts@daintree95.com.au,500000,14,2020-08-24,12,1
+174,Sunraysia Industries,MFG000174,FMCG,Bronze,4,accounts@sunraysia42.com.au,50000,30,2019-09-12,256,1
+175,Mallee Wholesale,MFG000175,Grocery,Gold,33,accounts@mallee19.com.au,100000,45,2021-10-26,68,1
+176,Barossa Wholesale,MFG000176,Apparel,Silver,23,accounts@barossa33.com.au,250000,60,2023-07-29,190,1
+177,Kingsford Distribution,MFG000177,Healthcare,Silver,35,accounts@kingsford51.com.au,250000,14,2023-07-30,234,1
+178,Mornington Traders,MFG000178,Industrial,Silver,41,accounts@mornington50.com.au,50000,45,2021-07-15,171,1
+179,Derwent Commodities,MFG000179,Mining Services,Silver,21,accounts@derwent30.com.au,50000,30,2021-08-01,64,1
+180,Arnhem Imports,MFG000180,Healthcare,Silver,29,accounts@arnhem65.com.au,25000,30,2020-05-08,177,1
+181,Kingsford Manufacturing,MFG000181,Apparel,Silver,22,accounts@kingsford54.com.au,500000,30,2020-07-23,137,1
+182,Harbour Partners,MFG000182,Healthcare,Bronze,33,accounts@harbour91.com.au,250000,60,2024-04-03,241,1
+183,Kingsford Trading,MFG000183,Mining Services,Bronze,32,accounts@kingsford81.com.au,500000,14,2020-06-22,208,1
+184,Blackwood Enterprises,MFG000184,Electronics,Bronze,38,accounts@blackwood87.com.au,250000,60,2019-03-08,238,1
+185,Mornington Warehousing,MFG000185,Retail,Bronze,31,accounts@mornington79.com.au,50000,30,2021-11-13,234,1
+186,Pilbara Solutions,MFG000186,,Silver,13,accounts@pilbara35.com.au,250000,60,2018-07-05,208,1
+187,Murray Commodities,MFG000187,Apparel,Gold,17,accounts@murray65.com.au,50000,30,2022-09-10,234,1
+188,Brisbane River Holdings,MFG000188,Grocery,Gold,16,accounts@brisbane54.com.au,50000,45,2018-04-18,35,1
+189,Blackwood Traders,MFG000189,Mining Services,Platinum,39,accounts@blackwood10.com.au,100000,30,2022-09-08,97,1
+190,Yarra Foods,MFG000190,Grocery,Bronze,12,accounts@yarra39.com.au,500000,45,2024-01-22,227,1
+191,Gippsland Retail Group,MFG000191,Hospitality,Gold,11,accounts@gippsland68.com.au,500000,30,2019-09-17,241,1
+192,Yarra Merchants,MFG000192,FMCG,Silver,18,accounts@yarra46.com.au,50000,30,2018-07-15,223,1
+193,Pilbara Imports,MFG000193,Retail,Silver,34,accounts@pilbara67.com.au,50000,30,2021-07-15,14,1
+194,Flinders Manufacturing,MFG000194,Agriculture,Silver,35,accounts@flinders47.com.au,25000,30,2021-08-18,137,1
+195,Brisbane River Freight Services,MFG000195,,Bronze,42,accounts@brisbane66.com.au,50000,14,2020-07-11,15,1
+196,Redgum Trading,MFG000196,Grocery,Bronze,37,accounts@redgum45.com.au,50000,14,2019-03-31,29,1
+197,Redgum Components,MFG000197,Automotive,Gold,26,accounts@redgum52.com.au,25000,14,2020-11-02,256,1
+198,Daintree Partners,MFG000198,Mining Services,Silver,7,accounts@daintree60.com.au,25000,14,2019-03-22,5,1
+199,Barossa Warehousing,MFG000199,Agriculture,Bronze,18,accounts@barossa64.com.au,1000000,60,2023-01-12,238,1
+200,Murray Trading,MFG000200,Grocery,Bronze,41,accounts@murray99.com.au,250000,30,2022-04-03,68,1
+201,Nullarbor Solutions,MFG000201,Agriculture,Gold,26,accounts@nullarbor23.com.au,25000,30,2021-08-01,30,1
+202,Barossa Traders,MFG000202,Healthcare,Gold,42,accounts@barossa80.com.au,250000,60,2020-03-16,177,1
+203,Pilbara Holdings,MFG000203,FMCG,Silver,8,accounts@pilbara82.com.au,50000,14,2018-10-12,14,1
+204,Kimberley Holdings,MFG000204,Hospitality,Bronze,21,accounts@kimberley43.com.au,25000,30,2020-08-14,14,1
+205,Wattle Solutions,MFG000205,Automotive,Bronze,25,accounts@wattle5.com.au,25000,30,2023-04-01,15,1
+206,Banksia Merchants,MFG000206,Mining Services,Platinum,18,accounts@banksia96.com.au,500000,14,2024-05-21,5,1
+207,Daintree Manufacturing,MFG000207,Hospitality,Bronze,12,accounts@daintree5.com.au,100000,30,2019-08-07,146,1
+208,Mallee Retail Group,MFG000208,Apparel,Bronze,16,accounts@mallee79.com.au,50000,60,2021-01-12,15,1
+209,Brisbane River Retail Group,MFG000209,Hospitality,Silver,49,accounts@brisbane2.com.au,250000,30,2020-07-04,108,1
+210,Arnhem Commodities,MFG000210,Construction,Silver,38,accounts@arnhem39.com.au,25000,45,2020-09-25,154,1
+211,Grampians Manufacturing,MFG000211,,Bronze,39,accounts@grampians45.com.au,1000000,30,2020-12-14,64,1
+212,Daintree Foods,MFG000212,Electronics,Silver,4,accounts@daintree82.com.au,50000,45,2022-03-13,227,1
+213,Riverina Supply Co,MFG000213,Apparel,Bronze,12,accounts@riverina41.com.au,25000,60,2023-06-05,171,1
+214,Kakadu Warehousing,MFG000214,Automotive,Bronze,40,accounts@kakadu88.com.au,25000,30,2018-07-02,136,1
+215,Murray Agencies,MFG000215,FMCG,Bronze,7,accounts@murray50.com.au,100000,60,2023-02-21,64,1
+216,Banksia Solutions,MFG000216,Electronics,Gold,22,accounts@banksia75.com.au,250000,60,2022-11-29,207,1
+217,Kimberley Retail Group,MFG000217,Industrial,Silver,26,accounts@kimberley23.com.au,50000,30,2024-06-14,146,1
+218,Sunraysia Logistics Partners,MFG000218,Hospitality,Gold,50,accounts@sunraysia17.com.au,25000,30,2021-01-09,97,1
+219,Sunraysia Merchants,MFG000219,Apparel,Bronze,5,accounts@sunraysia92.com.au,50000,60,2024-06-02,136,1
+220,Yarra Provisions,MFG000220,Grocery,Platinum,44,accounts@yarra15.com.au,500000,30,2023-06-20,146,1
+221,Harbour Exports,MFG000221,Mining Services,Bronze,4,accounts@harbour70.com.au,100000,30,2022-08-26,177,1
+222,Barossa Manufacturing,MFG000222,Agriculture,Silver,2,accounts@barossa34.com.au,50000,30,2020-05-22,177,1
+223,Mallee Merchants,MFG000223,Retail,Bronze,14,accounts@mallee69.com.au,50000,30,2020-12-24,84,1
+224,Nullarbor Agencies,MFG000224,Agriculture,Silver,13,accounts@nullarbor64.com.au,250000,60,2019-12-16,167,1
+225,Kingsford Wholesale,MFG000225,Electronics,Silver,11,accounts@kingsford56.com.au,100000,45,2023-08-15,104,1
+226,Riverina Components,MFG000226,Grocery,Platinum,48,accounts@riverina93.com.au,100000,30,2022-06-19,190,1
+227,Gippsland Foods,MFG000227,Healthcare,Platinum,26,accounts@gippsland15.com.au,250000,45,2021-09-25,137,1
+228,Murray Traders,MFG000228,Retail,Gold,1,accounts@murray49.com.au,250000,30,2018-08-24,234,1
+229,Harbour Supply Co,MFG000229,Healthcare,Silver,8,accounts@harbour96.com.au,50000,60,2020-07-26,104,1
+230,Gippsland Freight Services,MFG000230,Mining Services,Bronze,10,accounts@gippsland20.com.au,50000,30,2021-08-17,14,1
+231,Riverina Industries,MFG000231,Apparel,Bronze,34,accounts@riverina44.com.au,50000,14,2019-08-18,29,1
+232,Grampians Warehousing,MFG000232,Grocery,Bronze,31,accounts@grampians81.com.au,1000000,30,2019-06-05,177,1
+233,Coolabah Foods,MFG000233,Construction,Silver,21,accounts@coolabah37.com.au,500000,60,2023-01-19,56,1
+234,Banksia Commodities,MFG000234,Automotive,Gold,32,accounts@banksia41.com.au,25000,60,2019-04-01,234,1
+235,Banksia Trading,MFG000235,,Silver,8,accounts@banksia29.com.au,250000,30,2021-04-10,177,1
+236,Redgum Supply Co,MFG000236,Healthcare,Bronze,36,accounts@redgum35.com.au,50000,30,2020-09-14,35,1
+237,Kingsford Logistics Partners,MFG000237,Mining Services,Silver,43,accounts@kingsford38.com.au,100000,30,2021-02-18,97,1
+238,Mallee Enterprises,MFG000238,Construction,Gold,29,accounts@mallee74.com.au,250000,30,2021-04-27,154,1
+239,Harbour Foods,MFG000239,Agriculture,Silver,27,accounts@harbour63.com.au,100000,30,2024-03-26,104,1
+240,Murray Exports,MFG000240,Mining Services,Silver,44,accounts@murray34.com.au,100000,45,2019-05-17,241,1
+241,Blackwood Commodities,MFG000241,Agriculture,Bronze,7,accounts@blackwood45.com.au,25000,30,2021-08-09,29,1
+242,Coolabah Merchants,MFG000242,Automotive,Bronze,8,accounts@coolabah68.com.au,250000,45,2020-06-30,154,1
+243,Arnhem Supply Co,MFG000243,Healthcare,Bronze,5,accounts@arnhem26.com.au,100000,14,2019-03-25,64,1
+244,Nullarbor Merchants,MFG000244,Automotive,Silver,46,accounts@nullarbor32.com.au,50000,60,2019-02-23,177,1
+245,Riverina Distribution,MFG000245,FMCG,Bronze,50,accounts@riverina19.com.au,100000,45,2022-10-21,123,1
+246,Bellarine Freight Services,MFG000246,Retail,Bronze,32,accounts@bellarine75.com.au,50000,14,2020-12-07,64,1
+247,Blackwood Supply Co,MFG000247,Healthcare,Bronze,30,accounts@blackwood80.com.au,50000,30,2023-12-15,15,1
+248,Mornington Exports,MFG000248,Apparel,Bronze,26,accounts@mornington14.com.au,1000000,14,2020-08-23,132,1
+249,Gippsland Agencies,MFG000249,FMCG,Silver,14,accounts@gippsland62.com.au,50000,60,2023-08-18,86,1
+250,Hunter Partners,MFG000250,Hospitality,Bronze,13,accounts@hunter20.com.au,100000,30,2019-06-10,234,1
+251,Daintree Retail Group,MFG000251,Agriculture,Bronze,21,accounts@daintree97.com.au,100000,14,2020-02-12,97,1
+252,Brisbane River Manufacturing,MFG000252,Automotive,Bronze,19,accounts@brisbane35.com.au,25000,60,2022-04-15,68,1
+253,Banksia Foods,MFG000253,Healthcare,Gold,28,accounts@banksia99.com.au,100000,60,2018-04-19,15,1
+254,Wattle Provisions,MFG000254,Hospitality,Gold,17,accounts@wattle72.com.au,250000,60,2023-09-28,84,1
+255,Yarra Commodities,MFG000255,Retail,Bronze,37,accounts@yarra3.com.au,100000,45,2022-05-16,154,1
+256,Kingsford Imports,MFG000256,Mining Services,Platinum,21,accounts@kingsford26.com.au,50000,30,2020-06-14,238,1
+257,Flinders Freight Services,MFG000257,Hospitality,Bronze,8,accounts@flinders2.com.au,250000,30,2022-07-19,223,1
+258,Riverina Foods,MFG000258,Mining Services,Platinum,1,accounts@riverina58.com.au,50000,30,2019-09-01,12,1
+259,Pilbara Industries,MFG000259,FMCG,Bronze,42,accounts@pilbara5.com.au,100000,30,2022-02-10,238,1
+260,Grampians Solutions,MFG000260,Healthcare,Bronze,25,accounts@grampians26.com.au,50000,30,2022-08-09,206,1
+261,Brisbane River Wholesale,MFG000261,Mining Services,Bronze,10,accounts@brisbane29.com.au,50000,30,2020-05-01,132,1
+262,Sunraysia Exports,MFG000262,Healthcare,Gold,24,accounts@sunraysia43.com.au,50000,45,2018-11-13,14,1
+263,Gippsland Manufacturing,MFG000263,FMCG,Silver,50,accounts@gippsland12.com.au,25000,14,2018-08-07,5,1
+264,Harbour Distribution,MFG000264,Mining Services,Bronze,5,accounts@harbour76.com.au,500000,30,2023-04-04,178,1
+265,Wattle Imports,MFG000265,FMCG,Bronze,23,accounts@wattle96.com.au,25000,45,2018-08-24,108,1
+266,Derwent Solutions,MFG000266,Apparel,Gold,43,accounts@derwent43.com.au,250000,30,2020-02-17,30,1
+267,Redgum Enterprises,MFG000267,Mining Services,Silver,22,accounts@redgum95.com.au,50000,45,2023-02-22,137,1
+268,Bellarine Industries,MFG000268,Apparel,Gold,22,accounts@bellarine73.com.au,25000,14,2020-01-17,35,1
+269,Banksia Distribution,MFG000269,Agriculture,Silver,44,accounts@banksia42.com.au,100000,30,2021-08-20,108,1
+270,Mallee Traders,MFG000270,Construction,Bronze,20,accounts@mallee44.com.au,25000,30,2023-05-26,12,1
+271,Coolabah Components,MFG000271,Agriculture,Silver,30,accounts@coolabah58.com.au,50000,30,2022-04-05,207,1
+272,Blackwood Wholesale,MFG000272,Electronics,Platinum,22,accounts@blackwood32.com.au,100000,14,2020-08-26,167,1
+273,Swan Components,MFG000273,Mining Services,Bronze,44,accounts@swan15.com.au,50000,45,2021-02-16,123,1
+274,Nullarbor Enterprises,MFG000274,Automotive,Silver,30,accounts@nullarbor57.com.au,100000,30,2021-05-28,68,1
+275,Derwent Exports,MFG000275,Healthcare,Bronze,32,accounts@derwent78.com.au,25000,14,2023-06-10,35,1
+276,Daintree Enterprises,MFG000276,Retail,Silver,50,accounts@daintree25.com.au,50000,45,2018-06-15,35,1
+277,Banksia Supply Co,MFG000277,Automotive,Gold,24,accounts@banksia71.com.au,50000,30,2021-08-03,171,1
+278,Wattle Merchants,MFG000278,Construction,Bronze,42,accounts@wattle9.com.au,1000000,60,2020-12-11,154,1
+279,Hunter Foods,MFG000279,Apparel,Gold,21,accounts@hunter55.com.au,50000,60,2019-04-12,223,1
+280,Pilbara Agencies,MFG000280,Apparel,Silver,16,accounts@pilbara35.com.au,250000,14,2022-03-16,123,1
+281,Banksia Exports,MFG000281,Hospitality,Bronze,22,accounts@banksia61.com.au,25000,60,2023-08-23,256,1
+282,Brisbane River Imports,MFG000282,Electronics,Silver,48,accounts@brisbane75.com.au,25000,30,2021-03-01,108,1
+283,Barossa Components,MFG000283,Apparel,Silver,25,accounts@barossa62.com.au,100000,60,2021-02-19,132,1
+284,Gippsland Solutions,MFG000284,Retail,Gold,24,accounts@gippsland97.com.au,1000000,30,2021-09-11,227,1
+285,Murray Manufacturing,MFG000285,Grocery,Bronze,48,accounts@murray47.com.au,25000,30,2018-02-20,90,1
+286,Mallee Provisions,MFG000286,Industrial,Silver,4,accounts@mallee63.com.au,500000,45,2020-10-07,177,1
+287,Pilbara Wholesale,MFG000287,FMCG,Bronze,47,accounts@pilbara97.com.au,50000,30,2019-11-12,123,1
+288,Sunraysia Traders,MFG000288,Grocery,Bronze,29,accounts@sunraysia24.com.au,250000,30,2018-12-16,35,1
+289,Sunraysia Trading,MFG000289,Healthcare,Silver,46,accounts@sunraysia67.com.au,100000,30,2022-07-26,241,1
+290,Riverina Group,MFG000290,Automotive,Silver,40,accounts@riverina76.com.au,50000,14,2023-08-03,177,1
+291,Wattle Freight Services,MFG000291,Agriculture,Silver,20,accounts@wattle52.com.au,100000,30,2024-01-21,104,1
+292,Blackwood Agencies,MFG000292,Agriculture,Bronze,3,accounts@blackwood32.com.au,500000,30,2018-10-24,238,1
+293,Kakadu Manufacturing,MFG000293,FMCG,Silver,11,accounts@kakadu59.com.au,250000,60,2019-04-09,29,1
+294,Mallee Agencies,MFG000294,Grocery,Platinum,27,accounts@mallee34.com.au,100000,14,2022-09-09,90,1
+295,Pilbara Warehousing,MFG000295,Construction,Gold,12,accounts@pilbara26.com.au,1000000,45,2022-03-03,84,1
+296,Pilbara Foods,MFG000296,Automotive,Bronze,3,accounts@pilbara31.com.au,100000,30,2022-06-02,238,1
+297,Pilbara Exports,MFG000297,Electronics,Bronze,44,accounts@pilbara83.com.au,50000,45,2019-11-15,86,1
+298,Blackwood Trading,MFG000298,Grocery,Gold,34,accounts@blackwood51.com.au,250000,30,2020-06-24,178,1
+299,Arnhem Freight Services,MFG000299,Automotive,Bronze,49,accounts@arnhem97.com.au,25000,30,2022-06-13,206,1
+300,Yarra Imports,MFG000300,Mining Services,Bronze,15,accounts@yarra33.com.au,250000,60,2023-11-14,137,1
+301,Torrens Traders,MFG000301,Electronics,Bronze,20,accounts@torrens84.com.au,1000000,60,2018-03-05,206,1
+302,Hunter Solutions,MFG000302,FMCG,Silver,2,accounts@hunter67.com.au,50000,45,2019-03-23,15,1
+303,Arnhem Industries,MFG000303,Automotive,Gold,31,accounts@arnhem3.com.au,100000,45,2023-10-30,208,1
+304,Nullarbor Wholesale,MFG000304,Healthcare,Bronze,5,accounts@nullarbor72.com.au,250000,30,2023-10-28,206,1
+305,Coolabah Distribution,MFG000305,FMCG,Bronze,27,accounts@coolabah86.com.au,250000,30,2019-06-02,5,1
+306,Hunter Distribution,MFG000306,Electronics,Silver,42,accounts@hunter47.com.au,25000,30,2018-02-05,227,1
+307,Yarra Trading,MFG000307,FMCG,Silver,4,accounts@yarra46.com.au,1000000,60,2023-03-16,206,1
+308,Kimberley Traders,MFG000308,Mining Services,Silver,9,accounts@kimberley21.com.au,25000,14,2021-07-20,86,1
+309,Blackwood Retail Group,MFG000309,Agriculture,Silver,32,accounts@blackwood39.com.au,25000,30,2018-09-11,12,1
+310,Daintree Wholesale,MFG000310,Grocery,Bronze,8,accounts@daintree69.com.au,25000,30,2019-03-02,90,1
+311,Barossa Exports,MFG000311,Healthcare,Silver,27,accounts@barossa35.com.au,25000,45,2019-11-12,136,1
+312,Bellarine Commodities,MFG000312,Industrial,Silver,47,accounts@bellarine47.com.au,25000,60,2023-10-10,177,1
+313,Hunter Exports,MFG000313,Retail,Silver,36,accounts@hunter57.com.au,100000,30,2020-05-16,208,1
+314,Arnhem Enterprises,MFG000314,,Gold,10,accounts@arnhem24.com.au,1000000,30,2022-11-21,256,1
+315,Mornington Wholesale,MFG000315,Agriculture,Gold,10,accounts@mornington60.com.au,100000,14,2020-01-06,30,1
+316,Harbour Components,MFG000316,Hospitality,Bronze,32,accounts@harbour24.com.au,50000,45,2020-12-25,137,1
+317,Grampians Logistics Partners,MFG000317,,Bronze,40,accounts@grampians89.com.au,50000,60,2021-10-20,15,1
+318,Gippsland Supply Co,MFG000318,Industrial,Gold,41,accounts@gippsland87.com.au,100000,14,2021-12-10,64,1
+319,Arnhem Manufacturing,MFG000319,Construction,Bronze,44,accounts@arnhem50.com.au,250000,30,2018-08-05,213,1
+320,Blackwood Solutions,MFG000320,Healthcare,Bronze,46,accounts@blackwood92.com.au,100000,45,2023-06-09,234,1
+321,Barossa Agencies,MFG000321,Automotive,Silver,36,accounts@barossa13.com.au,100000,30,2020-01-26,244,1
+322,Mornington Commodities,MFG000322,Apparel,Silver,32,accounts@mornington55.com.au,50000,30,2023-02-08,123,1
+323,Swan Supply Co,MFG000323,FMCG,Bronze,34,accounts@swan13.com.au,50000,30,2018-03-27,29,1
+324,Daintree Logistics Partners,MFG000324,Agriculture,Bronze,21,accounts@daintree68.com.au,250000,30,2021-04-21,241,1
+325,Tanami Enterprises,MFG000325,Industrial,Silver,21,accounts@tanami58.com.au,100000,60,2018-04-19,207,1
+326,Gippsland Holdings,MFG000326,Construction,Bronze,28,accounts@gippsland26.com.au,500000,30,2021-05-09,15,1
+327,Kingsford Components,MFG000327,Automotive,Bronze,48,accounts@kingsford11.com.au,500000,45,2023-03-03,206,1
+328,Sunraysia Warehousing,MFG000328,Agriculture,Bronze,22,accounts@sunraysia52.com.au,25000,30,2019-08-03,30,1
+329,Wattle Industries,MFG000329,FMCG,Gold,49,accounts@wattle60.com.au,50000,14,2024-06-18,5,1
+330,Mornington Enterprises,MFG000330,FMCG,Silver,29,accounts@mornington26.com.au,250000,30,2019-07-27,5,1
+331,Flinders Solutions,MFG000331,Hospitality,Gold,45,accounts@flinders45.com.au,250000,30,2022-11-07,171,1
+332,Wattle Commodities,MFG000332,Agriculture,Platinum,11,accounts@wattle76.com.au,25000,45,2019-05-15,206,1
+333,Hunter Enterprises,MFG000333,FMCG,Gold,9,accounts@hunter68.com.au,250000,60,2022-06-30,146,1
+334,Coolabah Provisions,MFG000334,Construction,Bronze,17,accounts@coolabah87.com.au,100000,30,2020-09-13,177,1
+335,Bellarine Solutions,MFG000335,Agriculture,Bronze,37,accounts@bellarine53.com.au,250000,60,2023-12-16,227,1
+336,Daintree Imports,MFG000336,Grocery,Silver,47,accounts@daintree27.com.au,1000000,60,2021-05-27,137,1
+337,Kakadu Supply Co,MFG000337,Electronics,Gold,15,accounts@kakadu12.com.au,50000,30,2022-01-30,5,1
+338,Yarra Manufacturing,MFG000338,Electronics,Gold,8,accounts@yarra97.com.au,50000,30,2020-10-22,64,1
+339,Pilbara Distribution,MFG000339,FMCG,Bronze,1,accounts@pilbara26.com.au,25000,45,2019-09-14,213,1
+340,Mornington Distribution,MFG000340,Retail,Gold,12,accounts@mornington44.com.au,25000,14,2019-05-01,90,1
+341,Tanami Manufacturing,MFG000341,Grocery,Bronze,4,accounts@tanami31.com.au,250000,30,2018-04-11,234,1
+342,Pilbara Logistics Partners,MFG000342,Agriculture,Silver,34,accounts@pilbara63.com.au,25000,30,2022-10-04,244,1
+343,Swan Partners,MFG000343,Industrial,Gold,35,accounts@swan38.com.au,50000,30,2018-01-25,136,1
+344,Arnhem Group,MFG000344,Healthcare,Silver,33,accounts@arnhem32.com.au,50000,60,2024-04-16,86,1
+345,Barossa Partners,MFG000345,Agriculture,Bronze,1,accounts@barossa49.com.au,250000,60,2018-10-08,64,1
+346,Derwent Warehousing,MFG000346,Healthcare,Bronze,7,accounts@derwent82.com.au,25000,30,2023-08-12,146,1
+347,Torrens Trading,MFG000347,Construction,Silver,4,accounts@torrens71.com.au,50000,30,2018-12-31,256,1
+348,Murray Group,MFG000348,Construction,Bronze,33,accounts@murray53.com.au,100000,30,2024-04-18,97,1
+349,Kimberley Distribution,MFG000349,Industrial,Silver,38,accounts@kimberley74.com.au,50000,30,2018-07-19,136,1
+350,Nullarbor Supply Co,MFG000350,Industrial,Silver,15,accounts@nullarbor57.com.au,50000,30,2021-10-28,234,1
+351,Kingsford Group,MFG000351,Apparel,Silver,16,accounts@kingsford86.com.au,100000,30,2020-12-06,90,1
+352,Mornington Partners,MFG000352,Agriculture,Gold,26,accounts@mornington80.com.au,250000,30,2021-11-08,84,1
+353,Harbour Commodities,MFG000353,Apparel,Platinum,14,accounts@harbour86.com.au,100000,14,2021-01-27,15,1
+354,Nullarbor Traders,MFG000354,Electronics,Gold,18,accounts@nullarbor82.com.au,100000,30,2018-01-13,90,1
+355,Torrens Imports,MFG000355,Mining Services,Bronze,2,accounts@torrens30.com.au,25000,45,2019-07-30,213,1
+356,Torrens Holdings,MFG000356,FMCG,Platinum,46,accounts@torrens95.com.au,250000,30,2018-05-22,12,1
+357,Swan Holdings,MFG000357,Construction,Silver,8,accounts@swan24.com.au,100000,30,2022-07-28,14,1
+358,Brisbane River Trading,MFG000358,FMCG,Silver,7,accounts@brisbane6.com.au,100000,14,2021-02-06,178,1
+359,Murray Supply Co,MFG000359,,Bronze,29,accounts@murray77.com.au,1000000,30,2024-06-27,137,1
+360,Coolabah Logistics Partners,MFG000360,Industrial,Silver,33,accounts@coolabah22.com.au,50000,60,2021-11-08,256,1
+361,Nullarbor Retail Group,MFG000361,Electronics,Bronze,3,accounts@nullarbor24.com.au,500000,30,2023-07-09,207,1
+362,Kimberley Foods,MFG000362,Agriculture,Silver,8,accounts@kimberley40.com.au,250000,60,2021-07-20,5,1
+363,Derwent Wholesale,MFG000363,Hospitality,Silver,4,accounts@derwent2.com.au,25000,30,2023-12-08,136,1
+364,Arnhem Solutions,MFG000364,Healthcare,Gold,25,accounts@arnhem8.com.au,50000,30,2019-11-03,167,1
+365,Hunter Industries,MFG000365,Hospitality,Gold,33,accounts@hunter1.com.au,250000,30,2018-07-15,136,1
+366,Sunraysia Distribution,MFG000366,Hospitality,Bronze,13,accounts@sunraysia80.com.au,100000,60,2021-01-24,29,1
+367,Derwent Provisions,MFG000367,Healthcare,Bronze,50,accounts@derwent24.com.au,100000,30,2023-12-23,64,1
+368,Yarra Distribution,MFG000368,Electronics,Gold,21,accounts@yarra89.com.au,250000,14,2020-11-26,68,1
+369,Kakadu Merchants,MFG000369,Automotive,Bronze,48,accounts@kakadu66.com.au,100000,30,2024-02-29,12,1
+370,Kakadu Solutions,MFG000370,Retail,Gold,35,accounts@kakadu41.com.au,100000,14,2022-09-30,256,1
+371,Grampians Traders,MFG000371,Electronics,Silver,35,accounts@grampians9.com.au,100000,45,2022-06-24,167,1
+372,Torrens Merchants,MFG000372,Industrial,Platinum,14,accounts@torrens94.com.au,50000,30,2019-07-06,123,1
+373,Torrens Enterprises,MFG000373,Apparel,Gold,2,accounts@torrens57.com.au,250000,30,2023-01-19,227,1
+374,Kakadu Foods,MFG000374,Agriculture,Bronze,21,accounts@kakadu52.com.au,25000,45,2021-07-03,154,1
+375,Wattle Retail Group,MFG000375,Industrial,Bronze,49,accounts@wattle48.com.au,50000,14,2022-09-18,35,1
+376,Harbour Merchants,MFG000376,Hospitality,Silver,20,accounts@harbour35.com.au,250000,14,2018-04-04,177,1
+377,Arnhem Foods,MFG000377,Construction,Bronze,30,accounts@arnhem29.com.au,250000,14,2020-09-21,86,1
+378,Swan Commodities,MFG000378,Electronics,Bronze,3,accounts@swan60.com.au,1000000,14,2024-04-19,136,1
+379,Swan Exports,MFG000379,Healthcare,Gold,40,accounts@swan32.com.au,100000,30,2021-11-21,108,1
+380,Tanami Components,MFG000380,FMCG,Silver,43,accounts@tanami70.com.au,250000,45,2021-10-01,123,1
+381,Redgum Provisions,MFG000381,Construction,Silver,9,accounts@redgum69.com.au,250000,30,2018-06-06,64,1
+382,Torrens Logistics Partners,MFG000382,Hospitality,Silver,14,accounts@torrens10.com.au,50000,30,2023-02-19,206,1
+383,Harbour Warehousing,MFG000383,Electronics,Bronze,20,accounts@harbour21.com.au,50000,60,2023-10-02,136,1
+384,Coolabah Group,MFG000384,Industrial,Silver,45,accounts@coolabah54.com.au,50000,45,2021-04-29,167,1
+385,Bellarine Wholesale,MFG000385,Apparel,Bronze,4,accounts@bellarine42.com.au,50000,30,2022-11-11,177,1
+386,Kakadu Exports,MFG000386,Mining Services,Silver,29,accounts@kakadu11.com.au,100000,14,2018-10-12,97,1
+387,Brisbane River Industries,MFG000387,Hospitality,Silver,4,accounts@brisbane29.com.au,25000,14,2022-06-14,171,1
+388,Derwent Components,MFG000388,Apparel,Silver,13,accounts@derwent14.com.au,100000,30,2020-11-08,241,1
+389,Torrens Retail Group,MFG000389,Healthcare,Gold,29,accounts@torrens27.com.au,250000,30,2024-06-23,154,1
+390,Barossa Supply Co,MFG000390,Industrial,Bronze,38,accounts@barossa97.com.au,500000,45,2023-07-20,108,1
+391,Flinders Trading,MFG000391,Retail,Gold,21,accounts@flinders70.com.au,25000,60,2019-07-08,35,1
+392,Yarra Supply Co,MFG000392,Electronics,Gold,3,accounts@yarra29.com.au,100000,45,2023-12-22,30,1
+393,Yarra Enterprises,MFG000393,Automotive,Bronze,10,accounts@yarra3.com.au,250000,45,2018-12-25,223,1
+394,Torrens Commodities,MFG000394,Construction,Platinum,30,accounts@torrens72.com.au,50000,60,2020-03-06,146,1
+395,Grampians Agencies,MFG000395,Hospitality,Bronze,34,accounts@grampians22.com.au,250000,45,2019-11-29,171,1
+396,Hunter Trading,MFG000396,Mining Services,Gold,35,accounts@hunter37.com.au,100000,60,2024-03-01,108,1
+397,Banksia Logistics Partners,MFG000397,Construction,Bronze,8,accounts@banksia77.com.au,250000,30,2022-01-31,213,1
+398,Flinders Merchants,MFG000398,Automotive,Bronze,14,accounts@flinders36.com.au,100000,45,2022-08-23,137,1
+399,Barossa Commodities,MFG000399,Retail,Gold,18,accounts@barossa86.com.au,50000,45,2024-01-11,86,1
+400,Derwent Imports,MFG000400,Hospitality,Bronze,4,accounts@derwent21.com.au,100000,30,2022-09-16,86,1
+401,Nullarbor Provisions,MFG000401,FMCG,Bronze,39,accounts@nullarbor95.com.au,25000,30,2018-01-09,136,1
+402,Flinders Group,MFG000402,Industrial,Bronze,3,accounts@flinders81.com.au,25000,30,2022-10-03,15,1
+403,Pilbara Supply Co,MFG000403,Mining Services,Bronze,9,accounts@pilbara57.com.au,100000,30,2023-01-29,30,1
+404,Wattle Enterprises,MFG000404,Healthcare,Silver,7,accounts@wattle62.com.au,25000,30,2021-05-26,108,1
+405,Grampians Supply Co,MFG000405,Hospitality,Bronze,18,accounts@grampians27.com.au,25000,30,2019-04-18,5,1
+406,Harbour Solutions,MFG000406,Mining Services,Gold,25,accounts@harbour22.com.au,100000,30,2019-03-16,5,1
+407,Brisbane River Foods,MFG000407,Agriculture,Gold,5,accounts@brisbane80.com.au,25000,60,2023-04-19,207,1
+408,Banksia Traders,MFG000408,Mining Services,Platinum,10,accounts@banksia74.com.au,100000,30,2021-02-23,123,1
+409,Coolabah Supply Co,MFG000409,Healthcare,Silver,3,accounts@coolabah90.com.au,25000,14,2020-12-14,238,1
+410,Tanami Supply Co,MFG000410,Mining Services,Gold,37,accounts@tanami78.com.au,50000,60,2021-11-23,84,1
+411,Daintree Commodities,MFG000411,Grocery,Bronze,13,accounts@daintree32.com.au,100000,14,2023-02-11,137,1
+412,Daintree Supply Co,MFG000412,Retail,Bronze,22,accounts@daintree63.com.au,25000,45,2024-02-12,97,1
+413,Kingsford Foods,MFG000413,Electronics,Bronze,22,accounts@kingsford17.com.au,25000,45,2022-09-21,206,1
+414,Brisbane River Group,MFG000414,Healthcare,Silver,39,accounts@brisbane51.com.au,25000,30,2024-02-28,146,1
+415,Daintree Group,MFG000415,,Bronze,48,accounts@daintree61.com.au,100000,45,2024-04-18,15,1
+416,Mallee Group,MFG000416,Hospitality,Silver,23,accounts@mallee84.com.au,250000,45,2023-09-18,238,1
+417,Flinders Retail Group,MFG000417,Hospitality,Silver,13,accounts@flinders21.com.au,25000,60,2018-10-24,154,1
+418,Arnhem Wholesale,MFG000418,Apparel,Bronze,43,accounts@arnhem66.com.au,100000,14,2018-02-19,223,1
+419,Mallee Commodities,MFG000419,Agriculture,Silver,49,accounts@mallee91.com.au,250000,30,2019-01-22,241,1
+420,Grampians Distribution,MFG000420,Grocery,Silver,28,accounts@grampians27.com.au,50000,30,2021-09-10,154,1
+421,Barossa Trading,MFG000421,FMCG,Bronze,37,accounts@barossa94.com.au,50000,30,2022-06-25,35,1
+422,Banksia Imports,MFG000422,Mining Services,Gold,47,accounts@banksia86.com.au,50000,60,2023-06-26,206,1
+423,Kakadu Group,MFG000423,Industrial,Silver,49,accounts@kakadu70.com.au,25000,30,2019-08-30,123,1
+424,Nullarbor Group,MFG000424,Apparel,Silver,11,accounts@nullarbor7.com.au,100000,30,2023-04-12,207,1
+425,Riverina Solutions,MFG000425,Automotive,Silver,24,accounts@riverina12.com.au,100000,30,2021-12-21,167,1
+426,Bellarine Enterprises,MFG000426,Apparel,Gold,20,accounts@bellarine93.com.au,500000,30,2019-10-18,35,1
+427,Nullarbor Foods,MFG000427,Apparel,Silver,28,accounts@nullarbor72.com.au,250000,30,2018-08-21,108,1
+428,Derwent Partners,MFG000428,Grocery,Gold,34,accounts@derwent78.com.au,50000,45,2022-06-15,137,1
+429,Gippsland Trading,MFG000429,,Bronze,48,accounts@gippsland63.com.au,25000,45,2018-09-24,234,1
+430,Mallee Holdings,MFG000430,Agriculture,Bronze,4,accounts@mallee43.com.au,25000,30,2023-03-10,207,1
+431,Flinders Industries,MFG000431,Healthcare,Silver,48,accounts@flinders63.com.au,500000,30,2019-08-15,154,1
+432,Tanami Traders,MFG000432,FMCG,Platinum,20,accounts@tanami99.com.au,100000,45,2023-06-25,241,1
+433,Coolabah Traders,MFG000433,Healthcare,Silver,5,accounts@coolabah65.com.au,50000,30,2020-09-22,137,1
+434,Torrens Foods,MFG000434,Healthcare,Platinum,32,accounts@torrens47.com.au,50000,30,2021-01-22,29,1
+435,Kingsford Partners,MFG000435,Agriculture,Bronze,14,accounts@kingsford98.com.au,250000,45,2020-10-08,90,1
+436,Wattle Wholesale,MFG000436,Mining Services,Gold,29,accounts@wattle95.com.au,50000,60,2018-08-06,213,1
+437,Mallee Solutions,MFG000437,Grocery,Bronze,33,accounts@mallee5.com.au,100000,60,2021-10-23,223,1
+438,Daintree Warehousing,MFG000438,Construction,Gold,45,accounts@daintree56.com.au,100000,30,2021-08-04,244,1
+439,Swan Retail Group,MFG000439,Retail,Silver,25,accounts@swan86.com.au,250000,60,2023-01-02,241,1
+440,Arnhem Components,MFG000440,Retail,Bronze,42,accounts@arnhem39.com.au,50000,30,2020-10-22,64,1
+441,Sunraysia Wholesale,MFG000441,Apparel,Bronze,27,accounts@sunraysia74.com.au,250000,30,2022-07-16,68,1
+442,Mallee Freight Services,MFG000442,Industrial,Bronze,11,accounts@mallee91.com.au,25000,60,2021-01-24,167,1
+443,Harbour Retail Group,MFG000443,Industrial,Bronze,43,accounts@harbour31.com.au,50000,60,2020-10-03,223,1
+444,Wattle Manufacturing,MFG000444,Construction,Silver,10,accounts@wattle25.com.au,250000,60,2023-02-14,12,1
+445,Nullarbor Exports,MFG000445,Healthcare,Bronze,14,accounts@nullarbor56.com.au,50000,30,2018-03-09,29,1
+446,Pilbara Freight Services,MFG000446,,Silver,22,accounts@pilbara43.com.au,25000,30,2024-04-22,5,1
+447,Brisbane River Exports,MFG000447,Retail,Bronze,2,accounts@brisbane18.com.au,500000,30,2023-04-24,97,1
+448,Kingsford Traders,MFG000448,Agriculture,Silver,10,accounts@kingsford72.com.au,50000,60,2020-09-30,227,1
+449,Torrens Industries,MFG000449,Grocery,Bronze,38,accounts@torrens25.com.au,100000,45,2018-11-05,167,1
+450,Kingsford Freight Services,MFG000450,Industrial,Silver,5,accounts@kingsford56.com.au,250000,45,2021-12-13,208,1
+451,Yarra Partners,MFG000451,Apparel,Bronze,34,accounts@yarra64.com.au,1000000,30,2021-03-17,208,1
+452,Pilbara Group,MFG000452,Mining Services,Silver,38,accounts@pilbara48.com.au,100000,30,2022-09-20,167,1
+453,Arnhem Distribution,MFG000453,Grocery,Silver,32,accounts@arnhem98.com.au,100000,45,2021-11-02,15,1
+454,Sunraysia Provisions,MFG000454,Hospitality,Bronze,16,accounts@sunraysia33.com.au,100000,30,2018-03-22,29,1
+455,Blackwood Provisions,MFG000455,Agriculture,Silver,48,accounts@blackwood19.com.au,25000,30,2021-05-21,178,1
+456,Kimberley Provisions,MFG000456,Grocery,Silver,41,accounts@kimberley33.com.au,50000,45,2020-07-22,108,1
+457,Mornington Supply Co,MFG000457,Hospitality,Bronze,24,accounts@mornington50.com.au,250000,30,2018-01-04,15,1
+458,Swan Distribution,MFG000458,Mining Services,Platinum,48,accounts@swan30.com.au,50000,30,2022-10-01,241,1
+459,Brisbane River Partners,MFG000459,,Gold,13,accounts@brisbane48.com.au,250000,30,2024-05-13,213,1
+460,Torrens Solutions,MFG000460,Hospitality,Silver,8,accounts@torrens98.com.au,100000,30,2021-02-03,137,1
+461,Daintree Exports,MFG000461,Apparel,Bronze,30,accounts@daintree23.com.au,1000000,14,2023-02-20,167,1
+462,Murray Warehousing,MFG000462,Mining Services,Silver,32,accounts@murray21.com.au,25000,60,2019-11-27,136,1
+463,Gippsland Exports,MFG000463,Healthcare,Bronze,33,accounts@gippsland71.com.au,500000,30,2024-03-12,178,1
+464,Banksia Holdings,MFG000464,Apparel,Platinum,15,accounts@banksia45.com.au,25000,60,2024-06-24,15,1
+465,Gippsland Enterprises,MFG000465,Automotive,Gold,15,accounts@gippsland17.com.au,25000,60,2021-11-01,178,1
+466,Hunter Wholesale,MFG000466,Hospitality,Gold,11,accounts@hunter14.com.au,500000,14,2021-03-14,123,1
+467,Flinders Partners,MFG000467,Grocery,Bronze,39,accounts@flinders55.com.au,25000,30,2020-09-25,206,1
+468,Nullarbor Warehousing,MFG000468,Construction,Bronze,4,accounts@nullarbor8.com.au,100000,45,2022-03-14,177,1
+469,Wattle Trading,MFG000469,Apparel,Bronze,36,accounts@wattle15.com.au,25000,60,2024-02-14,97,1
+470,Kimberley Supply Co,MFG000470,Apparel,Platinum,39,accounts@kimberley68.com.au,500000,45,2023-11-14,12,1
+471,Pilbara Merchants,MFG000471,Healthcare,Silver,48,accounts@pilbara17.com.au,50000,45,2020-06-29,14,1
+472,Pilbara Trading,MFG000472,Construction,Silver,45,accounts@pilbara85.com.au,25000,30,2024-03-15,207,1
+473,Murray Wholesale,MFG000473,Apparel,Gold,22,accounts@murray81.com.au,1000000,30,2020-01-31,136,1
+474,Yarra Retail Group,MFG000474,Industrial,Bronze,20,accounts@yarra54.com.au,500000,30,2020-03-23,30,1
+475,Redgum Merchants,MFG000475,Mining Services,Gold,12,accounts@redgum50.com.au,250000,30,2018-08-17,123,1
+476,Flinders Imports,MFG000476,Automotive,Bronze,30,accounts@flinders16.com.au,500000,60,2020-08-11,64,1
+477,Arnhem Exports,MFG000477,Agriculture,Platinum,6,accounts@arnhem64.com.au,25000,60,2023-04-01,35,1
+478,Redgum Wholesale,MFG000478,Retail,Gold,15,accounts@redgum98.com.au,50000,45,2021-05-11,146,1
+479,Kimberley Group,MFG000479,Agriculture,Bronze,44,accounts@kimberley85.com.au,500000,14,2022-02-21,206,1
+480,Banksia Group,MFG000480,Electronics,Silver,46,accounts@banksia77.com.au,500000,45,2024-04-26,30,1
+481,Tanami Group,MFG000481,Grocery,Gold,20,accounts@tanami70.com.au,250000,14,2022-04-03,64,1
+482,Gippsland Provisions,MFG000482,Healthcare,Platinum,11,accounts@gippsland5.com.au,50000,45,2020-07-28,68,1
+483,Redgum Manufacturing,MFG000483,Healthcare,Gold,42,accounts@redgum89.com.au,25000,30,2019-01-12,137,1
+484,Gippsland Merchants,MFG000484,Retail,Bronze,23,accounts@gippsland68.com.au,25000,14,2021-11-14,68,1
+485,Arnhem Logistics Partners,MFG000485,Hospitality,Gold,34,accounts@arnhem42.com.au,25000,30,2023-01-15,97,1
+486,Grampians Holdings,MFG000486,Industrial,Gold,32,accounts@grampians11.com.au,100000,30,2019-08-01,15,1
+487,Pilbara Enterprises,MFG000487,Grocery,Gold,23,accounts@pilbara28.com.au,100000,60,2020-12-30,241,1
+488,Tanami Logistics Partners,MFG000488,Apparel,Silver,31,accounts@tanami43.com.au,25000,45,2024-07-07,104,1
+489,Redgum Traders,MFG000489,Healthcare,Gold,38,accounts@redgum52.com.au,50000,30,2023-05-10,123,1
+490,Derwent Logistics Partners,MFG000490,Construction,Bronze,2,accounts@derwent99.com.au,50000,45,2021-04-30,190,1
+491,Barossa Provisions,MFG000491,Mining Services,Silver,41,accounts@barossa68.com.au,50000,60,2020-04-24,234,1
+492,Arnhem Provisions,MFG000492,FMCG,Gold,28,accounts@arnhem14.com.au,100000,30,2023-02-24,86,1
+493,Brisbane River Traders,MFG000493,Healthcare,Platinum,22,accounts@brisbane99.com.au,100000,30,2024-01-11,167,1
+494,Tanami Provisions,MFG000494,Industrial,Silver,13,accounts@tanami4.com.au,100000,30,2021-07-17,256,1
+495,Harbour Trading,MFG000495,Grocery,Silver,43,accounts@harbour99.com.au,250000,45,2022-07-08,206,1
+496,Tanami Warehousing,MFG000496,FMCG,Silver,15,accounts@tanami41.com.au,500000,45,2020-10-17,207,1
+497,Kakadu Commodities,MFG000497,Retail,Silver,10,accounts@kakadu60.com.au,25000,60,2022-04-10,171,1
+498,Torrens Agencies,MFG000498,Electronics,Bronze,27,accounts@torrens14.com.au,250000,30,2021-07-12,171,1
+499,Derwent Agencies,MFG000499,Electronics,Bronze,1,accounts@derwent42.com.au,25000,60,2022-11-13,86,1
+500,Hunter Group,MFG000500,Electronics,Silver,30,accounts@hunter15.com.au,50000,30,2020-05-06,86,1
+501,Kimberley Agencies,MFG000501,Industrial,Gold,1,accounts@kimberley69.com.au,25000,30,2018-06-04,84,1
+502,Kingsford Industries,MFG000502,Healthcare,Bronze,26,accounts@kingsford78.com.au,25000,60,2022-12-02,171,1
+503,Nullarbor Holdings,MFG000503,Apparel,Silver,24,accounts@nullarbor50.com.au,100000,14,2022-11-12,86,1
+504,Daintree Industries,MFG000504,Electronics,Platinum,49,accounts@daintree66.com.au,50000,30,2020-08-04,137,1
+505,Kakadu Components,MFG000505,Grocery,Gold,35,accounts@kakadu99.com.au,1000000,30,2021-07-20,29,1
+506,Redgum Imports,MFG000506,Retail,Bronze,28,accounts@redgum41.com.au,50000,30,2019-02-08,104,1
+507,Brisbane River Distribution,MFG000507,Hospitality,Bronze,29,accounts@brisbane22.com.au,50000,45,2023-09-04,97,1
+508,Grampians Group,MFG000508,Electronics,Bronze,18,accounts@grampians42.com.au,500000,45,2023-12-10,207,1
+509,Daintree Agencies,MFG000509,Automotive,Gold,13,accounts@daintree89.com.au,100000,30,2021-08-03,12,1
+510,Blackwood Distribution,MFG000510,Industrial,Silver,46,accounts@blackwood85.com.au,250000,30,2022-07-18,146,1
+511,Barossa Solutions,MFG000511,Agriculture,Gold,8,accounts@barossa32.com.au,25000,14,2023-08-08,84,1
+512,Pilbara Partners,MFG000512,Agriculture,Bronze,29,accounts@pilbara24.com.au,25000,30,2019-12-31,132,1
+513,Swan Wholesale,MFG000513,,Bronze,17,accounts@swan16.com.au,1000000,60,2023-07-30,5,1
+514,Harbour Manufacturing,MFG000514,Mining Services,Silver,43,accounts@harbour60.com.au,100000,60,2022-04-28,29,1
+515,Mornington Industries,MFG000515,Construction,Platinum,2,accounts@mornington67.com.au,50000,30,2019-11-18,90,1
+516,Riverina Wholesale,MFG000516,Hospitality,Silver,28,accounts@riverina34.com.au,100000,30,2020-08-07,177,1
+517,Wattle Agencies,MFG000517,Industrial,Silver,30,accounts@wattle70.com.au,100000,30,2018-10-10,171,1
+518,Flinders Provisions,MFG000518,Construction,Gold,17,accounts@flinders67.com.au,25000,45,2019-10-11,137,1
+519,Derwent Retail Group,MFG000519,Healthcare,Bronze,36,accounts@derwent9.com.au,25000,30,2020-04-04,178,1
+520,Kakadu Agencies,MFG000520,Industrial,Bronze,27,accounts@kakadu36.com.au,250000,30,2018-09-03,208,1
+521,Kimberley Industries,MFG000521,Mining Services,Bronze,4,accounts@kimberley35.com.au,1000000,30,2024-07-17,14,1
+522,Kakadu Retail Group,MFG000522,Grocery,Bronze,22,accounts@kakadu11.com.au,50000,14,2018-10-03,108,1
+523,Flinders Holdings,MFG000523,Healthcare,Silver,47,accounts@flinders46.com.au,25000,30,2021-07-05,56,1
+524,Swan Manufacturing,MFG000524,Healthcare,Bronze,13,accounts@swan67.com.au,50000,30,2024-04-15,90,1
+525,Kimberley Logistics Partners,MFG000525,Electronics,Platinum,8,accounts@kimberley99.com.au,500000,45,2023-09-06,137,1
+526,Gippsland Commodities,MFG000526,Healthcare,Bronze,8,accounts@gippsland62.com.au,250000,30,2019-12-25,5,1
+527,Derwent Freight Services,MFG000527,FMCG,Silver,34,accounts@derwent71.com.au,50000,14,2019-08-31,14,1
+528,Murray Foods,MFG000528,Apparel,Platinum,18,accounts@murray12.com.au,25000,30,2020-01-26,29,1
+529,Daintree Trading,MFG000529,FMCG,Bronze,48,accounts@daintree86.com.au,500000,14,2021-09-05,5,1
+530,Harbour Enterprises,MFG000530,Hospitality,Gold,4,accounts@harbour33.com.au,100000,14,2023-11-16,108,1
+531,Derwent Trading,MFG000531,Mining Services,Bronze,17,accounts@derwent7.com.au,100000,14,2018-03-12,167,1
+532,Yarra Wholesale,MFG000532,Agriculture,Gold,29,accounts@yarra61.com.au,250000,30,2020-12-21,146,1
+533,Murray Partners,MFG000533,Apparel,Silver,24,accounts@murray97.com.au,25000,60,2018-11-19,5,1
+534,Flinders Agencies,MFG000534,Electronics,Bronze,21,accounts@flinders7.com.au,50000,30,2018-05-23,206,1
+535,Coolabah Trading,MFG000535,Healthcare,Silver,13,accounts@coolabah50.com.au,250000,45,2023-09-21,177,1
+536,Nullarbor Distribution,MFG000536,Agriculture,Bronze,44,accounts@nullarbor60.com.au,250000,14,2024-06-09,208,1
+537,Murray Freight Services,MFG000537,Grocery,Gold,4,accounts@murray16.com.au,50000,45,2020-08-28,207,1
+538,Kakadu Logistics Partners,MFG000538,Apparel,Silver,18,accounts@kakadu78.com.au,25000,30,2022-10-17,136,1
+539,Riverina Trading,MFG000539,Construction,Gold,44,accounts@riverina36.com.au,100000,45,2021-05-21,206,1
+540,Kingsford Enterprises,MFG000540,Grocery,Gold,39,accounts@kingsford10.com.au,500000,30,2020-03-10,213,1
+541,Murray Retail Group,MFG000541,Hospitality,Bronze,47,accounts@murray54.com.au,50000,30,2024-04-02,208,1
+542,Blackwood Freight Services,MFG000542,FMCG,Gold,38,accounts@blackwood12.com.au,50000,45,2022-06-08,15,1
+543,Harbour Traders,MFG000543,Construction,Bronze,37,accounts@harbour91.com.au,100000,30,2023-10-16,241,1
+544,Brisbane River Components,MFG000544,Apparel,Platinum,40,accounts@brisbane5.com.au,50000,14,2023-09-09,238,1
+545,Yarra Industries,MFG000545,Mining Services,Silver,15,accounts@yarra1.com.au,50000,30,2020-02-12,208,1
+546,Kimberley Components,MFG000546,Retail,Silver,50,accounts@kimberley61.com.au,50000,45,2020-11-01,86,1
+547,Swan Industries,MFG000547,Healthcare,Bronze,38,accounts@swan64.com.au,50000,30,2023-08-10,238,1
+548,Riverina Commodities,MFG000548,Healthcare,Gold,6,accounts@riverina31.com.au,25000,60,2020-02-18,154,1
+549,Daintree Freight Services,MFG000549,Retail,Bronze,45,accounts@daintree28.com.au,500000,30,2021-03-12,104,1
+550,Kimberley Merchants,MFG000550,Mining Services,Bronze,3,accounts@kimberley43.com.au,25000,30,2024-04-07,146,1
+551,Hunter Agencies,MFG000551,Retail,Bronze,25,accounts@hunter61.com.au,25000,45,2020-06-11,108,1
+552,Swan Traders,MFG000552,Apparel,Gold,50,accounts@swan58.com.au,25000,30,2023-07-12,177,1
+553,Kingsford Retail Group,MFG000553,Electronics,Silver,16,accounts@kingsford50.com.au,50000,60,2018-03-21,12,1
+554,Blackwood Foods,MFG000554,FMCG,Silver,15,accounts@blackwood28.com.au,25000,45,2022-08-15,35,1
+555,Sunraysia Commodities,MFG000555,Healthcare,Bronze,46,accounts@sunraysia61.com.au,25000,30,2021-03-25,238,1
+556,Redgum Commodities,MFG000556,Automotive,Bronze,44,accounts@redgum89.com.au,25000,30,2020-09-30,146,1
+557,Bellarine Warehousing,MFG000557,Automotive,Bronze,6,accounts@bellarine52.com.au,500000,60,2021-08-06,12,1
+558,Wattle Exports,MFG000558,Electronics,Bronze,13,accounts@wattle32.com.au,50000,30,2022-03-08,12,1
+559,Sunraysia Group,MFG000559,Mining Services,Silver,15,accounts@sunraysia64.com.au,500000,45,2023-11-04,167,1
+560,Wattle Logistics Partners,MFG000560,Grocery,Silver,10,accounts@wattle81.com.au,25000,60,2022-02-06,14,1
+561,Kingsford Agencies,MFG000561,,Bronze,48,accounts@kingsford63.com.au,25000,30,2020-11-23,154,1
+562,Mornington Merchants,MFG000562,Retail,Silver,32,accounts@mornington3.com.au,500000,60,2019-01-05,15,1
+563,Mornington Retail Group,MFG000563,FMCG,Bronze,45,accounts@mornington61.com.au,1000000,30,2023-05-09,97,1
+564,Barossa Holdings,MFG000564,Construction,Gold,19,accounts@barossa60.com.au,50000,30,2023-08-07,190,1
+565,Hunter Retail Group,MFG000565,Apparel,Silver,2,accounts@hunter19.com.au,500000,14,2021-06-25,104,1
+566,Coolabah Industries,MFG000566,Retail,Bronze,6,accounts@coolabah46.com.au,100000,45,2019-01-30,136,1
+567,Flinders Traders,MFG000567,Industrial,Bronze,45,accounts@flinders34.com.au,250000,45,2019-03-23,234,1
+568,Derwent Holdings,MFG000568,Electronics,Bronze,19,accounts@derwent66.com.au,50000,30,2019-01-18,108,1
+569,Wattle Warehousing,MFG000569,Mining Services,Platinum,36,accounts@wattle33.com.au,50000,30,2021-08-27,227,1
+570,Kingsford Solutions,MFG000570,Hospitality,Gold,18,accounts@kingsford15.com.au,25000,30,2018-06-21,104,1
+571,Banksia Manufacturing,MFG000571,Retail,Gold,24,accounts@banksia11.com.au,1000000,30,2020-03-09,12,1
+572,Arnhem Holdings,MFG000572,Automotive,Gold,34,accounts@arnhem74.com.au,25000,30,2018-11-18,171,1
+573,Daintree Components,MFG000573,FMCG,Gold,37,accounts@daintree5.com.au,100000,30,2024-04-22,208,1
+574,Blackwood Warehousing,MFG000574,Healthcare,Silver,46,accounts@blackwood13.com.au,50000,60,2024-07-13,35,1
+575,Gippsland Logistics Partners,MFG000575,Apparel,Silver,48,accounts@gippsland60.com.au,100000,45,2020-12-11,12,1
+576,Nullarbor Components,MFG000576,Hospitality,Silver,11,accounts@nullarbor42.com.au,100000,45,2023-03-01,154,1
+577,Flinders Wholesale,MFG000577,Retail,Bronze,26,accounts@flinders12.com.au,100000,30,2019-05-01,5,1
+578,Mallee Components,MFG000578,Construction,Bronze,48,accounts@mallee23.com.au,25000,60,2019-10-14,97,1
+579,Grampians Freight Services,MFG000579,Grocery,Platinum,39,accounts@grampians76.com.au,50000,30,2023-08-05,234,1
+580,Gippsland Partners,MFG000580,Healthcare,Silver,38,accounts@gippsland17.com.au,50000,45,2018-07-23,146,1
+581,Barossa Freight Services,MFG000581,FMCG,Silver,14,accounts@barossa90.com.au,25000,30,2021-12-15,5,1
+582,Kimberley Enterprises,MFG000582,Healthcare,Platinum,10,accounts@kimberley5.com.au,1000000,45,2021-02-04,104,1
+583,Harbour Imports,MFG000583,Electronics,Bronze,31,accounts@harbour6.com.au,50000,14,2018-04-17,14,1
+584,Arnhem Merchants,MFG000584,Automotive,Bronze,41,accounts@arnhem83.com.au,250000,30,2019-04-30,68,1
+585,Hunter Manufacturing,MFG000585,Healthcare,Bronze,48,accounts@hunter1.com.au,25000,14,2023-05-01,90,1
+586,Bellarine Foods,MFG000586,Automotive,Silver,42,accounts@bellarine82.com.au,50000,45,2019-05-17,256,1
+587,Redgum Freight Services,MFG000587,Industrial,Gold,37,accounts@redgum34.com.au,100000,30,2022-11-03,227,1
+588,Barossa Industries,MFG000588,Electronics,Gold,11,accounts@barossa41.com.au,50000,30,2022-07-15,256,1
+589,Brisbane River Warehousing,MFG000589,Automotive,Bronze,8,accounts@brisbane48.com.au,1000000,30,2022-01-10,238,1
+590,Brisbane River Supply Co,MFG000590,FMCG,Bronze,39,accounts@brisbane47.com.au,25000,30,2022-03-16,35,1
+591,Swan Logistics Partners,MFG000591,Industrial,Gold,26,accounts@swan79.com.au,50000,30,2018-12-20,35,1
+592,Bellarine Provisions,MFG000592,Automotive,Silver,41,accounts@bellarine60.com.au,50000,60,2018-01-05,35,1
+593,Flinders Warehousing,MFG000593,Agriculture,Silver,11,accounts@flinders81.com.au,100000,45,2021-02-04,84,1
+594,Wattle Partners,MFG000594,Construction,Silver,49,accounts@wattle44.com.au,50000,30,2022-03-11,223,1
+595,Bellarine Distribution,MFG000595,FMCG,Silver,40,accounts@bellarine4.com.au,250000,30,2020-04-26,167,1
+596,Pilbara Commodities,MFG000596,Grocery,Silver,31,accounts@pilbara41.com.au,25000,45,2020-04-23,234,1
+597,Murray Industries,MFG000597,Mining Services,Bronze,40,accounts@murray10.com.au,50000,60,2023-06-22,137,1
+598,Tanami Freight Services,MFG000598,Industrial,Bronze,42,accounts@tanami87.com.au,50000,30,2020-10-09,86,1
+599,Barossa Retail Group,MFG000599,FMCG,Bronze,1,accounts@barossa19.com.au,50000,30,2023-07-26,213,1
+600,Mallee Manufacturing,MFG000600,Hospitality,Silver,46,accounts@mallee31.com.au,100000,45,2022-04-03,227,1
+601,Kingsford Warehousing,MFG000601,Construction,Gold,29,accounts@kingsford76.com.au,1000000,30,2022-12-13,238,1
+602,Hunter Components,MFG000602,Apparel,Bronze,26,accounts@hunter12.com.au,50000,45,2023-08-23,84,1
+603,Flinders Distribution,MFG000603,Grocery,Silver,49,accounts@flinders75.com.au,50000,45,2019-05-11,178,1
+604,Kimberley Freight Services,MFG000604,Healthcare,Bronze,34,accounts@kimberley54.com.au,100000,30,2024-03-19,136,1
+605,Swan Freight Services,MFG000605,Healthcare,Platinum,45,accounts@swan78.com.au,100000,14,2018-07-21,123,1
+606,Flinders Exports,MFG000606,Agriculture,Bronze,50,accounts@flinders73.com.au,50000,30,2020-04-07,64,1
+607,Tanami Trading,MFG000607,Construction,Bronze,15,accounts@tanami70.com.au,500000,60,2018-01-31,29,1
+608,Hunter Merchants,MFG000608,Hospitality,Bronze,49,accounts@hunter19.com.au,50000,30,2021-11-26,234,1
+609,Bellarine Components,MFG000609,,Bronze,7,accounts@bellarine7.com.au,100000,30,2020-11-28,90,1
+610,Wattle Supply Co,MFG000610,Retail,Bronze,39,accounts@wattle45.com.au,250000,30,2018-08-29,256,1
+611,Derwent Traders,MFG000611,Apparel,Silver,27,accounts@derwent24.com.au,500000,30,2019-11-05,35,1
+612,Coolabah Holdings,MFG000612,Industrial,Bronze,13,accounts@coolabah21.com.au,250000,30,2019-12-04,30,1
+613,Sunraysia Supply Co,MFG000613,Agriculture,Bronze,38,accounts@sunraysia18.com.au,100000,14,2018-09-10,244,1
+614,Nullarbor Logistics Partners,MFG000614,Industrial,Bronze,33,accounts@nullarbor4.com.au,50000,60,2020-02-28,29,1
+615,Kakadu Distribution,MFG000615,Mining Services,Silver,26,accounts@kakadu62.com.au,25000,30,2023-09-23,90,1
+616,Pilbara Provisions,MFG000616,Mining Services,Bronze,17,accounts@pilbara93.com.au,50000,30,2020-08-19,137,1
+617,Blackwood Group,MFG000617,Apparel,Platinum,34,accounts@blackwood6.com.au,100000,30,2022-04-11,30,1
+618,Redgum Retail Group,MFG000618,Construction,Bronze,36,accounts@redgum94.com.au,25000,30,2020-07-10,223,1
+619,Tanami Imports,MFG000619,Automotive,Silver,14,accounts@tanami56.com.au,100000,14,2022-01-29,12,1
+620,Barossa Group,MFG000620,FMCG,Bronze,20,accounts@barossa33.com.au,25000,30,2018-11-28,227,1
+621,Derwent Traders,MFG000621,Apparel,Silver,27,accounts@derwent24.com.au,500000,30,2019-11-05,223,1
+622,mornington holdings,MFG000622,FMCG,Gold,42,ACCOUNTS@MORNINGTON90.COM.AU,25000,30,2019-01-25,234,1
+623,Flinders Warehousing Pty Ltd,MFG000623,Agriculture,Silver,11,ACCOUNTS@FLINDERS81.COM.AU,100000,45,2021-02-04,146,1
+624,Torrens  Warehousing,MFG000624,Automotive,Gold,27,accounts@torrens92.com.au,100000,30,2019-03-20,64,1
+625, Coolabah Solutions,MFG000625,,Bronze,13,accounts@coolabah74.com.au,25000,45,2024-05-07,171,1
+626, Coolabah Supply Co,MFG000626,Healthcare,Silver,3,accounts@coolabah90.com.au,25000,14,2020-12-14,234,1
+627,Torrens Partners Pty Ltd,MFG000627,Mining Services,Gold,16,ACCOUNTS@TORRENS40.COM.AU,100000,60,2022-01-29,108,1
+628,banksia freight services,MFG000628,Retail,Gold,23,accounts@banksia20.com.au,50000,45,2020-02-22,132,1
+629,Banksia Enterprises,MFG000629,Healthcare,Silver,41,ACCOUNTS@BANKSIA63.COM.AU,250000,45,2020-05-12,68,1
+630,bellarine solutions,MFG000630,Agriculture,Bronze,37,ACCOUNTS@BELLARINE53.COM.AU,250000,60,2023-12-16,256,1
+631,Blackwood  Trading,MFG000631,Grocery,Gold,34,accounts@blackwood51.com.au,250000,30,2020-06-24,14,1
+632,WATTLE SOLUTIONS,MFG000632,Automotive,Bronze,25,accounts@wattle5.com.au,25000,30,2023-04-01,171,1
+633,banksia agencies,MFG000633,Healthcare,Silver,49,ACCOUNTS@BANKSIA67.COM.AU,50000,30,2024-03-06,213,1
+634,derwent trading,MFG000634,Mining Services,Bronze,17,ACCOUNTS@DERWENT7.COM.AU,100000,14,2018-03-12,256,1
+635,Sunraysia Wholesale Pty Ltd,MFG000635,Apparel,Bronze,27,ACCOUNTS@SUNRAYSIA74.COM.AU,250000,30,2022-07-16,12,1
+636,Kingsford Agencies Pty Ltd,MFG000636,Automotive,Bronze,48,accounts@kingsford63.com.au,25000,30,2020-11-23,206,1
+637,hunter logistics partners,MFG000637,Industrial,Silver,29,accounts@hunter14.com.au,500000,30,2018-02-13,84,1
+638,swan industries,MFG000638,,Bronze,38,ACCOUNTS@SWAN64.COM.AU,50000,30,2023-08-10,178,1
+639,Redgum Distribution Pty Ltd,MFG000639,Retail,Gold,17,accounts@redgum45.com.au,500000,14,2024-07-09,167,1
+640,Brisbane  River  Industries,MFG000640,Hospitality,Silver,4,accounts@brisbane29.com.au,25000,14,2022-06-14,64,1
+641,Banksia  Distribution,MFG000641,Agriculture,Silver,44,accounts@banksia42.com.au,100000,30,2021-08-20,177,1
+642,Swan Logistics Partners,MFG000642,Industrial,Gold,26,accounts@swan79.com.au,50000,30,2018-12-20,64,1
+643, Redgum Supply Co,MFG000643,Healthcare,Bronze,36,accounts@redgum35.com.au,50000,30,2020-09-14,12,1
+644,Sunraysia Group Pty Ltd,MFG000644,Mining Services,Silver,15,accounts@sunraysia64.com.au,500000,45,2023-11-04,241,1
+645,mornington merchants,MFG000645,Retail,Silver,32,ACCOUNTS@MORNINGTON3.COM.AU,500000,60,2019-01-05,14,1
+646,Blackwood  Solutions,MFG000646,Healthcare,Bronze,46,ACCOUNTS@BLACKWOOD92.COM.AU,100000,45,2023-06-09,190,1
+647,Grampians Industries,MFG000647,Hospitality,Silver,42,ACCOUNTS@GRAMPIANS32.COM.AU,100000,45,2020-06-14,167,1
+648,Blackwood Dist,MFG000648,Industrial,Silver,46,accounts@blackwood85.com.au,250000,30,2022-07-18,171,1

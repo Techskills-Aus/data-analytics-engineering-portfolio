@@ -1,0 +1,49 @@
+let
+    StartDate = #date(2023, 1, 1),
+    EndDate   = #date(2026, 12, 31),
+    DayCount  = Duration.Days(EndDate - StartDate) + 1,
+    DateList  = List.Dates(StartDate, DayCount, #duration(1,0,0,0)),
+    ToTable   = Table.FromList(DateList, Splitter.SplitByNothing(), {"Date"}),
+    TypeDate  = Table.TransformColumnTypes(ToTable, {{"Date", type date}}),
+ 
+    Cols = Table.AddColumn(TypeDate, "Attributes", each
+        let
+            dt   = [Date],
+            yr   = Date.Year(dt),
+            mth  = Date.Month(dt),
+            // Australian FY starts 1 July. If month is July (7) or later, FY is the next calendar year.
+            fy   = if mth >= 7 then yr + 1 else yr,
+            // Accurate Australian Fiscal Quarter calculation (July-Sept = FQ1, Oct-Dec = FQ2, Jan-Mar = FQ3, Apr-Jun = FQ4)
+            fq   = Number.IntegerDivide(Number.Mod(mth - 7, 12), 3) + 1
+        in
+        [ DateKey       = yr * 10000 + mth * 100 + Date.Day(dt),
+          Year          = yr,
+          MonthNumber   = mth,
+          MonthName     = Date.ToText(dt, "MMMM"),
+          MonthShort    = Date.ToText(dt, "MMM"),
+          YearMonth     = Date.ToText(dt, "yyyy-MM"),
+          MonthYear     = Date.ToText(dt, "MMM yyyy"),
+          MonthSort     = yr * 100 + mth,
+          Quarter       = "Q" & Text.From(Date.QuarterOfYear(dt)),
+          FinancialYear = "FY" & Text.From(fy),
+          FinQuarter    = "FQ" & Text.From(fq),
+          // Fixed Half-Year: July-Dec is H1 of the Financial Year, Jan-Jun is H2
+          HalfYear      = "FY" & Text.From(String.Range(Text.From(fy), 2, 2)) & " H" & (if mth >= 7 then "1" else "2"),
+          DayName       = Date.ToText(dt, "dddd"),
+          DayOfWeek     = Date.DayOfWeek(dt, Day.Monday) + 1,
+          IsWeekend     = Date.DayOfWeek(dt, Day.Monday) >= 5,
+          IsWorkingDay  = Date.DayOfWeek(dt, Day.Monday) < 5 ]
+    ),
+ 
+    Expanded = Table.ExpandRecordColumn(Cols, "Attributes",
+        {"DateKey","Year","MonthNumber","MonthName","MonthShort","YearMonth",
+         "MonthYear","MonthSort","Quarter","FinancialYear","FinQuarter",
+         "HalfYear","DayName","DayOfWeek","IsWeekend","IsWorkingDay"}),
+ 
+    Typed = Table.TransformColumnTypes(Expanded, {
+        {"DateKey", Int64.Type}, {"Year", Int64.Type},
+        {"MonthNumber", Int64.Type}, {"MonthSort", Int64.Type},
+        {"DayOfWeek", Int64.Type}, {"IsWeekend", type logical},
+        {"IsWorkingDay", type logical}})
+in
+    Typed

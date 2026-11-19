@@ -1,0 +1,781 @@
+product_id,sku_code,product_name,product_category,uom,temperature_class,unit_weight_kg,unit_cubic_m,dangerous_goods_class,is_active
+1,SKU-00001,PHARMACEUTICALS-STD-24PK-2765,Pharmaceuticals,Cartons,Chilled,8.61,0.033,Class 9 Misc,1
+2,SKU-00002,ELECTRONICS-A-12PK-8971,Electronics,Cartons,Ambient,14.14,0.0476,None,1
+3,SKU-00003,BUILDING-B-1EA-3800,Building Materials,Pallets,Ambient,12.53,0.0468,None,1
+4,SKU-00004,HOMEWARES-PRM-1EA-2792,Homewares,Cartons,Ambient,5.63,0.0227,None,1
+5,SKU-00005,BEVERAGES-A-12PK-9666,Beverages,Pallets,Ambient,9.71,0.0357,None,1
+6,SKU-00006,APPAREL-A-12PK-8904,Apparel,Cartons,Ambient,21.15,0.0988,Class 9 Misc,1
+7,SKU-00007,MINING-STD-1EA-6660,Mining Consumables,Pallets,Ambient,27.77,0.0944,Class 8 Corrosive,1
+8,SKU-00008,CHILLED-A-12PK-7106,Chilled Food,Cartons,Chilled,19.8,0.0713,None,1
+9,SKU-00009,BUILDING-A-24PK-7681,Building Materials,Pallets,Ambient,14.98,0.0547,None,1
+10,SKU-00010,AUTO-A-6PK-9870,Auto Parts,Pallets,Ambient,30.24,0.1493,None,1
+11,SKU-00011,AMBIENT-PRM-48PK-1651,Ambient Grocery,Cartons,Ambient,20.63,0.0749,None,1
+12,SKU-00012,PHARMACEUTICALS-PRM-6PK-4403,Pharmaceuticals,Cartons,Ambient,6.72,0.0236,None,1
+13,SKU-00013,AUTO-A-12PK-8210,Auto Parts,Pallets,Ambient,10.69,0.0425,None,1
+14,SKU-00014,AMBIENT-STD-1EA-2144,Ambient Grocery,Cartons,Ambient,11.38,0.0388,None,1
+15,SKU-00015,INDUSTRIAL-STD-24PK-5119,Industrial Consumables,Pallets,Ambient,16.29,0.0853,None,1
+16,SKU-00016,BEVERAGES-A-1EA-5714,Beverages,Pallets,Ambient,26.96,0.1119,None,1
+17,SKU-00017,BUILDING-B-24PK-4785,Building Materials,Pallets,Ambient,5.24,0.0175,Class 8 Corrosive,1
+18,SKU-00018,AMBIENT-PRM-24PK-7792,Ambient Grocery,Cartons,Ambient,8.29,0.0312,Class 8 Corrosive,1
+19,SKU-00019,HOMEWARES-STD-1EA-3242,Homewares,Cartons,Ambient,6.54,0.0271,None,1
+20,SKU-00020,BUILDING-B-1EA-7001,Building Materials,Pallets,Ambient,16.0,0.0586,None,1
+21,SKU-00021,AMBIENT-PRM-12PK-5972,Ambient Grocery,Cartons,Ambient,4.78,0.016,None,1
+22,SKU-00022,INDUSTRIAL-B-6PK-9231,Industrial Consumables,Pallets,Ambient,17.93,0.0692,None,1
+23,SKU-00023,MINING-B-6PK-1053,Mining Consumables,Pallets,Ambient,11.95,0.044,None,1
+24,SKU-00024,MINING-PRM-48PK-7575,Mining Consumables,Pallets,Ambient,13.04,0.0534,None,1
+25,SKU-00025,BEVERAGES-PRM-12PK-3769,Beverages,Pallets,Ambient,12.05,0.0393,Class 9 Misc,1
+26,SKU-00026,BEVERAGES-A-48PK-2239,Beverages,Pallets,Ambient,43.72,0.2367,None,1
+27,SKU-00027,APPAREL-PRM-48PK-6906,Apparel,Cartons,Ambient,10.7,0.0372,None,1
+28,SKU-00028,HOMEWARES-STD-24PK-1693,Homewares,Cartons,Ambient,2.83,0.013,None,1
+29,SKU-00029,FROZEN-B-24PK-2588,Frozen Food,Cartons,Frozen,2.86,0.013,Class 3 Flammable,1
+30,SKU-00030,AMBIENT-B-48PK-9147,Ambient Grocery,Cartons,Ambient,4.09,0.0139,Class 8 Corrosive,1
+31,SKU-00031,FROZEN-PRM-24PK-6836,Frozen Food,Cartons,Frozen,17.39,0.0555,None,1
+32,SKU-00032,CHILLED-PRM-24PK-4316,Chilled Food,Cartons,Chilled,19.14,0.06,Class 3 Flammable,1
+33,SKU-00033,MINING-B-48PK-2005,Mining Consumables,Pallets,Ambient,26.54,0.1075,None,1
+34,SKU-00034,BEVERAGES-PRM-6PK-8749,Beverages,Pallets,Ambient,11.82,0.0609,None,1
+35,SKU-00035,ELECTRONICS-STD-6PK-1202,Electronics,Cartons,Ambient,16.5,0.0684,Class 9 Misc,1
+36,SKU-00036,CHILLED-STD-6PK-5651,Chilled Food,Cartons,Chilled,2.19,0.0086,None,1
+37,SKU-00037,MINING-B-12PK-3627,Mining Consumables,Pallets,Ambient,28.06,0.1288,None,1
+38,SKU-00038,FROZEN-STD-6PK-2487,Frozen Food,Cartons,Frozen,8.92,0.0291,None,1
+39,SKU-00039,BEVERAGES-A-24PK-4969,Beverages,Pallets,Ambient,1.82,0.0092,None,1
+40,SKU-00040,ELECTRONICS-PRM-12PK-7449,Electronics,Cartons,Ambient,11.07,0.0377,None,1
+41,SKU-00041,MINING-B-6PK-8619,Mining Consumables,Pallets,Ambient,0.63,0.002,None,1
+42,SKU-00042,INDUSTRIAL-A-48PK-8526,Industrial Consumables,Pallets,Ambient,17.02,0.0822,None,1
+43,SKU-00043,BEVERAGES-B-24PK-9134,Beverages,Pallets,Ambient,4.12,0.0133,None,1
+44,SKU-00044,HOMEWARES-A-48PK-3058,Homewares,Cartons,Ambient,7.27,0.0274,None,1
+45,SKU-00045,HOMEWARES-B-12PK-6982,Homewares,Cartons,Ambient,11.55,0.0572,Class 9 Misc,1
+46,SKU-00046,BUILDING-STD-6PK-1945,Building Materials,Pallets,Ambient,8.25,0.0394,Class 9 Misc,1
+47,SKU-00047,APPAREL-A-12PK-8837,Apparel,Cartons,Ambient,15.18,0.0602,None,1
+48,SKU-00048,ELECTRONICS-B-48PK-2598,Electronics,Cartons,Ambient,21.35,0.0835,None,1
+49,SKU-00049,AUTO-A-48PK-7990,Auto Parts,Pallets,Ambient,4.31,0.0181,None,1
+50,SKU-00050,APPAREL-B-24PK-7830,Apparel,Cartons,Ambient,2.81,0.0141,None,1
+51,SKU-00051,ELECTRONICS-B-1EA-4538,Electronics,Cartons,Ambient,17.28,0.0674,None,1
+52,SKU-00052,ELECTRONICS-A-12PK-8833,Electronics,Cartons,Ambient,14.02,0.0524,None,1
+53,SKU-00053,FROZEN-PRM-24PK-8081,Frozen Food,Cartons,Frozen,39.15,0.134,None,1
+54,SKU-00054,PHARMACEUTICALS-B-1EA-2414,Pharmaceuticals,Cartons,Ambient,12.93,0.047,None,1
+55,SKU-00055,FROZEN-STD-1EA-2834,Frozen Food,Cartons,Frozen,6.69,0.0346,None,1
+56,SKU-00056,PHARMACEUTICALS-A-48PK-4509,Pharmaceuticals,Cartons,Chilled,7.14,0.0326,None,1
+57,SKU-00057,MINING-A-12PK-3200,Mining Consumables,Pallets,Ambient,35.45,0.1808,None,1
+58,SKU-00058,FROZEN-PRM-48PK-9742,Frozen Food,Cartons,Frozen,7.49,0.0407,None,1
+59,SKU-00059,PHARMACEUTICALS-B-6PK-4611,Pharmaceuticals,Cartons,Ambient,24.02,0.0847,None,1
+60,SKU-00060,BUILDING-STD-48PK-7186,Building Materials,Pallets,Ambient,5.17,0.0176,None,1
+61,SKU-00061,AMBIENT-B-1EA-6512,Ambient Grocery,Cartons,Ambient,9.51,0.048,None,1
+62,SKU-00062,FROZEN-A-12PK-1736,Frozen Food,Cartons,Frozen,11.51,0.0573,None,1
+63,SKU-00063,FROZEN-B-12PK-7709,Frozen Food,Cartons,Frozen,5.42,0.0212,None,1
+64,SKU-00064,HOMEWARES-STD-12PK-9256,Homewares,Cartons,Ambient,9.11,0.0458,None,1
+65,SKU-00065,AMBIENT-B-1EA-7155,Ambient Grocery,Cartons,Ambient,16.94,0.0597,Class 8 Corrosive,1
+66,SKU-00066,HOMEWARES-B-1EA-2148,Homewares,Cartons,Ambient,19.18,0.0759,None,1
+67,SKU-00067,AUTO-STD-1EA-1979,Auto Parts,Pallets,Ambient,6.35,0.0275,None,1
+68,SKU-00068,AMBIENT-A-24PK-5659,Ambient Grocery,Cartons,Ambient,6.29,0.0298,None,1
+69,SKU-00069,INDUSTRIAL-PRM-1EA-5474,Industrial Consumables,Pallets,Ambient,7.49,0.0352,Class 3 Flammable,1
+70,SKU-00070,BEVERAGES-STD-48PK-7123,Beverages,Pallets,Ambient,3.39,0.0131,None,1
+71,SKU-00071,APPAREL-PRM-1EA-4886,Apparel,Cartons,Ambient,16.34,0.0569,None,1
+72,SKU-00072,INDUSTRIAL-PRM-48PK-5992,Industrial Consumables,Pallets,Ambient,7.1,0.0291,None,1
+73,SKU-00073,APPAREL-PRM-12PK-4570,Apparel,Cartons,Ambient,9.29,0.0483,None,1
+74,SKU-00074,HOMEWARES-PRM-12PK-3484,Homewares,Cartons,Ambient,43.32,0.1355,None,1
+75,SKU-00075,MINING-B-24PK-1955,Mining Consumables,Pallets,Ambient,14.01,0.075,None,1
+76,SKU-00076,AMBIENT-B-12PK-5227,Ambient Grocery,Cartons,Ambient,18.12,0.0714,None,1
+77,SKU-00077,PHARMACEUTICALS-A-12PK-1301,Pharmaceuticals,Cartons,Chilled,24.67,0.1288,None,1
+78,SKU-00078,BEVERAGES-PRM-24PK-3646,Beverages,Pallets,Ambient,19.91,0.0633,Class 8 Corrosive,1
+79,SKU-00079,INDUSTRIAL-A-48PK-7521,Industrial Consumables,Pallets,Ambient,11.28,0.0578,None,1
+80,SKU-00080,MINING-STD-12PK-5847,Mining Consumables,Pallets,Ambient,21.02,0.0711,None,1
+81,SKU-00081,APPAREL-B-24PK-6464,Apparel,Cartons,Ambient,4.96,0.0157,None,1
+82,SKU-00082,FROZEN-PRM-24PK-9296,Frozen Food,Cartons,Frozen,6.12,0.0307,None,1
+83,SKU-00083,AUTO-B-1EA-2240,Auto Parts,Pallets,Ambient,15.39,0.0671,None,1
+84,SKU-00084,ELECTRONICS-PRM-48PK-4808,Electronics,Cartons,Ambient,19.59,0.0916,None,1
+85,SKU-00085,ELECTRONICS-A-12PK-2216,Electronics,Cartons,Ambient,15.48,0.0625,None,1
+86,SKU-00086,APPAREL-PRM-6PK-1776,Apparel,Cartons,Ambient,5.96,0.0223,None,1
+87,SKU-00087,CHILLED-B-1EA-2390,Chilled Food,Cartons,Chilled,25.74,0.0859,None,1
+88,SKU-00088,HOMEWARES-A-48PK-7561,Homewares,Cartons,Ambient,18.73,0.096,None,1
+89,SKU-00089,CHILLED-A-1EA-5502,Chilled Food,Cartons,Chilled,9.54,0.0412,None,1
+90,SKU-00090,APPAREL-PRM-12PK-8250,Apparel,Cartons,Ambient,8.78,0.0478,None,1
+91,SKU-00091,HOMEWARES-A-6PK-8988,Homewares,Cartons,Ambient,6.08,0.0195,None,1
+92,SKU-00092,BEVERAGES-A-6PK-3571,Beverages,Pallets,Ambient,16.43,0.0823,None,1
+93,SKU-00093,HOMEWARES-B-48PK-6505,Homewares,Cartons,Ambient,42.95,0.1553,None,1
+94,SKU-00094,AUTO-B-48PK-6732,Auto Parts,Pallets,Ambient,13.81,0.0546,None,1
+95,SKU-00095,APPAREL-STD-12PK-4104,Apparel,Cartons,Ambient,6.5,0.0289,None,1
+96,SKU-00096,PHARMACEUTICALS-A-1EA-6792,Pharmaceuticals,Cartons,Chilled,10.04,0.0461,Class 9 Misc,1
+97,SKU-00097,HOMEWARES-A-24PK-7256,Homewares,Cartons,Ambient,8.14,0.0378,Class 8 Corrosive,1
+98,SKU-00098,ELECTRONICS-STD-24PK-6618,Electronics,Cartons,Ambient,24.09,0.1181,None,1
+99,SKU-00099,MINING-STD-1EA-2295,Mining Consumables,Pallets,Ambient,24.5,0.0943,None,1
+100,SKU-00100,INDUSTRIAL-A-1EA-7598,Industrial Consumables,Pallets,Ambient,15.62,0.0803,None,1
+101,SKU-00101,ELECTRONICS-PRM-24PK-3056,Electronics,Cartons,Ambient,10.71,0.0567,None,1
+102,SKU-00102,AUTO-B-24PK-4048,Auto Parts,Pallets,Ambient,2.75,0.0134,None,1
+103,SKU-00103,INDUSTRIAL-PRM-24PK-3972,Industrial Consumables,Pallets,Ambient,18.2,0.0708,None,1
+104,SKU-00104,AUTO-STD-12PK-6393,Auto Parts,Pallets,Ambient,7.85,0.0358,None,1
+105,SKU-00105,ELECTRONICS-A-12PK-7091,Electronics,Cartons,Ambient,18.81,0.0916,None,1
+106,SKU-00106,FROZEN-STD-12PK-1173,Frozen Food,Cartons,Frozen,17.19,0.0564,Class 8 Corrosive,1
+107,SKU-00107,FROZEN-A-24PK-2691,Frozen Food,Cartons,Frozen,7.02,0.037,None,1
+108,SKU-00108,AUTO-STD-24PK-8910,Auto Parts,Pallets,Ambient,16.11,0.0668,None,1
+109,SKU-00109,AUTO-STD-12PK-5518,Auto Parts,Pallets,Ambient,6.82,0.0235,None,1
+110,SKU-00110,CHILLED-STD-24PK-7413,Chilled Food,Cartons,Chilled,22.55,0.0799,None,1
+111,SKU-00111,INDUSTRIAL-PRM-12PK-3820,Industrial Consumables,Pallets,Ambient,10.91,0.0575,None,1
+112,SKU-00112,BUILDING-PRM-6PK-7582,Building Materials,Pallets,Ambient,8.3,0.0328,Class 9 Misc,1
+113,SKU-00113,MINING-STD-1EA-1527,Mining Consumables,Pallets,Ambient,25.34,0.1285,Class 3 Flammable,1
+114,SKU-00114,AUTO-STD-1EA-3142,Auto Parts,Pallets,Ambient,9.03,0.0409,None,1
+115,SKU-00115,AUTO-STD-48PK-7240,Auto Parts,Pallets,Ambient,7.45,0.0237,None,1
+116,SKU-00116,AUTO-B-6PK-5279,Auto Parts,Pallets,Ambient,7.52,0.0379,None,1
+117,SKU-00117,BUILDING-PRM-1EA-2663,Building Materials,Pallets,Ambient,9.86,0.0388,None,1
+118,SKU-00118,HOMEWARES-A-6PK-7450,Homewares,Cartons,Ambient,11.2,0.037,None,1
+119,SKU-00119,FROZEN-PRM-48PK-6786,Frozen Food,Cartons,Frozen,40.2,0.1735,None,1
+120,SKU-00120,HOMEWARES-B-6PK-6422,Homewares,Cartons,Ambient,29.78,0.1134,None,1
+121,SKU-00121,FROZEN-A-6PK-1460,Frozen Food,Cartons,Frozen,8.6,0.0305,None,1
+122,SKU-00122,APPAREL-STD-12PK-7352,Apparel,Cartons,Ambient,3.17,0.0126,None,1
+123,SKU-00123,PHARMACEUTICALS-A-24PK-7187,Pharmaceuticals,Cartons,Ambient,16.73,0.0908,None,1
+124,SKU-00124,ELECTRONICS-B-24PK-9891,Electronics,Cartons,Ambient,10.21,0.0427,None,1
+125,SKU-00125,ELECTRONICS-STD-6PK-5497,Electronics,Cartons,Ambient,17.54,0.0835,None,1
+126,SKU-00126,ELECTRONICS-B-12PK-7577,Electronics,Cartons,Ambient,17.04,0.0695,Class 3 Flammable,1
+127,SKU-00127,AUTO-B-48PK-6880,Auto Parts,Pallets,Ambient,2.78,0.0141,None,1
+128,SKU-00128,PHARMACEUTICALS-PRM-48PK-3361,Pharmaceuticals,Cartons,Ambient,22.34,0.0722,None,1
+129,SKU-00129,AMBIENT-A-24PK-6874,Ambient Grocery,Cartons,Ambient,5.03,0.0195,None,1
+130,SKU-00130,HOMEWARES-PRM-48PK-7077,Homewares,Cartons,Ambient,4.46,0.0161,None,1
+131,SKU-00131,AUTO-B-12PK-3439,Auto Parts,Pallets,Ambient,12.97,0.0474,None,1
+132,SKU-00132,MINING-STD-6PK-7698,Mining Consumables,Pallets,Ambient,15.57,0.055,Class 3 Flammable,1
+133,SKU-00133,MINING-PRM-6PK-4407,Mining Consumables,Pallets,Ambient,3.47,0.0135,None,1
+134,SKU-00134,BUILDING-A-1EA-4254,Building Materials,Pallets,Ambient,3.18,0.012,None,1
+135,SKU-00135,PHARMACEUTICALS-B-6PK-1170,Pharmaceuticals,Cartons,Ambient,6.42,0.0233,None,1
+136,SKU-00136,FROZEN-A-1EA-3780,Frozen Food,Cartons,Frozen,10.62,0.0443,None,1
+137,SKU-00137,BEVERAGES-STD-1EA-5102,Beverages,Pallets,Ambient,9.68,0.0433,None,1
+138,SKU-00138,AUTO-B-12PK-4627,Auto Parts,Pallets,Ambient,5.85,0.0204,None,1
+139,SKU-00139,APPAREL-B-6PK-9548,Apparel,Cartons,Ambient,14.61,0.0507,Class 8 Corrosive,1
+140,SKU-00140,INDUSTRIAL-STD-48PK-9554,Industrial Consumables,Pallets,Ambient,8.65,0.0417,Class 3 Flammable,1
+141,SKU-00141,INDUSTRIAL-B-6PK-9908,Industrial Consumables,Pallets,Ambient,8.52,0.0448,None,1
+142,SKU-00142,ELECTRONICS-A-6PK-7640,Electronics,Cartons,Ambient,11.75,0.0491,Class 9 Misc,1
+143,SKU-00143,APPAREL-B-1EA-7344,Apparel,Cartons,Ambient,7.37,0.0254,Class 3 Flammable,1
+144,SKU-00144,FROZEN-A-12PK-9773,Frozen Food,Cartons,Frozen,8.84,0.0402,None,1
+145,SKU-00145,HOMEWARES-PRM-1EA-8955,Homewares,Cartons,Ambient,13.1,0.0667,None,1
+146,SKU-00146,CHILLED-A-1EA-5102,Chilled Food,Cartons,Chilled,2.7,0.0132,Class 8 Corrosive,1
+147,SKU-00147,BEVERAGES-B-6PK-8316,Beverages,Pallets,Ambient,25.74,0.0895,None,1
+148,SKU-00148,BUILDING-STD-48PK-5903,Building Materials,Pallets,Ambient,21.76,0.1027,Class 9 Misc,1
+149,SKU-00149,AUTO-PRM-1EA-9830,Auto Parts,Pallets,Ambient,8.94,0.035,None,1
+150,SKU-00150,APPAREL-A-12PK-8287,Apparel,Cartons,Ambient,19.67,0.0617,None,1
+151,SKU-00151,BEVERAGES-B-12PK-6999,Beverages,Pallets,Ambient,9.69,0.0329,None,1
+152,SKU-00152,BUILDING-PRM-1EA-5336,Building Materials,Pallets,Ambient,18.17,0.0721,None,1
+153,SKU-00153,FROZEN-A-12PK-7233,Frozen Food,Cartons,Frozen,13.88,0.0476,None,1
+154,SKU-00154,MINING-PRM-1EA-1384,Mining Consumables,Pallets,Ambient,12.59,0.0587,None,1
+155,SKU-00155,INDUSTRIAL-PRM-12PK-1549,Industrial Consumables,Pallets,Ambient,20.29,0.0681,None,1
+156,SKU-00156,AUTO-STD-6PK-7586,Auto Parts,Pallets,Ambient,7.68,0.0371,None,1
+157,SKU-00157,ELECTRONICS-A-12PK-2933,Electronics,Cartons,Ambient,7.85,0.0294,None,1
+158,SKU-00158,ELECTRONICS-A-12PK-8646,Electronics,Cartons,Ambient,4.18,0.0173,None,1
+159,SKU-00159,HOMEWARES-STD-12PK-2211,Homewares,Cartons,Ambient,8.78,0.029,None,1
+160,SKU-00160,INDUSTRIAL-STD-6PK-1905,Industrial Consumables,Pallets,Ambient,28.31,0.1029,None,1
+161,SKU-00161,AMBIENT-PRM-48PK-2932,Ambient Grocery,Cartons,Ambient,4.46,0.0146,None,1
+162,SKU-00162,FROZEN-A-1EA-1794,Frozen Food,Cartons,Frozen,9.37,0.0307,None,1
+163,SKU-00163,AUTO-PRM-6PK-3674,Auto Parts,Pallets,Ambient,23.46,0.1161,None,1
+164,SKU-00164,MINING-PRM-1EA-5524,Mining Consumables,Pallets,Ambient,1.82,0.0094,None,1
+165,SKU-00165,AMBIENT-B-24PK-5968,Ambient Grocery,Cartons,Ambient,20.64,0.0676,None,1
+166,SKU-00166,CHILLED-STD-6PK-7960,Chilled Food,Cartons,Chilled,21.08,0.0737,None,1
+167,SKU-00167,PHARMACEUTICALS-A-12PK-1203,Pharmaceuticals,Cartons,Chilled,1.51,0.0059,None,1
+168,SKU-00168,FROZEN-B-48PK-9953,Frozen Food,Cartons,Frozen,25.09,0.0868,None,1
+169,SKU-00169,BEVERAGES-A-1EA-5736,Beverages,Pallets,Ambient,15.08,0.0609,None,1
+170,SKU-00170,BUILDING-B-12PK-6308,Building Materials,Pallets,Ambient,17.06,0.0619,None,1
+171,SKU-00171,ELECTRONICS-A-12PK-3493,Electronics,Cartons,Ambient,6.61,0.0208,None,1
+172,SKU-00172,HOMEWARES-STD-12PK-7185,Homewares,Cartons,Ambient,1.71,0.0054,None,1
+173,SKU-00173,FROZEN-STD-1EA-5857,Frozen Food,Cartons,Frozen,10.36,0.0529,None,1
+174,SKU-00174,PHARMACEUTICALS-A-12PK-3039,Pharmaceuticals,Cartons,Chilled,11.63,0.0468,None,1
+175,SKU-00175,MINING-STD-48PK-3960,Mining Consumables,Pallets,Ambient,12.34,0.0433,None,1
+176,SKU-00176,HOMEWARES-A-12PK-9129,Homewares,Cartons,Ambient,29.99,0.1586,None,1
+177,SKU-00177,AMBIENT-A-1EA-3878,Ambient Grocery,Cartons,Ambient,17.97,0.0829,None,1
+178,SKU-00178,BEVERAGES-STD-24PK-7169,Beverages,Pallets,Ambient,35.99,0.1249,None,1
+179,SKU-00179,FROZEN-B-6PK-4481,Frozen Food,Cartons,Frozen,10.02,0.0352,None,1
+180,SKU-00180,INDUSTRIAL-A-6PK-2201,Industrial Consumables,Pallets,Ambient,4.94,0.0191,None,1
+181,SKU-00181,AMBIENT-PRM-24PK-6068,Ambient Grocery,Cartons,Ambient,6.93,0.0323,None,1
+182,SKU-00182,APPAREL-A-1EA-8186,Apparel,Cartons,Ambient,4.57,0.0148,None,1
+183,SKU-00183,INDUSTRIAL-STD-1EA-4311,Industrial Consumables,Pallets,Ambient,5.45,0.021,None,1
+184,SKU-00184,PHARMACEUTICALS-A-12PK-9789,Pharmaceuticals,Cartons,Ambient,7.63,0.0312,Class 3 Flammable,1
+185,SKU-00185,HOMEWARES-B-1EA-2672,Homewares,Cartons,Ambient,12.78,0.0456,None,1
+186,SKU-00186,FROZEN-B-1EA-4491,Frozen Food,Cartons,Frozen,17.97,0.0629,None,1
+187,SKU-00187,BUILDING-A-1EA-1327,Building Materials,Pallets,Ambient,12.94,0.0461,None,1
+188,SKU-00188,AMBIENT-PRM-24PK-6512,Ambient Grocery,Cartons,Ambient,8.34,0.0311,None,1
+189,SKU-00189,MINING-STD-48PK-6610,Mining Consumables,Pallets,Ambient,12.6,0.0573,None,1
+190,SKU-00190,ELECTRONICS-A-48PK-2384,Electronics,Cartons,Ambient,10.34,0.0538,Class 8 Corrosive,1
+191,SKU-00191,AUTO-A-48PK-5521,Auto Parts,Pallets,Ambient,3.64,0.0162,None,1
+192,SKU-00192,HOMEWARES-PRM-1EA-3965,Homewares,Cartons,Ambient,15.23,0.082,Class 3 Flammable,1
+193,SKU-00193,AMBIENT-A-6PK-4367,Ambient Grocery,Cartons,Ambient,9.55,0.0507,None,1
+194,SKU-00194,BUILDING-A-12PK-6879,Building Materials,Pallets,Ambient,28.63,0.1022,None,1
+195,SKU-00195,BEVERAGES-A-48PK-2888,Beverages,Pallets,Ambient,12.87,0.0427,None,1
+196,SKU-00196,FROZEN-A-48PK-9433,Frozen Food,Cartons,Frozen,23.47,0.1035,None,1
+197,SKU-00197,HOMEWARES-STD-48PK-1864,Homewares,Cartons,Ambient,36.19,0.1275,None,1
+198,SKU-00198,PHARMACEUTICALS-STD-24PK-3787,Pharmaceuticals,Cartons,Ambient,3.04,0.0111,None,1
+199,SKU-00199,BEVERAGES-B-24PK-1835,Beverages,Pallets,Ambient,7.41,0.0279,None,1
+200,SKU-00200,AUTO-STD-6PK-9220,Auto Parts,Pallets,Ambient,2.45,0.009,None,1
+201,SKU-00201,BEVERAGES-STD-12PK-9798,Beverages,Pallets,Ambient,18.76,0.0708,None,1
+202,SKU-00202,ELECTRONICS-STD-12PK-4125,Electronics,Cartons,Ambient,36.67,0.1544,None,1
+203,SKU-00203,AUTO-PRM-24PK-9675,Auto Parts,Pallets,Ambient,3.99,0.0157,None,1
+204,SKU-00204,APPAREL-STD-1EA-5717,Apparel,Cartons,Ambient,6.42,0.0259,None,1
+205,SKU-00205,MINING-B-24PK-3827,Mining Consumables,Pallets,Ambient,3.85,0.0157,None,1
+206,SKU-00206,AMBIENT-A-12PK-1946,Ambient Grocery,Cartons,Ambient,17.52,0.0766,None,1
+207,SKU-00207,MINING-STD-1EA-1455,Mining Consumables,Pallets,Ambient,38.74,0.1451,Class 9 Misc,1
+208,SKU-00208,AUTO-PRM-1EA-2840,Auto Parts,Pallets,Ambient,21.53,0.0792,None,1
+209,SKU-00209,HOMEWARES-B-24PK-4678,Homewares,Cartons,Ambient,12.14,0.0524,None,1
+210,SKU-00210,APPAREL-PRM-48PK-7074,Apparel,Cartons,Ambient,14.97,0.0781,None,1
+211,SKU-00211,AUTO-B-24PK-1047,Auto Parts,Pallets,Ambient,15.48,0.0672,None,1
+212,SKU-00212,FROZEN-A-48PK-4724,Frozen Food,Cartons,Frozen,14.18,0.0658,Class 9 Misc,1
+213,SKU-00213,AUTO-STD-1EA-1565,Auto Parts,Pallets,Ambient,11.84,0.0375,None,1
+214,SKU-00214,AMBIENT-STD-6PK-1308,Ambient Grocery,Cartons,Ambient,21.1,0.0875,None,1
+215,SKU-00215,BEVERAGES-B-24PK-7467,Beverages,Pallets,Ambient,23.15,0.0864,None,1
+216,SKU-00216,PHARMACEUTICALS-STD-48PK-3651,Pharmaceuticals,Cartons,Ambient,19.81,0.1001,None,1
+217,SKU-00217,ELECTRONICS-STD-6PK-2296,Electronics,Cartons,Ambient,11.81,0.0384,None,1
+218,SKU-00218,MINING-PRM-24PK-9956,Mining Consumables,Pallets,Ambient,12.95,0.0534,None,1
+219,SKU-00219,BUILDING-STD-48PK-2710,Building Materials,Pallets,Ambient,10.19,0.0438,None,1
+220,SKU-00220,BUILDING-A-12PK-1928,Building Materials,Pallets,Ambient,12.86,0.0438,None,1
+221,SKU-00221,INDUSTRIAL-STD-6PK-5417,Industrial Consumables,Pallets,Ambient,17.63,0.0591,None,1
+222,SKU-00222,CHILLED-STD-12PK-3017,Chilled Food,Cartons,Chilled,28.94,0.1522,None,1
+223,SKU-00223,MINING-B-6PK-4771,Mining Consumables,Pallets,Ambient,15.35,0.0593,None,1
+224,SKU-00224,APPAREL-B-6PK-3177,Apparel,Cartons,Ambient,13.23,0.0481,None,1
+225,SKU-00225,MINING-PRM-24PK-9963,Mining Consumables,Pallets,Ambient,18.1,0.0778,None,1
+226,SKU-00226,FROZEN-STD-12PK-4628,Frozen Food,Cartons,Frozen,8.57,0.0366,None,1
+227,SKU-00227,FROZEN-A-24PK-7060,Frozen Food,Cartons,Frozen,5.48,0.0285,None,1
+228,SKU-00228,CHILLED-PRM-12PK-7307,Chilled Food,Cartons,Chilled,10.4,0.0397,None,1
+229,SKU-00229,ELECTRONICS-B-48PK-3547,Electronics,Cartons,Ambient,3.21,0.0158,None,1
+230,SKU-00230,HOMEWARES-A-48PK-9687,Homewares,Cartons,Ambient,10.49,0.0362,None,1
+231,SKU-00231,APPAREL-B-1EA-4685,Apparel,Cartons,Ambient,19.01,0.0821,None,1
+232,SKU-00232,AMBIENT-A-24PK-1946,Ambient Grocery,Cartons,Ambient,12.64,0.0434,Class 8 Corrosive,1
+233,SKU-00233,PHARMACEUTICALS-B-12PK-1181,Pharmaceuticals,Cartons,Ambient,11.16,0.0459,None,1
+234,SKU-00234,BEVERAGES-PRM-48PK-2873,Beverages,Pallets,Ambient,4.28,0.0163,None,1
+235,SKU-00235,MINING-PRM-24PK-5466,Mining Consumables,Pallets,Ambient,19.36,0.0937,None,1
+236,SKU-00236,ELECTRONICS-A-48PK-8470,Electronics,Cartons,Ambient,4.49,0.0198,None,1
+237,SKU-00237,PHARMACEUTICALS-PRM-1EA-8455,Pharmaceuticals,Cartons,Chilled,3.9,0.0143,None,1
+238,SKU-00238,AUTO-B-1EA-5751,Auto Parts,Pallets,Ambient,31.62,0.1066,None,1
+239,SKU-00239,BUILDING-STD-24PK-1944,Building Materials,Pallets,Ambient,17.26,0.0695,Class 3 Flammable,1
+240,SKU-00240,AUTO-PRM-24PK-5052,Auto Parts,Pallets,Ambient,19.54,0.1042,Class 8 Corrosive,1
+241,SKU-00241,APPAREL-PRM-24PK-2530,Apparel,Cartons,Ambient,7.76,0.0307,None,1
+242,SKU-00242,AMBIENT-A-12PK-1648,Ambient Grocery,Cartons,Ambient,13.3,0.0621,None,1
+243,SKU-00243,BEVERAGES-STD-48PK-6365,Beverages,Pallets,Ambient,2.84,0.0122,None,1
+244,SKU-00244,MINING-A-12PK-4336,Mining Consumables,Pallets,Ambient,12.3,0.0565,None,1
+245,SKU-00245,BUILDING-PRM-12PK-7982,Building Materials,Pallets,Ambient,12.55,0.0525,None,1
+246,SKU-00246,AMBIENT-A-1EA-8798,Ambient Grocery,Cartons,Ambient,15.76,0.0581,None,1
+247,SKU-00247,ELECTRONICS-A-24PK-6034,Electronics,Cartons,Ambient,28.78,0.1261,None,1
+248,SKU-00248,FROZEN-PRM-12PK-4843,Frozen Food,Cartons,Frozen,18.71,0.0743,None,1
+249,SKU-00249,PHARMACEUTICALS-A-12PK-6349,Pharmaceuticals,Cartons,Ambient,6.53,0.0244,None,1
+250,SKU-00250,INDUSTRIAL-PRM-1EA-3854,Industrial Consumables,Pallets,Ambient,3.44,0.0155,None,1
+251,SKU-00251,APPAREL-A-1EA-9449,Apparel,Cartons,Ambient,6.62,0.0245,None,1
+252,SKU-00252,AMBIENT-STD-1EA-3228,Ambient Grocery,Cartons,Ambient,19.28,0.0939,None,1
+253,SKU-00253,MINING-STD-12PK-7107,Mining Consumables,Pallets,Ambient,16.37,0.0545,None,1
+254,SKU-00254,APPAREL-A-48PK-8184,Apparel,Cartons,Ambient,29.02,0.1024,Class 3 Flammable,1
+255,SKU-00255,INDUSTRIAL-B-24PK-7333,Industrial Consumables,Pallets,Ambient,8.11,0.032,None,1
+256,SKU-00256,APPAREL-STD-12PK-5479,Apparel,Cartons,Ambient,10.72,0.0354,None,1
+257,SKU-00257,AUTO-STD-48PK-6389,Auto Parts,Pallets,Ambient,11.88,0.0496,None,1
+258,SKU-00258,BEVERAGES-B-24PK-8275,Beverages,Pallets,Ambient,21.66,0.0919,None,1
+259,SKU-00259,AMBIENT-A-6PK-9240,Ambient Grocery,Cartons,Ambient,5.87,0.032,None,1
+260,SKU-00260,FROZEN-PRM-12PK-8309,Frozen Food,Cartons,Frozen,9.1,0.0504,None,1
+261,SKU-00261,BUILDING-B-6PK-6881,Building Materials,Pallets,Ambient,18.19,0.0601,None,1
+262,SKU-00262,BUILDING-PRM-24PK-3722,Building Materials,Pallets,Ambient,16.82,0.0586,None,1
+263,SKU-00263,AMBIENT-STD-12PK-2078,Ambient Grocery,Cartons,Ambient,14.5,0.0678,None,1
+264,SKU-00264,INDUSTRIAL-STD-1EA-9994,Industrial Consumables,Pallets,Ambient,12.92,0.0622,None,1
+265,SKU-00265,FROZEN-A-24PK-6021,Frozen Food,Cartons,Frozen,3.95,0.0183,Class 3 Flammable,1
+266,SKU-00266,CHILLED-PRM-24PK-4448,Chilled Food,Cartons,Chilled,3.18,0.0103,None,1
+267,SKU-00267,AUTO-B-12PK-1299,Auto Parts,Pallets,Ambient,4.12,0.0165,None,1
+268,SKU-00268,BEVERAGES-A-12PK-3791,Beverages,Pallets,Ambient,14.78,0.0593,None,1
+269,SKU-00269,AUTO-B-1EA-9538,Auto Parts,Pallets,Ambient,39.5,0.1798,None,1
+270,SKU-00270,ELECTRONICS-STD-6PK-9352,Electronics,Cartons,Ambient,6.03,0.0299,None,1
+271,SKU-00271,AMBIENT-PRM-12PK-8631,Ambient Grocery,Cartons,Ambient,20.39,0.0889,None,1
+272,SKU-00272,INDUSTRIAL-PRM-1EA-3487,Industrial Consumables,Pallets,Ambient,1.66,0.0066,None,1
+273,SKU-00273,AMBIENT-A-24PK-4954,Ambient Grocery,Cartons,Ambient,14.14,0.0598,Class 3 Flammable,1
+274,SKU-00274,INDUSTRIAL-PRM-48PK-6741,Industrial Consumables,Pallets,Ambient,10.86,0.0485,None,1
+275,SKU-00275,AMBIENT-B-24PK-9713,Ambient Grocery,Cartons,Ambient,12.61,0.0619,None,1
+276,SKU-00276,FROZEN-A-24PK-9308,Frozen Food,Cartons,Frozen,18.97,0.067,None,1
+277,SKU-00277,PHARMACEUTICALS-STD-24PK-4749,Pharmaceuticals,Cartons,Ambient,14.55,0.0711,Class 8 Corrosive,1
+278,SKU-00278,ELECTRONICS-A-48PK-8333,Electronics,Cartons,Ambient,2.74,0.0106,None,1
+279,SKU-00279,BUILDING-A-12PK-4307,Building Materials,Pallets,Ambient,12.6,0.0695,None,1
+280,SKU-00280,PHARMACEUTICALS-A-6PK-6024,Pharmaceuticals,Cartons,Chilled,15.79,0.0736,None,1
+281,SKU-00281,APPAREL-PRM-1EA-3790,Apparel,Cartons,Ambient,8.24,0.0371,None,1
+282,SKU-00282,HOMEWARES-A-48PK-1870,Homewares,Cartons,Ambient,17.87,0.0755,Class 9 Misc,1
+283,SKU-00283,BUILDING-A-12PK-3076,Building Materials,Pallets,Ambient,3.84,0.0186,None,1
+284,SKU-00284,PHARMACEUTICALS-PRM-1EA-4954,Pharmaceuticals,Cartons,Ambient,18.1,0.0783,None,1
+285,SKU-00285,CHILLED-B-1EA-3713,Chilled Food,Cartons,Chilled,14.26,0.0626,None,1
+286,SKU-00286,FROZEN-A-24PK-2409,Frozen Food,Cartons,Frozen,12.63,0.0582,None,1
+287,SKU-00287,MINING-PRM-12PK-3786,Mining Consumables,Pallets,Ambient,28.06,0.1171,None,1
+288,SKU-00288,BUILDING-PRM-6PK-6297,Building Materials,Pallets,Ambient,4.93,0.027,None,1
+289,SKU-00289,MINING-PRM-24PK-5125,Mining Consumables,Pallets,Ambient,12.5,0.0622,None,1
+290,SKU-00290,BEVERAGES-STD-6PK-2563,Beverages,Pallets,Ambient,9.1,0.0457,None,1
+291,SKU-00291,AMBIENT-STD-12PK-3418,Ambient Grocery,Cartons,Ambient,6.03,0.0329,None,1
+292,SKU-00292,ELECTRONICS-STD-1EA-3458,Electronics,Cartons,Ambient,15.48,0.0698,None,1
+293,SKU-00293,HOMEWARES-PRM-12PK-4003,Homewares,Cartons,Ambient,27.02,0.0867,None,1
+294,SKU-00294,BUILDING-B-12PK-6851,Building Materials,Pallets,Ambient,4.18,0.0135,None,1
+295,SKU-00295,CHILLED-B-48PK-8649,Chilled Food,Cartons,Chilled,18.76,0.0945,None,1
+296,SKU-00296,BUILDING-A-48PK-2143,Building Materials,Pallets,Ambient,19.47,0.0693,None,1
+297,SKU-00297,APPAREL-A-1EA-5323,Apparel,Cartons,Ambient,23.76,0.0962,None,1
+298,SKU-00298,AMBIENT-A-12PK-1876,Ambient Grocery,Cartons,Ambient,19.56,0.0693,None,1
+299,SKU-00299,HOMEWARES-A-24PK-5384,Homewares,Cartons,Ambient,2.61,0.0084,None,1
+300,SKU-00300,AUTO-B-1EA-6343,Auto Parts,Pallets,Ambient,8.85,0.044,None,1
+301,SKU-00301,FROZEN-A-48PK-7687,Frozen Food,Cartons,Frozen,2.15,0.0094,None,1
+302,SKU-00302,CHILLED-PRM-12PK-4663,Chilled Food,Cartons,Chilled,16.74,0.0536,None,1
+303,SKU-00303,CHILLED-PRM-6PK-5482,Chilled Food,Cartons,Chilled,9.97,0.0476,None,1
+304,SKU-00304,MINING-STD-12PK-3427,Mining Consumables,Pallets,Ambient,7.88,0.0436,None,1
+305,SKU-00305,BEVERAGES-B-6PK-3731,Beverages,Pallets,Ambient,17.94,0.0903,None,1
+306,SKU-00306,BEVERAGES-A-6PK-8706,Beverages,Pallets,Ambient,14.52,0.0478,None,1
+307,SKU-00307,CHILLED-PRM-12PK-2496,Chilled Food,Cartons,Chilled,1.88,0.006,None,1
+308,SKU-00308,PHARMACEUTICALS-A-6PK-3488,Pharmaceuticals,Cartons,Ambient,13.72,0.046,None,1
+309,SKU-00309,PHARMACEUTICALS-STD-6PK-2179,Pharmaceuticals,Cartons,Ambient,27.41,0.0867,None,1
+310,SKU-00310,AUTO-A-24PK-7667,Auto Parts,Pallets,Ambient,15.57,0.0735,None,1
+311,SKU-00311,ELECTRONICS-PRM-48PK-1646,Electronics,Cartons,Ambient,6.17,0.0193,None,1
+312,SKU-00312,ELECTRONICS-STD-1EA-3557,Electronics,Cartons,Ambient,20.99,0.0758,None,1
+313,SKU-00313,MINING-STD-12PK-9984,Mining Consumables,Pallets,Ambient,22.25,0.0907,None,1
+314,SKU-00314,MINING-A-12PK-6875,Mining Consumables,Pallets,Ambient,6.69,0.0214,None,1
+315,SKU-00315,BUILDING-A-48PK-8978,Building Materials,Pallets,Ambient,6.87,0.034,None,1
+316,SKU-00316,APPAREL-PRM-1EA-7784,Apparel,Cartons,Ambient,4.55,0.0153,None,1
+317,SKU-00317,AUTO-PRM-24PK-2176,Auto Parts,Pallets,Ambient,5.91,0.0229,None,1
+318,SKU-00318,FROZEN-A-6PK-8526,Frozen Food,Cartons,Frozen,13.93,0.0684,Class 9 Misc,1
+319,SKU-00319,CHILLED-A-6PK-5765,Chilled Food,Cartons,Chilled,18.02,0.0578,None,1
+320,SKU-00320,ELECTRONICS-B-24PK-5777,Electronics,Cartons,Ambient,7.86,0.0263,None,1
+321,SKU-00321,AMBIENT-STD-6PK-8606,Ambient Grocery,Cartons,Ambient,9.78,0.0332,None,1
+322,SKU-00322,MINING-B-48PK-2410,Mining Consumables,Pallets,Ambient,9.5,0.0397,None,1
+323,SKU-00323,PHARMACEUTICALS-PRM-1EA-3030,Pharmaceuticals,Cartons,Ambient,17.02,0.0841,None,1
+324,SKU-00324,MINING-PRM-6PK-6241,Mining Consumables,Pallets,Ambient,12.45,0.0561,None,1
+325,SKU-00325,BUILDING-PRM-12PK-7165,Building Materials,Pallets,Ambient,18.77,0.0977,Class 3 Flammable,1
+326,SKU-00326,BEVERAGES-B-1EA-6528,Beverages,Pallets,Ambient,10.76,0.0451,None,1
+327,SKU-00327,BUILDING-A-6PK-8751,Building Materials,Pallets,Ambient,7.66,0.0394,None,1
+328,SKU-00328,MINING-B-1EA-2388,Mining Consumables,Pallets,Ambient,17.21,0.0879,None,1
+329,SKU-00329,FROZEN-PRM-1EA-6408,Frozen Food,Cartons,Frozen,9.33,0.0325,None,1
+330,SKU-00330,INDUSTRIAL-B-12PK-6466,Industrial Consumables,Pallets,Ambient,9.95,0.0473,Class 9 Misc,1
+331,SKU-00331,FROZEN-B-48PK-1350,Frozen Food,Cartons,Frozen,7.35,0.0256,None,1
+332,SKU-00332,ELECTRONICS-A-6PK-8960,Electronics,Cartons,Ambient,20.89,0.0937,None,1
+333,SKU-00333,BUILDING-PRM-6PK-7776,Building Materials,Pallets,Ambient,3.53,0.0146,None,1
+334,SKU-00334,CHILLED-PRM-1EA-9724,Chilled Food,Cartons,Chilled,10.95,0.0389,None,1
+335,SKU-00335,INDUSTRIAL-B-1EA-8862,Industrial Consumables,Pallets,Ambient,2.86,0.0101,None,1
+336,SKU-00336,INDUSTRIAL-A-1EA-2765,Industrial Consumables,Pallets,Ambient,26.4,0.1406,None,1
+337,SKU-00337,BEVERAGES-A-24PK-8100,Beverages,Pallets,Ambient,43.28,0.2087,None,1
+338,SKU-00338,INDUSTRIAL-STD-1EA-5577,Industrial Consumables,Pallets,Ambient,21.69,0.0679,None,1
+339,SKU-00339,AUTO-A-48PK-6543,Auto Parts,Pallets,Ambient,7.65,0.0304,None,1
+340,SKU-00340,HOMEWARES-STD-48PK-8238,Homewares,Cartons,Ambient,5.92,0.0313,None,1
+341,SKU-00341,BEVERAGES-B-24PK-9107,Beverages,Pallets,Ambient,16.14,0.0588,None,1
+342,SKU-00342,PHARMACEUTICALS-A-24PK-7198,Pharmaceuticals,Cartons,Ambient,13.99,0.0458,None,1
+343,SKU-00343,HOMEWARES-B-48PK-5796,Homewares,Cartons,Ambient,11.77,0.0511,None,1
+344,SKU-00344,CHILLED-A-1EA-4957,Chilled Food,Cartons,Chilled,12.83,0.0609,Class 8 Corrosive,1
+345,SKU-00345,BEVERAGES-PRM-12PK-1882,Beverages,Pallets,Ambient,8.73,0.0389,None,1
+346,SKU-00346,BEVERAGES-A-24PK-4550,Beverages,Pallets,Ambient,12.17,0.0466,None,1
+347,SKU-00347,AMBIENT-PRM-48PK-5086,Ambient Grocery,Cartons,Ambient,27.66,0.0976,None,1
+348,SKU-00348,AMBIENT-B-12PK-8927,Ambient Grocery,Cartons,Ambient,17.84,0.0923,None,1
+349,SKU-00349,ELECTRONICS-A-1EA-2645,Electronics,Cartons,Ambient,4.51,0.0169,None,1
+350,SKU-00350,ELECTRONICS-PRM-24PK-6060,Electronics,Cartons,Ambient,13.52,0.044,None,1
+351,SKU-00351,AMBIENT-STD-48PK-2175,Ambient Grocery,Cartons,Ambient,23.25,0.0812,None,1
+352,SKU-00352,PHARMACEUTICALS-PRM-1EA-5454,Pharmaceuticals,Cartons,Chilled,5.67,0.0228,None,1
+353,SKU-00353,PHARMACEUTICALS-B-24PK-7896,Pharmaceuticals,Cartons,Chilled,23.22,0.0746,None,1
+354,SKU-00354,BEVERAGES-PRM-1EA-4188,Beverages,Pallets,Ambient,33.04,0.1129,None,1
+355,SKU-00355,MINING-STD-24PK-4123,Mining Consumables,Pallets,Ambient,11.93,0.0467,None,1
+356,SKU-00356,AUTO-PRM-24PK-6125,Auto Parts,Pallets,Ambient,3.52,0.017,None,1
+357,SKU-00357,AUTO-PRM-48PK-8276,Auto Parts,Pallets,Ambient,4.33,0.0183,None,1
+358,SKU-00358,FROZEN-A-1EA-9186,Frozen Food,Cartons,Frozen,11.59,0.0442,None,1
+359,SKU-00359,HOMEWARES-B-24PK-4397,Homewares,Cartons,Ambient,15.97,0.0522,None,1
+360,SKU-00360,PHARMACEUTICALS-STD-48PK-2730,Pharmaceuticals,Cartons,Chilled,18.95,0.0669,None,1
+361,SKU-00361,APPAREL-PRM-24PK-5670,Apparel,Cartons,Ambient,6.38,0.0214,None,1
+362,SKU-00362,APPAREL-B-24PK-2750,Apparel,Cartons,Ambient,35.41,0.1239,None,1
+363,SKU-00363,BEVERAGES-A-12PK-5867,Beverages,Pallets,Ambient,13.6,0.0467,None,1
+364,SKU-00364,BUILDING-B-24PK-3019,Building Materials,Pallets,Ambient,15.83,0.0497,None,1
+365,SKU-00365,AUTO-B-1EA-3921,Auto Parts,Pallets,Ambient,26.81,0.1458,None,1
+366,SKU-00366,AUTO-STD-24PK-8409,Auto Parts,Pallets,Ambient,6.27,0.0206,None,1
+367,SKU-00367,FROZEN-PRM-6PK-3319,Frozen Food,Cartons,Frozen,4.5,0.0241,Class 9 Misc,1
+368,SKU-00368,INDUSTRIAL-STD-12PK-5116,Industrial Consumables,Pallets,Ambient,9.26,0.0337,None,1
+369,SKU-00369,FROZEN-B-24PK-7122,Frozen Food,Cartons,Frozen,15.14,0.0686,None,1
+370,SKU-00370,MINING-A-48PK-3574,Mining Consumables,Pallets,Ambient,6.35,0.0294,Class 8 Corrosive,1
+371,SKU-00371,ELECTRONICS-A-12PK-5834,Electronics,Cartons,Ambient,33.4,0.1292,None,1
+372,SKU-00372,AUTO-B-6PK-4413,Auto Parts,Pallets,Ambient,7.06,0.0257,None,1
+373,SKU-00373,AMBIENT-PRM-24PK-1840,Ambient Grocery,Cartons,Ambient,22.18,0.094,None,1
+374,SKU-00374,BUILDING-B-48PK-1295,Building Materials,Pallets,Ambient,10.1,0.051,None,1
+375,SKU-00375,PHARMACEUTICALS-PRM-24PK-3908,Pharmaceuticals,Cartons,Ambient,1.94,0.0062,None,1
+376,SKU-00376,INDUSTRIAL-A-24PK-8598,Industrial Consumables,Pallets,Ambient,11.22,0.0554,Class 3 Flammable,1
+377,SKU-00377,CHILLED-STD-6PK-8733,Chilled Food,Cartons,Chilled,22.28,0.0711,None,1
+378,SKU-00378,CHILLED-STD-12PK-5572,Chilled Food,Cartons,Chilled,11.6,0.0631,None,1
+379,SKU-00379,ELECTRONICS-STD-1EA-3321,Electronics,Cartons,Ambient,6.26,0.0211,None,1
+380,SKU-00380,INDUSTRIAL-A-6PK-8938,Industrial Consumables,Pallets,Ambient,17.84,0.061,Class 8 Corrosive,1
+381,SKU-00381,PHARMACEUTICALS-PRM-12PK-2557,Pharmaceuticals,Cartons,Chilled,12.47,0.0682,None,1
+382,SKU-00382,APPAREL-PRM-12PK-2050,Apparel,Cartons,Ambient,8.29,0.0328,None,1
+383,SKU-00383,BUILDING-STD-6PK-2132,Building Materials,Pallets,Ambient,19.19,0.06,Class 3 Flammable,1
+384,SKU-00384,BEVERAGES-STD-24PK-1382,Beverages,Pallets,Ambient,11.21,0.0397,Class 8 Corrosive,1
+385,SKU-00385,APPAREL-STD-12PK-8972,Apparel,Cartons,Ambient,23.48,0.1286,None,1
+386,SKU-00386,MINING-STD-6PK-2768,Mining Consumables,Pallets,Ambient,33.31,0.1612,None,1
+387,SKU-00387,FROZEN-STD-6PK-6935,Frozen Food,Cartons,Frozen,22.17,0.0732,None,1
+388,SKU-00388,INDUSTRIAL-STD-12PK-1690,Industrial Consumables,Pallets,Ambient,6.99,0.0279,None,1
+389,SKU-00389,AMBIENT-PRM-1EA-6703,Ambient Grocery,Cartons,Ambient,28.52,0.102,None,1
+390,SKU-00390,AUTO-STD-12PK-9842,Auto Parts,Pallets,Ambient,6.15,0.0314,None,1
+391,SKU-00391,AMBIENT-B-24PK-9326,Ambient Grocery,Cartons,Ambient,15.29,0.0793,None,1
+392,SKU-00392,MINING-PRM-48PK-5601,Mining Consumables,Pallets,Ambient,15.6,0.0755,None,1
+393,SKU-00393,HOMEWARES-A-1EA-8790,Homewares,Cartons,Ambient,15.28,0.0822,None,1
+394,SKU-00394,INDUSTRIAL-STD-1EA-2490,Industrial Consumables,Pallets,Ambient,17.49,0.0708,None,1
+395,SKU-00395,APPAREL-STD-6PK-3640,Apparel,Cartons,Ambient,15.06,0.0688,Class 3 Flammable,1
+396,SKU-00396,PHARMACEUTICALS-B-1EA-1101,Pharmaceuticals,Cartons,Chilled,4.08,0.0206,None,1
+397,SKU-00397,BUILDING-STD-24PK-2316,Building Materials,Pallets,Ambient,11.27,0.0549,None,1
+398,SKU-00398,HOMEWARES-A-1EA-1876,Homewares,Cartons,Ambient,26.45,0.1428,Class 9 Misc,1
+399,SKU-00399,APPAREL-PRM-24PK-5235,Apparel,Cartons,Ambient,9.84,0.0466,None,1
+400,SKU-00400,INDUSTRIAL-STD-6PK-4949,Industrial Consumables,Pallets,Ambient,11.49,0.0522,None,1
+401,SKU-00401,PHARMACEUTICALS-A-1EA-9839,Pharmaceuticals,Cartons,Chilled,34.08,0.1686,None,1
+402,SKU-00402,AUTO-B-24PK-7931,Auto Parts,Pallets,Ambient,13.04,0.0518,None,1
+403,SKU-00403,ELECTRONICS-STD-48PK-9930,Electronics,Cartons,Ambient,10.22,0.0362,None,1
+404,SKU-00404,BUILDING-PRM-6PK-7021,Building Materials,Pallets,Ambient,13.04,0.0477,None,1
+405,SKU-00405,APPAREL-STD-48PK-6671,Apparel,Cartons,Ambient,13.79,0.0656,None,1
+406,SKU-00406,INDUSTRIAL-A-24PK-2142,Industrial Consumables,Pallets,Ambient,5.28,0.0273,None,1
+407,SKU-00407,HOMEWARES-PRM-48PK-8132,Homewares,Cartons,Ambient,22.1,0.0822,Class 3 Flammable,1
+408,SKU-00408,BEVERAGES-B-48PK-3499,Beverages,Pallets,Ambient,5.56,0.0251,None,1
+409,SKU-00409,ELECTRONICS-PRM-48PK-7599,Electronics,Cartons,Ambient,17.0,0.0688,None,1
+410,SKU-00410,AMBIENT-PRM-12PK-2401,Ambient Grocery,Cartons,Ambient,11.91,0.0591,None,1
+411,SKU-00411,AUTO-A-1EA-1817,Auto Parts,Pallets,Ambient,36.2,0.1836,None,1
+412,SKU-00412,AMBIENT-PRM-6PK-7027,Ambient Grocery,Cartons,Ambient,9.9,0.0411,Class 3 Flammable,1
+413,SKU-00413,APPAREL-STD-6PK-2856,Apparel,Cartons,Ambient,16.69,0.0804,None,1
+414,SKU-00414,MINING-B-48PK-7931,Mining Consumables,Pallets,Ambient,15.23,0.06,None,1
+415,SKU-00415,AMBIENT-A-48PK-4291,Ambient Grocery,Cartons,Ambient,18.65,0.0968,None,1
+416,SKU-00416,PHARMACEUTICALS-A-1EA-3480,Pharmaceuticals,Cartons,Ambient,17.63,0.0592,None,1
+417,SKU-00417,INDUSTRIAL-PRM-48PK-3545,Industrial Consumables,Pallets,Ambient,16.28,0.059,None,1
+418,SKU-00418,PHARMACEUTICALS-B-12PK-6336,Pharmaceuticals,Cartons,Ambient,10.98,0.0369,None,1
+419,SKU-00419,PHARMACEUTICALS-PRM-24PK-3692,Pharmaceuticals,Cartons,Ambient,17.95,0.0673,None,1
+420,SKU-00420,HOMEWARES-PRM-24PK-6355,Homewares,Cartons,Ambient,14.16,0.0703,Class 8 Corrosive,1
+421,SKU-00421,AUTO-B-6PK-2907,Auto Parts,Pallets,Ambient,6.48,0.0356,None,1
+422,SKU-00422,AUTO-A-48PK-4096,Auto Parts,Pallets,Ambient,7.69,0.0241,None,1
+423,SKU-00423,AMBIENT-PRM-48PK-5214,Ambient Grocery,Cartons,Ambient,14.76,0.0546,None,1
+424,SKU-00424,HOMEWARES-STD-24PK-6351,Homewares,Cartons,Ambient,14.94,0.0734,None,1
+425,SKU-00425,AUTO-A-1EA-5375,Auto Parts,Pallets,Ambient,17.47,0.0808,None,1
+426,SKU-00426,PHARMACEUTICALS-STD-6PK-5275,Pharmaceuticals,Cartons,Ambient,3.92,0.0155,None,1
+427,SKU-00427,INDUSTRIAL-PRM-12PK-5698,Industrial Consumables,Pallets,Ambient,10.25,0.0417,None,1
+428,SKU-00428,FROZEN-B-6PK-3001,Frozen Food,Cartons,Frozen,31.33,0.1052,None,1
+429,SKU-00429,PHARMACEUTICALS-STD-6PK-6578,Pharmaceuticals,Cartons,Chilled,7.2,0.0343,None,1
+430,SKU-00430,AUTO-B-1EA-2335,Auto Parts,Pallets,Ambient,22.83,0.0757,None,1
+431,SKU-00431,AMBIENT-PRM-24PK-3796,Ambient Grocery,Cartons,Ambient,13.86,0.0458,None,1
+432,SKU-00432,BEVERAGES-STD-24PK-6846,Beverages,Pallets,Ambient,27.09,0.1006,None,1
+433,SKU-00433,HOMEWARES-A-6PK-8531,Homewares,Cartons,Ambient,3.63,0.0195,None,1
+434,SKU-00434,INDUSTRIAL-PRM-24PK-4472,Industrial Consumables,Pallets,Ambient,14.36,0.0495,Class 3 Flammable,1
+435,SKU-00435,BEVERAGES-STD-6PK-2189,Beverages,Pallets,Ambient,4.52,0.0143,None,1
+436,SKU-00436,PHARMACEUTICALS-A-6PK-7262,Pharmaceuticals,Cartons,Ambient,20.93,0.0665,None,1
+437,SKU-00437,AMBIENT-STD-48PK-2703,Ambient Grocery,Cartons,Ambient,8.16,0.0268,None,1
+438,SKU-00438,AMBIENT-B-48PK-3181,Ambient Grocery,Cartons,Ambient,25.57,0.0938,None,1
+439,SKU-00439,INDUSTRIAL-PRM-24PK-8291,Industrial Consumables,Pallets,Ambient,9.16,0.0448,None,1
+440,SKU-00440,AUTO-STD-48PK-4626,Auto Parts,Pallets,Ambient,19.4,0.0722,None,1
+441,SKU-00441,AUTO-STD-12PK-2464,Auto Parts,Pallets,Ambient,2.49,0.0116,None,1
+442,SKU-00442,APPAREL-B-24PK-5785,Apparel,Cartons,Ambient,6.24,0.0203,None,1
+443,SKU-00443,FROZEN-STD-1EA-9437,Frozen Food,Cartons,Frozen,12.38,0.0558,None,1
+444,SKU-00444,PHARMACEUTICALS-A-48PK-3780,Pharmaceuticals,Cartons,Ambient,2.77,0.0094,None,1
+445,SKU-00445,MINING-STD-24PK-8586,Mining Consumables,Pallets,Ambient,7.4,0.029,None,1
+446,SKU-00446,MINING-STD-48PK-3547,Mining Consumables,Pallets,Ambient,9.99,0.0329,None,1
+447,SKU-00447,APPAREL-PRM-1EA-2890,Apparel,Cartons,Ambient,9.9,0.0363,None,1
+448,SKU-00448,AUTO-A-12PK-5650,Auto Parts,Pallets,Ambient,6.11,0.0207,None,1
+449,SKU-00449,ELECTRONICS-A-24PK-2317,Electronics,Cartons,Ambient,20.38,0.0797,Class 8 Corrosive,1
+450,SKU-00450,BEVERAGES-B-24PK-6453,Beverages,Pallets,Ambient,6.36,0.0337,None,1
+451,SKU-00451,PHARMACEUTICALS-STD-24PK-4629,Pharmaceuticals,Cartons,Ambient,22.52,0.1096,None,1
+452,SKU-00452,AMBIENT-PRM-48PK-8712,Ambient Grocery,Cartons,Ambient,8.63,0.0391,None,1
+453,SKU-00453,AMBIENT-B-48PK-3991,Ambient Grocery,Cartons,Ambient,18.64,0.0673,None,1
+454,SKU-00454,BUILDING-A-12PK-9393,Building Materials,Pallets,Ambient,10.34,0.0454,None,1
+455,SKU-00455,MINING-STD-12PK-4723,Mining Consumables,Pallets,Ambient,19.29,0.0707,None,1
+456,SKU-00456,ELECTRONICS-B-24PK-8683,Electronics,Cartons,Ambient,5.46,0.0241,None,1
+457,SKU-00457,FROZEN-B-1EA-8867,Frozen Food,Cartons,Frozen,25.05,0.0975,None,1
+458,SKU-00458,BEVERAGES-A-48PK-7475,Beverages,Pallets,Ambient,15.48,0.0629,None,1
+459,SKU-00459,APPAREL-PRM-1EA-4908,Apparel,Cartons,Ambient,29.09,0.1025,None,1
+460,SKU-00460,FROZEN-A-12PK-5866,Frozen Food,Cartons,Frozen,28.11,0.1319,None,1
+461,SKU-00461,HOMEWARES-PRM-6PK-6825,Homewares,Cartons,Ambient,12.54,0.058,None,1
+462,SKU-00462,FROZEN-PRM-6PK-8923,Frozen Food,Cartons,Frozen,12.46,0.0523,None,1
+463,SKU-00463,AUTO-B-12PK-4602,Auto Parts,Pallets,Ambient,8.98,0.0342,None,1
+464,SKU-00464,ELECTRONICS-A-12PK-7693,Electronics,Cartons,Ambient,1.63,0.008,Class 9 Misc,1
+465,SKU-00465,AMBIENT-PRM-6PK-6786,Ambient Grocery,Cartons,Ambient,24.84,0.0817,None,1
+466,SKU-00466,APPAREL-STD-1EA-3566,Apparel,Cartons,Ambient,7.99,0.0282,None,1
+467,SKU-00467,BEVERAGES-PRM-12PK-8097,Beverages,Pallets,Ambient,20.99,0.0805,Class 3 Flammable,1
+468,SKU-00468,HOMEWARES-STD-12PK-2426,Homewares,Cartons,Ambient,12.69,0.0434,None,1
+469,SKU-00469,PHARMACEUTICALS-B-1EA-6159,Pharmaceuticals,Cartons,Ambient,7.2,0.0267,None,1
+470,SKU-00470,APPAREL-PRM-6PK-5349,Apparel,Cartons,Ambient,24.69,0.1063,None,1
+471,SKU-00471,ELECTRONICS-B-1EA-2846,Electronics,Cartons,Ambient,11.59,0.0377,None,1
+472,SKU-00472,HOMEWARES-A-6PK-5767,Homewares,Cartons,Ambient,11.09,0.0354,None,1
+473,SKU-00473,AMBIENT-A-12PK-1181,Ambient Grocery,Cartons,Ambient,16.28,0.0599,None,1
+474,SKU-00474,INDUSTRIAL-PRM-12PK-2201,Industrial Consumables,Pallets,Ambient,12.33,0.0621,None,1
+475,SKU-00475,FROZEN-PRM-48PK-5249,Frozen Food,Cartons,Frozen,7.9,0.0293,None,1
+476,SKU-00476,AMBIENT-A-6PK-1907,Ambient Grocery,Cartons,Ambient,14.42,0.0531,None,1
+477,SKU-00477,APPAREL-STD-12PK-5930,Apparel,Cartons,Ambient,1.91,0.0068,None,1
+478,SKU-00478,INDUSTRIAL-A-48PK-9872,Industrial Consumables,Pallets,Ambient,9.69,0.0508,Class 9 Misc,1
+479,SKU-00479,PHARMACEUTICALS-A-48PK-4342,Pharmaceuticals,Cartons,Ambient,26.54,0.0899,None,1
+480,SKU-00480,APPAREL-STD-24PK-8884,Apparel,Cartons,Ambient,9.54,0.0317,None,1
+481,SKU-00481,CHILLED-B-24PK-2517,Chilled Food,Cartons,Chilled,7.9,0.0331,Class 9 Misc,1
+482,SKU-00482,APPAREL-A-12PK-7800,Apparel,Cartons,Ambient,4.73,0.0216,None,1
+483,SKU-00483,BUILDING-A-6PK-4063,Building Materials,Pallets,Ambient,7.28,0.0291,None,1
+484,SKU-00484,BUILDING-A-1EA-9073,Building Materials,Pallets,Ambient,8.53,0.0391,Class 8 Corrosive,1
+485,SKU-00485,FROZEN-B-6PK-5902,Frozen Food,Cartons,Frozen,6.21,0.0318,Class 9 Misc,1
+486,SKU-00486,INDUSTRIAL-PRM-6PK-1809,Industrial Consumables,Pallets,Ambient,17.41,0.0593,None,1
+487,SKU-00487,INDUSTRIAL-A-12PK-3147,Industrial Consumables,Pallets,Ambient,32.97,0.175,None,1
+488,SKU-00488,PHARMACEUTICALS-B-48PK-4020,Pharmaceuticals,Cartons,Ambient,15.03,0.0494,None,1
+489,SKU-00489,INDUSTRIAL-A-12PK-2819,Industrial Consumables,Pallets,Ambient,16.94,0.0564,None,1
+490,SKU-00490,CHILLED-A-12PK-1741,Chilled Food,Cartons,Chilled,2.02,0.0108,None,1
+491,SKU-00491,INDUSTRIAL-PRM-12PK-6992,Industrial Consumables,Pallets,Ambient,7.85,0.0356,None,1
+492,SKU-00492,CHILLED-A-12PK-5806,Chilled Food,Cartons,Chilled,7.3,0.0361,None,1
+493,SKU-00493,HOMEWARES-A-1EA-4149,Homewares,Cartons,Ambient,8.65,0.0354,None,1
+494,SKU-00494,ELECTRONICS-B-12PK-9661,Electronics,Cartons,Ambient,4.4,0.0183,None,1
+495,SKU-00495,BUILDING-B-24PK-6626,Building Materials,Pallets,Ambient,44.1,0.2071,None,1
+496,SKU-00496,APPAREL-STD-1EA-7108,Apparel,Cartons,Ambient,3.6,0.0183,None,1
+497,SKU-00497,FROZEN-PRM-48PK-7258,Frozen Food,Cartons,Frozen,27.53,0.0915,None,1
+498,SKU-00498,MINING-STD-24PK-3775,Mining Consumables,Pallets,Ambient,8.85,0.0287,None,1
+499,SKU-00499,BUILDING-A-48PK-1126,Building Materials,Pallets,Ambient,24.5,0.1179,None,1
+500,SKU-00500,APPAREL-STD-1EA-5926,Apparel,Cartons,Ambient,3.49,0.0131,Class 3 Flammable,1
+501,SKU-00501,AMBIENT-A-48PK-4073,Ambient Grocery,Cartons,Ambient,4.26,0.023,Class 3 Flammable,1
+502,SKU-00502,ELECTRONICS-A-24PK-7404,Electronics,Cartons,Ambient,9.69,0.0322,None,1
+503,SKU-00503,AUTO-PRM-48PK-9867,Auto Parts,Pallets,Ambient,31.22,0.1298,None,1
+504,SKU-00504,CHILLED-PRM-24PK-6131,Chilled Food,Cartons,Chilled,13.13,0.0532,None,1
+505,SKU-00505,ELECTRONICS-B-12PK-3916,Electronics,Cartons,Ambient,12.04,0.0398,Class 9 Misc,1
+506,SKU-00506,HOMEWARES-A-6PK-7371,Homewares,Cartons,Ambient,22.65,0.0716,None,1
+507,SKU-00507,MINING-B-6PK-1841,Mining Consumables,Pallets,Ambient,15.62,0.0518,None,1
+508,SKU-00508,BUILDING-STD-12PK-2173,Building Materials,Pallets,Ambient,22.56,0.0944,Class 8 Corrosive,1
+509,SKU-00509,BUILDING-STD-12PK-1604,Building Materials,Pallets,Ambient,3.04,0.0128,None,1
+510,SKU-00510,AMBIENT-PRM-6PK-9160,Ambient Grocery,Cartons,Ambient,16.01,0.0574,None,1
+511,SKU-00511,BUILDING-PRM-48PK-3558,Building Materials,Pallets,Ambient,2.94,0.0096,None,1
+512,SKU-00512,INDUSTRIAL-PRM-1EA-5822,Industrial Consumables,Pallets,Ambient,10.49,0.0383,None,1
+513,SKU-00513,INDUSTRIAL-STD-1EA-5506,Industrial Consumables,Pallets,Ambient,3.07,0.0116,None,1
+514,SKU-00514,PHARMACEUTICALS-B-1EA-7522,Pharmaceuticals,Cartons,Chilled,10.64,0.038,None,1
+515,SKU-00515,PHARMACEUTICALS-STD-12PK-4456,Pharmaceuticals,Cartons,Chilled,3.18,0.0173,None,1
+516,SKU-00516,BUILDING-PRM-6PK-7915,Building Materials,Pallets,Ambient,4.4,0.0158,None,1
+517,SKU-00517,FROZEN-STD-1EA-8917,Frozen Food,Cartons,Frozen,7.37,0.0299,None,1
+518,SKU-00518,BEVERAGES-PRM-12PK-8592,Beverages,Pallets,Ambient,2.53,0.0131,None,1
+519,SKU-00519,APPAREL-PRM-6PK-2976,Apparel,Cartons,Ambient,25.34,0.1081,None,1
+520,SKU-00520,PHARMACEUTICALS-STD-1EA-5044,Pharmaceuticals,Cartons,Chilled,20.03,0.0667,None,1
+521,SKU-00521,ELECTRONICS-B-24PK-8589,Electronics,Cartons,Ambient,4.16,0.0191,None,1
+522,SKU-00522,AMBIENT-A-1EA-4143,Ambient Grocery,Cartons,Ambient,19.97,0.1041,None,1
+523,SKU-00523,CHILLED-STD-12PK-8925,Chilled Food,Cartons,Chilled,9.01,0.0284,Class 8 Corrosive,1
+524,SKU-00524,BEVERAGES-STD-24PK-2577,Beverages,Pallets,Ambient,6.34,0.0335,None,1
+525,SKU-00525,AUTO-STD-24PK-3973,Auto Parts,Pallets,Ambient,31.74,0.1501,None,1
+526,SKU-00526,INDUSTRIAL-STD-24PK-1373,Industrial Consumables,Pallets,Ambient,13.35,0.0694,None,1
+527,SKU-00527,AMBIENT-B-6PK-2530,Ambient Grocery,Cartons,Ambient,4.82,0.0194,None,1
+528,SKU-00528,APPAREL-STD-12PK-2809,Apparel,Cartons,Ambient,8.48,0.034,None,1
+529,SKU-00529,HOMEWARES-B-12PK-7499,Homewares,Cartons,Ambient,14.19,0.0774,None,1
+530,SKU-00530,ELECTRONICS-B-1EA-9871,Electronics,Cartons,Ambient,6.22,0.0246,None,1
+531,SKU-00531,BUILDING-A-12PK-7219,Building Materials,Pallets,Ambient,16.7,0.0527,Class 3 Flammable,1
+532,SKU-00532,INDUSTRIAL-A-48PK-7725,Industrial Consumables,Pallets,Ambient,8.79,0.0291,None,1
+533,SKU-00533,CHILLED-B-1EA-3978,Chilled Food,Cartons,Chilled,16.86,0.0707,None,1
+534,SKU-00534,PHARMACEUTICALS-B-6PK-7278,Pharmaceuticals,Cartons,Chilled,2.54,0.0082,None,1
+535,SKU-00535,AMBIENT-B-12PK-1106,Ambient Grocery,Cartons,Ambient,15.42,0.0585,None,1
+536,SKU-00536,APPAREL-PRM-12PK-9645,Apparel,Cartons,Ambient,13.11,0.0509,None,1
+537,SKU-00537,HOMEWARES-PRM-48PK-5679,Homewares,Cartons,Ambient,7.15,0.0245,None,1
+538,SKU-00538,INDUSTRIAL-PRM-24PK-5718,Industrial Consumables,Pallets,Ambient,18.86,0.0713,None,1
+539,SKU-00539,BEVERAGES-B-48PK-5653,Beverages,Pallets,Ambient,14.54,0.0487,None,1
+540,SKU-00540,BEVERAGES-A-12PK-8277,Beverages,Pallets,Ambient,11.71,0.0482,None,1
+541,SKU-00541,AMBIENT-B-1EA-6189,Ambient Grocery,Cartons,Ambient,28.16,0.1063,None,1
+542,SKU-00542,AUTO-B-1EA-2272,Auto Parts,Pallets,Ambient,12.13,0.0633,None,1
+543,SKU-00543,BUILDING-PRM-24PK-1057,Building Materials,Pallets,Ambient,18.24,0.0663,None,1
+544,SKU-00544,MINING-PRM-24PK-3214,Mining Consumables,Pallets,Ambient,5.66,0.0196,Class 9 Misc,1
+545,SKU-00545,PHARMACEUTICALS-PRM-48PK-4831,Pharmaceuticals,Cartons,Ambient,24.43,0.118,Class 3 Flammable,1
+546,SKU-00546,HOMEWARES-A-1EA-7669,Homewares,Cartons,Ambient,15.4,0.0488,None,1
+547,SKU-00547,CHILLED-A-24PK-1421,Chilled Food,Cartons,Chilled,15.18,0.0534,None,1
+548,SKU-00548,INDUSTRIAL-PRM-12PK-3545,Industrial Consumables,Pallets,Ambient,8.52,0.0361,None,1
+549,SKU-00549,BUILDING-B-12PK-1452,Building Materials,Pallets,Ambient,8.13,0.0332,None,1
+550,SKU-00550,CHILLED-STD-12PK-8752,Chilled Food,Cartons,Chilled,14.54,0.0643,None,1
+551,SKU-00551,APPAREL-A-6PK-1506,Apparel,Cartons,Ambient,24.39,0.0843,None,1
+552,SKU-00552,FROZEN-PRM-6PK-9888,Frozen Food,Cartons,Frozen,6.99,0.0233,None,1
+553,SKU-00553,ELECTRONICS-PRM-12PK-2749,Electronics,Cartons,Ambient,22.76,0.0959,None,1
+554,SKU-00554,HOMEWARES-PRM-1EA-4115,Homewares,Cartons,Ambient,8.65,0.0315,None,1
+555,SKU-00555,BEVERAGES-PRM-1EA-7090,Beverages,Pallets,Ambient,11.28,0.0473,None,1
+556,SKU-00556,PHARMACEUTICALS-STD-6PK-3298,Pharmaceuticals,Cartons,Ambient,17.77,0.0638,None,1
+557,SKU-00557,AMBIENT-A-48PK-9960,Ambient Grocery,Cartons,Ambient,10.2,0.0413,None,1
+558,SKU-00558,HOMEWARES-PRM-12PK-5326,Homewares,Cartons,Ambient,7.82,0.043,None,1
+559,SKU-00559,BUILDING-STD-6PK-1057,Building Materials,Pallets,Ambient,11.65,0.0518,Class 8 Corrosive,1
+560,SKU-00560,MINING-STD-6PK-7593,Mining Consumables,Pallets,Ambient,19.66,0.0726,None,1
+561,SKU-00561,AUTO-PRM-24PK-5832,Auto Parts,Pallets,Ambient,15.46,0.0803,None,1
+562,SKU-00562,AMBIENT-A-1EA-5710,Ambient Grocery,Cartons,Ambient,6.59,0.021,None,1
+563,SKU-00563,BEVERAGES-STD-12PK-1290,Beverages,Pallets,Ambient,40.48,0.1691,Class 8 Corrosive,1
+564,SKU-00564,FROZEN-B-24PK-7216,Frozen Food,Cartons,Frozen,3.7,0.0175,None,1
+565,SKU-00565,AMBIENT-B-6PK-1966,Ambient Grocery,Cartons,Ambient,13.21,0.0695,Class 8 Corrosive,1
+566,SKU-00566,BUILDING-PRM-6PK-3946,Building Materials,Pallets,Ambient,4.71,0.0195,None,1
+567,SKU-00567,BEVERAGES-A-24PK-8983,Beverages,Pallets,Ambient,15.28,0.05,None,1
+568,SKU-00568,AUTO-PRM-1EA-3899,Auto Parts,Pallets,Ambient,23.77,0.0863,None,1
+569,SKU-00569,CHILLED-A-24PK-5442,Chilled Food,Cartons,Chilled,13.31,0.0458,None,1
+570,SKU-00570,MINING-PRM-6PK-6741,Mining Consumables,Pallets,Ambient,5.07,0.0276,None,1
+571,SKU-00571,AMBIENT-PRM-1EA-1430,Ambient Grocery,Cartons,Ambient,9.87,0.0366,None,1
+572,SKU-00572,BEVERAGES-A-1EA-9954,Beverages,Pallets,Ambient,6.63,0.0245,Class 3 Flammable,1
+573,SKU-00573,MINING-A-48PK-3055,Mining Consumables,Pallets,Ambient,9.93,0.0313,None,1
+574,SKU-00574,APPAREL-B-24PK-3152,Apparel,Cartons,Ambient,1.75,0.0061,None,1
+575,SKU-00575,PHARMACEUTICALS-B-1EA-4954,Pharmaceuticals,Cartons,Ambient,21.21,0.0965,None,1
+576,SKU-00576,BUILDING-B-12PK-1985,Building Materials,Pallets,Ambient,1.75,0.0077,None,1
+577,SKU-00577,HOMEWARES-STD-6PK-1423,Homewares,Cartons,Ambient,9.47,0.052,None,1
+578,SKU-00578,AUTO-A-24PK-9760,Auto Parts,Pallets,Ambient,5.52,0.0233,None,1
+579,SKU-00579,BEVERAGES-STD-1EA-3131,Beverages,Pallets,Ambient,6.75,0.0331,Class 8 Corrosive,1
+580,SKU-00580,HOMEWARES-B-12PK-6136,Homewares,Cartons,Ambient,8.69,0.0344,None,1
+581,SKU-00581,CHILLED-B-6PK-9300,Chilled Food,Cartons,Chilled,21.59,0.0992,None,1
+582,SKU-00582,BUILDING-A-6PK-8279,Building Materials,Pallets,Ambient,4.79,0.0179,None,1
+583,SKU-00583,MINING-STD-1EA-5362,Mining Consumables,Pallets,Ambient,3.48,0.0121,None,1
+584,SKU-00584,CHILLED-A-24PK-6941,Chilled Food,Cartons,Chilled,2.59,0.0098,None,1
+585,SKU-00585,ELECTRONICS-PRM-6PK-4574,Electronics,Cartons,Ambient,14.3,0.0456,None,1
+586,SKU-00586,APPAREL-A-12PK-4745,Apparel,Cartons,Ambient,11.93,0.0586,None,1
+587,SKU-00587,CHILLED-PRM-12PK-9783,Chilled Food,Cartons,Chilled,20.42,0.0736,None,1
+588,SKU-00588,AMBIENT-A-24PK-2372,Ambient Grocery,Cartons,Ambient,5.73,0.0295,None,1
+589,SKU-00589,INDUSTRIAL-STD-12PK-2537,Industrial Consumables,Pallets,Ambient,25.18,0.0914,None,1
+590,SKU-00590,MINING-A-48PK-4146,Mining Consumables,Pallets,Ambient,16.25,0.0513,None,1
+591,SKU-00591,APPAREL-A-24PK-9691,Apparel,Cartons,Ambient,18.2,0.0599,Class 8 Corrosive,1
+592,SKU-00592,INDUSTRIAL-STD-6PK-6680,Industrial Consumables,Pallets,Ambient,13.5,0.0567,Class 3 Flammable,1
+593,SKU-00593,BUILDING-B-24PK-9776,Building Materials,Pallets,Ambient,6.05,0.0336,None,1
+594,SKU-00594,AMBIENT-A-48PK-9394,Ambient Grocery,Cartons,Ambient,19.15,0.0798,None,1
+595,SKU-00595,AUTO-B-48PK-6212,Auto Parts,Pallets,Ambient,5.07,0.0192,None,1
+596,SKU-00596,AMBIENT-PRM-48PK-1224,Ambient Grocery,Cartons,Ambient,7.92,0.0334,None,1
+597,SKU-00597,HOMEWARES-PRM-1EA-7740,Homewares,Cartons,Ambient,14.1,0.0446,None,1
+598,SKU-00598,BEVERAGES-B-48PK-2305,Beverages,Pallets,Ambient,9.08,0.0296,Class 3 Flammable,1
+599,SKU-00599,INDUSTRIAL-STD-24PK-5714,Industrial Consumables,Pallets,Ambient,6.32,0.0288,None,1
+600,SKU-00600,APPAREL-A-48PK-9731,Apparel,Cartons,Ambient,4.63,0.0174,None,1
+601,SKU-00601,BEVERAGES-PRM-48PK-1733,Beverages,Pallets,Ambient,7.47,0.0409,Class 9 Misc,1
+602,SKU-00602,PHARMACEUTICALS-STD-6PK-4744,Pharmaceuticals,Cartons,Chilled,8.08,0.0291,Class 9 Misc,1
+603,SKU-00603,INDUSTRIAL-PRM-12PK-1659,Industrial Consumables,Pallets,Ambient,3.96,0.0199,None,1
+604,SKU-00604,INDUSTRIAL-STD-1EA-3873,Industrial Consumables,Pallets,Ambient,8.2,0.0362,None,1
+605,SKU-00605,AUTO-STD-24PK-6474,Auto Parts,Pallets,Ambient,10.79,0.0552,None,1
+606,SKU-00606,INDUSTRIAL-B-48PK-1400,Industrial Consumables,Pallets,Ambient,7.24,0.0402,None,1
+607,SKU-00607,INDUSTRIAL-B-48PK-6174,Industrial Consumables,Pallets,Ambient,21.47,0.0828,Class 3 Flammable,1
+608,SKU-00608,AUTO-B-6PK-4424,Auto Parts,Pallets,Ambient,33.25,0.1252,None,1
+609,SKU-00609,MINING-B-12PK-5964,Mining Consumables,Pallets,Ambient,14.95,0.0505,None,1
+610,SKU-00610,BEVERAGES-B-12PK-5003,Beverages,Pallets,Ambient,3.87,0.0206,None,1
+611,SKU-00611,ELECTRONICS-STD-12PK-6622,Electronics,Cartons,Ambient,17.5,0.0656,None,1
+612,SKU-00612,INDUSTRIAL-A-48PK-8668,Industrial Consumables,Pallets,Ambient,14.62,0.0778,None,1
+613,SKU-00613,BUILDING-STD-1EA-1233,Building Materials,Pallets,Ambient,6.07,0.0191,None,1
+614,SKU-00614,AMBIENT-B-12PK-8309,Ambient Grocery,Cartons,Ambient,17.36,0.0621,None,1
+615,SKU-00615,BEVERAGES-STD-24PK-7114,Beverages,Pallets,Ambient,12.98,0.0619,None,1
+616,SKU-00616,AUTO-B-48PK-9832,Auto Parts,Pallets,Ambient,19.16,0.092,None,1
+617,SKU-00617,INDUSTRIAL-STD-24PK-4438,Industrial Consumables,Pallets,Ambient,10.0,0.0516,None,1
+618,SKU-00618,AUTO-B-24PK-5692,Auto Parts,Pallets,Ambient,26.68,0.0844,Class 3 Flammable,1
+619,SKU-00619,AUTO-B-1EA-3807,Auto Parts,Pallets,Ambient,31.93,0.115,None,1
+620,SKU-00620,BUILDING-B-24PK-1987,Building Materials,Pallets,Ambient,12.79,0.0412,None,1
+621,SKU-00621,FROZEN-PRM-24PK-6912,Frozen Food,Cartons,Frozen,9.91,0.031,None,1
+622,SKU-00622,INDUSTRIAL-A-6PK-9436,Industrial Consumables,Pallets,Ambient,14.86,0.0519,None,1
+623,SKU-00623,BUILDING-PRM-12PK-8991,Building Materials,Pallets,Ambient,4.39,0.014,None,1
+624,SKU-00624,MINING-A-6PK-1909,Mining Consumables,Pallets,Ambient,13.71,0.061,None,1
+625,SKU-00625,INDUSTRIAL-A-1EA-5478,Industrial Consumables,Pallets,Ambient,4.22,0.0162,None,1
+626,SKU-00626,MINING-STD-1EA-7336,Mining Consumables,Pallets,Ambient,6.58,0.0276,None,1
+627,SKU-00627,MINING-A-1EA-7552,Mining Consumables,Pallets,Ambient,9.92,0.0364,None,1
+628,SKU-00628,PHARMACEUTICALS-PRM-6PK-9762,Pharmaceuticals,Cartons,Ambient,2.33,0.0088,Class 9 Misc,1
+629,SKU-00629,BEVERAGES-B-1EA-8909,Beverages,Pallets,Ambient,6.56,0.0248,None,1
+630,SKU-00630,AUTO-STD-12PK-9924,Auto Parts,Pallets,Ambient,17.35,0.0836,None,1
+631,SKU-00631,BEVERAGES-A-48PK-9279,Beverages,Pallets,Ambient,3.42,0.0129,None,1
+632,SKU-00632,AMBIENT-PRM-1EA-2658,Ambient Grocery,Cartons,Ambient,17.23,0.0807,None,1
+633,SKU-00633,PHARMACEUTICALS-A-48PK-8839,Pharmaceuticals,Cartons,Chilled,11.69,0.0479,None,1
+634,SKU-00634,APPAREL-A-1EA-3819,Apparel,Cartons,Ambient,19.97,0.1058,None,1
+635,SKU-00635,MINING-B-6PK-9946,Mining Consumables,Pallets,Ambient,9.1,0.0336,None,1
+636,SKU-00636,APPAREL-A-1EA-8408,Apparel,Cartons,Ambient,27.12,0.0873,Class 9 Misc,1
+637,SKU-00637,AUTO-A-1EA-7434,Auto Parts,Pallets,Ambient,7.37,0.0328,None,1
+638,SKU-00638,CHILLED-B-6PK-4695,Chilled Food,Cartons,Chilled,12.66,0.0516,None,1
+639,SKU-00639,MINING-PRM-24PK-5461,Mining Consumables,Pallets,Ambient,15.93,0.0513,None,1
+640,SKU-00640,ELECTRONICS-STD-24PK-8412,Electronics,Cartons,Ambient,13.65,0.0525,None,1
+641,SKU-00641,HOMEWARES-A-48PK-6351,Homewares,Cartons,Ambient,3.4,0.0154,None,1
+642,SKU-00642,HOMEWARES-A-24PK-2532,Homewares,Cartons,Ambient,4.09,0.0172,None,1
+643,SKU-00643,BUILDING-B-24PK-8772,Building Materials,Pallets,Ambient,7.71,0.0359,None,1
+644,SKU-00644,BEVERAGES-PRM-1EA-5166,Beverages,Pallets,Ambient,14.78,0.0649,None,1
+645,SKU-00645,FROZEN-PRM-1EA-8684,Frozen Food,Cartons,Frozen,16.8,0.0928,None,1
+646,SKU-00646,ELECTRONICS-STD-24PK-6901,Electronics,Cartons,Ambient,33.5,0.1795,None,1
+647,SKU-00647,FROZEN-A-24PK-7007,Frozen Food,Cartons,Frozen,6.59,0.0259,None,1
+648,SKU-00648,CHILLED-A-12PK-7112,Chilled Food,Cartons,Chilled,10.63,0.045,None,1
+649,SKU-00649,MINING-PRM-1EA-7853,Mining Consumables,Pallets,Ambient,3.2,0.0172,Class 8 Corrosive,1
+650,SKU-00650,INDUSTRIAL-A-6PK-3312,Industrial Consumables,Pallets,Ambient,18.91,0.0849,None,1
+651,SKU-00651,PHARMACEUTICALS-STD-12PK-9792,Pharmaceuticals,Cartons,Chilled,9.39,0.0431,None,1
+652,SKU-00652,ELECTRONICS-B-48PK-8763,Electronics,Cartons,Ambient,18.0,0.0697,None,1
+653,SKU-00653,BEVERAGES-A-12PK-1906,Beverages,Pallets,Ambient,8.65,0.038,Class 3 Flammable,1
+654,SKU-00654,AUTO-A-6PK-4865,Auto Parts,Pallets,Ambient,19.18,0.0908,None,1
+655,SKU-00655,MINING-A-12PK-6639,Mining Consumables,Pallets,Ambient,2.0,0.0063,Class 8 Corrosive,1
+656,SKU-00656,AUTO-STD-12PK-2665,Auto Parts,Pallets,Ambient,1.78,0.0059,Class 9 Misc,1
+657,SKU-00657,ELECTRONICS-B-48PK-2530,Electronics,Cartons,Ambient,13.89,0.0666,None,1
+658,SKU-00658,CHILLED-A-1EA-3303,Chilled Food,Cartons,Chilled,32.46,0.12,None,1
+659,SKU-00659,BEVERAGES-B-12PK-2897,Beverages,Pallets,Ambient,11.29,0.0457,None,1
+660,SKU-00660,CHILLED-B-6PK-8326,Chilled Food,Cartons,Chilled,10.83,0.0372,None,1
+661,SKU-00661,BUILDING-A-1EA-4873,Building Materials,Pallets,Ambient,1.8,0.0062,None,1
+662,SKU-00662,AUTO-STD-12PK-6136,Auto Parts,Pallets,Ambient,23.35,0.0952,None,1
+663,SKU-00663,INDUSTRIAL-PRM-12PK-8424,Industrial Consumables,Pallets,Ambient,5.95,0.0288,None,1
+664,SKU-00664,BEVERAGES-PRM-48PK-9830,Beverages,Pallets,Ambient,13.09,0.0716,None,1
+665,SKU-00665,BEVERAGES-PRM-12PK-1740,Beverages,Pallets,Ambient,8.59,0.0424,None,1
+666,SKU-00666,AUTO-PRM-6PK-4785,Auto Parts,Pallets,Ambient,20.45,0.0787,None,1
+667,SKU-00667,AUTO-STD-1EA-8973,Auto Parts,Pallets,Ambient,13.01,0.0547,None,1
+668,SKU-00668,CHILLED-A-1EA-4007,Chilled Food,Cartons,Chilled,8.27,0.0311,None,1
+669,SKU-00669,AMBIENT-B-1EA-5903,Ambient Grocery,Cartons,Ambient,26.56,0.12,None,1
+670,SKU-00670,MINING-STD-1EA-8425,Mining Consumables,Pallets,Ambient,7.33,0.0258,Class 8 Corrosive,1
+671,SKU-00671,BUILDING-A-48PK-7998,Building Materials,Pallets,Ambient,18.94,0.0984,None,1
+672,SKU-00672,AMBIENT-B-6PK-6498,Ambient Grocery,Cartons,Ambient,17.73,0.0733,None,1
+673,SKU-00673,BEVERAGES-A-12PK-2322,Beverages,Pallets,Ambient,11.64,0.0495,None,1
+674,SKU-00674,APPAREL-STD-6PK-5732,Apparel,Cartons,Ambient,25.34,0.088,None,1
+675,SKU-00675,INDUSTRIAL-PRM-12PK-1190,Industrial Consumables,Pallets,Ambient,11.09,0.0401,None,1
+676,SKU-00676,MINING-PRM-6PK-8891,Mining Consumables,Pallets,Ambient,8.2,0.0286,None,1
+677,SKU-00677,CHILLED-STD-48PK-9432,Chilled Food,Cartons,Chilled,7.84,0.0338,Class 3 Flammable,1
+678,SKU-00678,MINING-STD-6PK-1334,Mining Consumables,Pallets,Ambient,17.91,0.0969,None,1
+679,SKU-00679,INDUSTRIAL-A-12PK-4297,Industrial Consumables,Pallets,Ambient,7.32,0.0312,None,1
+680,SKU-00680,MINING-PRM-48PK-2360,Mining Consumables,Pallets,Ambient,2.06,0.0064,None,1
+681,SKU-00681,HOMEWARES-PRM-1EA-1746,Homewares,Cartons,Ambient,27.64,0.1312,None,1
+682,SKU-00682,MINING-A-6PK-9248,Mining Consumables,Pallets,Ambient,46.73,0.1537,None,1
+683,SKU-00683,CHILLED-PRM-1EA-6879,Chilled Food,Cartons,Chilled,12.21,0.0545,None,1
+684,SKU-00684,APPAREL-A-12PK-7958,Apparel,Cartons,Ambient,22.64,0.0755,Class 3 Flammable,1
+685,SKU-00685,APPAREL-PRM-6PK-3414,Apparel,Cartons,Ambient,16.51,0.0839,None,1
+686,SKU-00686,CHILLED-A-48PK-9914,Chilled Food,Cartons,Chilled,15.19,0.0513,Class 9 Misc,1
+687,SKU-00687,ELECTRONICS-B-48PK-4959,Electronics,Cartons,Ambient,34.55,0.1323,None,1
+688,SKU-00688,CHILLED-STD-12PK-3895,Chilled Food,Cartons,Chilled,15.17,0.0735,None,1
+689,SKU-00689,BUILDING-A-6PK-9410,Building Materials,Pallets,Ambient,4.09,0.0129,None,1
+690,SKU-00690,BUILDING-PRM-48PK-9138,Building Materials,Pallets,Ambient,13.28,0.0495,None,1
+691,SKU-00691,BEVERAGES-B-6PK-4594,Beverages,Pallets,Ambient,8.43,0.03,Class 8 Corrosive,1
+692,SKU-00692,FROZEN-B-48PK-1585,Frozen Food,Cartons,Frozen,4.82,0.0167,None,1
+693,SKU-00693,PHARMACEUTICALS-A-1EA-1350,Pharmaceuticals,Cartons,Chilled,21.7,0.1125,None,1
+694,SKU-00694,ELECTRONICS-B-1EA-7978,Electronics,Cartons,Ambient,9.87,0.0399,None,1
+695,SKU-00695,PHARMACEUTICALS-B-24PK-1185,Pharmaceuticals,Cartons,Ambient,8.3,0.036,Class 3 Flammable,1
+696,SKU-00696,BUILDING-B-6PK-4318,Building Materials,Pallets,Ambient,7.14,0.0289,None,1
+697,SKU-00697,CHILLED-STD-24PK-2079,Chilled Food,Cartons,Chilled,7.34,0.0237,None,1
+698,SKU-00698,FROZEN-STD-12PK-7497,Frozen Food,Cartons,Frozen,14.56,0.0716,Class 3 Flammable,1
+699,SKU-00699,ELECTRONICS-PRM-1EA-1377,Electronics,Cartons,Ambient,7.9,0.0429,None,1
+700,SKU-00700,AMBIENT-A-48PK-8684,Ambient Grocery,Cartons,Ambient,36.96,0.167,None,1
+701,SKU-00701,CHILLED-PRM-24PK-5606,Chilled Food,Cartons,Chilled,28.93,0.0933,None,1
+702,SKU-00702,FROZEN-A-12PK-9606,Frozen Food,Cartons,Frozen,7.19,0.0337,None,1
+703,SKU-00703,INDUSTRIAL-PRM-48PK-5336,Industrial Consumables,Pallets,Ambient,21.3,0.071,None,1
+704,SKU-00704,BEVERAGES-PRM-24PK-1251,Beverages,Pallets,Ambient,2.81,0.0112,Class 9 Misc,1
+705,SKU-00705,HOMEWARES-B-48PK-1783,Homewares,Cartons,Ambient,7.21,0.024,None,1
+706,SKU-00706,BUILDING-A-48PK-6621,Building Materials,Pallets,Ambient,9.77,0.0404,None,1
+707,SKU-00707,FROZEN-A-24PK-5520,Frozen Food,Cartons,Frozen,1.01,0.0051,None,1
+708,SKU-00708,APPAREL-A-6PK-1318,Apparel,Cartons,Ambient,33.64,0.1488,None,1
+709,SKU-00709,CHILLED-STD-24PK-2445,Chilled Food,Cartons,Chilled,14.05,0.0449,None,1
+710,SKU-00710,HOMEWARES-B-12PK-1731,Homewares,Cartons,Ambient,18.06,0.0741,None,1
+711,SKU-00711,PHARMACEUTICALS-STD-6PK-1293,Pharmaceuticals,Cartons,Ambient,9.57,0.0374,None,1
+712,SKU-00712,INDUSTRIAL-B-24PK-8483,Industrial Consumables,Pallets,Ambient,6.07,0.0195,None,1
+713,SKU-00713,MINING-A-6PK-8236,Mining Consumables,Pallets,Ambient,11.94,0.0523,Class 8 Corrosive,1
+714,SKU-00714,ELECTRONICS-STD-6PK-7890,Electronics,Cartons,Ambient,14.23,0.0779,None,1
+715,SKU-00715,BUILDING-A-6PK-9899,Building Materials,Pallets,Ambient,1.99,0.0105,None,1
+716,SKU-00716,INDUSTRIAL-B-12PK-8176,Industrial Consumables,Pallets,Ambient,6.74,0.0325,None,1
+717,SKU-00717,AUTO-A-1EA-3439,Auto Parts,Pallets,Ambient,10.19,0.0358,None,1
+718,SKU-00718,HOMEWARES-PRM-24PK-7176,Homewares,Cartons,Ambient,2.12,0.0082,None,1
+719,SKU-00719,INDUSTRIAL-PRM-48PK-9049,Industrial Consumables,Pallets,Ambient,24.4,0.1126,None,1
+720,SKU-00720,BEVERAGES-STD-48PK-9115,Beverages,Pallets,Ambient,6.04,0.0225,None,1
+721,SKU-00721,APPAREL-B-1EA-8535,Apparel,Cartons,Ambient,11.65,0.0391,None,1
+722,SKU-00722,APPAREL-STD-6PK-3339,Apparel,Cartons,Ambient,17.41,0.0827,None,1
+723,SKU-00723,AUTO-PRM-1EA-2787,Auto Parts,Pallets,Ambient,7.82,0.0335,None,1
+724,SKU-00724,APPAREL-STD-6PK-6992,Apparel,Cartons,Ambient,4.68,0.0148,None,1
+725,SKU-00725,AUTO-PRM-48PK-3028,Auto Parts,Pallets,Ambient,20.48,0.0727,None,1
+726,SKU-00726,INDUSTRIAL-STD-1EA-2050,Industrial Consumables,Pallets,Ambient,4.57,0.0176,None,1
+727,SKU-00727,HOMEWARES-A-12PK-8402,Homewares,Cartons,Ambient,13.93,0.0548,None,1
+728,SKU-00728,BUILDING-B-48PK-1368,Building Materials,Pallets,Ambient,11.43,0.0466,None,1
+729,SKU-00729,ELECTRONICS-B-12PK-5548,Electronics,Cartons,Ambient,4.08,0.0178,None,1
+730,SKU-00730,APPAREL-B-1EA-5370,Apparel,Cartons,Ambient,14.28,0.0609,None,1
+731,SKU-00731,INDUSTRIAL-B-6PK-2535,Industrial Consumables,Pallets,Ambient,7.82,0.0257,None,1
+732,SKU-00732,INDUSTRIAL-STD-12PK-6847,Industrial Consumables,Pallets,Ambient,34.93,0.1897,None,1
+733,SKU-00733,INDUSTRIAL-A-48PK-4078,Industrial Consumables,Pallets,Ambient,6.31,0.0215,Class 8 Corrosive,1
+734,SKU-00734,MINING-A-12PK-8620,Mining Consumables,Pallets,Ambient,18.89,0.0832,Class 3 Flammable,1
+735,SKU-00735,INDUSTRIAL-B-1EA-1757,Industrial Consumables,Pallets,Ambient,4.33,0.0149,Class 8 Corrosive,1
+736,SKU-00736,PHARMACEUTICALS-B-48PK-8539,Pharmaceuticals,Cartons,Chilled,19.57,0.0706,None,1
+737,SKU-00737,AUTO-STD-12PK-4714,Auto Parts,Pallets,Ambient,11.65,0.0475,None,1
+738,SKU-00738,CHILLED-B-48PK-9487,Chilled Food,Cartons,Chilled,12.64,0.0452,Class 8 Corrosive,1
+739,SKU-00739,AUTO-B-1EA-7746,Auto Parts,Pallets,Ambient,11.13,0.0561,None,1
+740,SKU-00740,PHARMACEUTICALS-STD-6PK-6578,Pharmaceuticals,Cartons,Ambient,29.02,0.1054,None,1
+741,SKU-00741,INDUSTRIAL-A-12PK-8527,Industrial Consumables,Pallets,Ambient,15.25,0.0671,None,1
+742,SKU-00742,FROZEN-PRM-48PK-6391,Frozen Food,Cartons,Frozen,6.79,0.031,None,1
+743,SKU-00743,BEVERAGES-PRM-1EA-8281,Beverages,Pallets,Ambient,45.27,0.2003,None,1
+744,SKU-00744,BUILDING-STD-12PK-4641,Building Materials,Pallets,Ambient,10.62,0.0512,None,1
+745,SKU-00745,ELECTRONICS-B-24PK-9047,Electronics,Cartons,Ambient,6.35,0.0273,None,1
+746,SKU-00746,CHILLED-STD-24PK-8140,Chilled Food,Cartons,Chilled,8.44,0.0397,Class 3 Flammable,1
+747,SKU-00747,PHARMACEUTICALS-B-24PK-5491,Pharmaceuticals,Cartons,Chilled,19.02,0.0993,None,1
+748,SKU-00748,APPAREL-PRM-1EA-8981,Apparel,Cartons,Ambient,53.54,0.1687,None,1
+749,SKU-00749,AMBIENT-STD-24PK-1616,Ambient Grocery,Cartons,Ambient,5.36,0.0188,None,1
+750,SKU-00750,HOMEWARES-B-1EA-7096,Homewares,Cartons,Ambient,29.43,0.0958,None,1
+751,SKU-00751,ELECTRONICS-B-12PK-6551,Electronics,Cartons,Ambient,16.31,0.0855,None,1
+752,SKU-00752,HOMEWARES-PRM-6PK-7440,Homewares,Cartons,Ambient,14.17,0.056,Class 3 Flammable,1
+753,SKU-00753,APPAREL-A-24PK-4185,Apparel,Cartons,Ambient,13.2,0.0566,None,1
+754,SKU-00754,AUTO-B-12PK-8317,Auto Parts,Pallets,Ambient,12.1,0.0515,None,1
+755,SKU-00755,BEVERAGES-PRM-48PK-5992,Beverages,Pallets,Ambient,2.28,0.0098,None,1
+756,SKU-00756,AMBIENT-PRM-24PK-9813,Ambient Grocery,Cartons,Ambient,12.1,0.0636,Class 8 Corrosive,1
+757,SKU-00757,MINING-A-6PK-1996,Mining Consumables,Pallets,Ambient,17.86,0.0718,None,1
+758,SKU-00758,APPAREL-A-12PK-4788,Apparel,Cartons,Ambient,3.33,0.0171,None,1
+759,SKU-00759,PHARMACEUTICALS-STD-1EA-3400,Pharmaceuticals,Cartons,Chilled,5.17,0.0191,None,1
+760,SKU-00760,INDUSTRIAL-A-12PK-1790,Industrial Consumables,Pallets,Ambient,2.94,0.0116,Class 3 Flammable,1
+761,SKU-00761,INDUSTRIAL-STD-48PK-8670,Industrial Consumables,Pallets,Ambient,8.03,0.0267,None,1
+762,SKU-00762,AUTO-A-1EA-3844,Auto Parts,Pallets,Ambient,9.83,0.0419,None,1
+763,SKU-00763,AMBIENT-STD-1EA-3901,Ambient Grocery,Cartons,Ambient,14.66,0.0541,None,1
+764,SKU-00764,MINING-A-6PK-9017,Mining Consumables,Pallets,Ambient,13.84,0.0434,None,1
+765,SKU-00765,CHILLED-STD-6PK-1227,Chilled Food,Cartons,Chilled,4.11,0.0185,None,1
+766,SKU-00766,APPAREL-A-6PK-9167,Apparel,Cartons,Ambient,12.68,0.0588,None,1
+767,SKU-00767,FROZEN-A-6PK-7002,Frozen Food,Cartons,Frozen,12.23,0.0515,None,1
+768,SKU-00768,BEVERAGES-A-6PK-4126,Beverages,Pallets,Ambient,3.28,0.0154,Class 8 Corrosive,1
+769,SKU-00769,BUILDING-PRM-1EA-1925,Building Materials,Pallets,Ambient,5.43,0.0206,Class 8 Corrosive,1
+770,SKU-00770,MINING-STD-12PK-1562,Mining Consumables,Pallets,Ambient,19.05,0.0787,None,1
+771,SKU-00771,AUTO-PRM-48PK-4883,Auto Parts,Pallets,Ambient,16.35,0.0712,None,1
+772,SKU-00772,AMBIENT-STD-24PK-6532,Ambient Grocery,Cartons,Ambient,28.15,0.0928,None,1
+773,SKU-00773,ELECTRONICS-A-12PK-4037,Electronics,Cartons,Ambient,14.98,0.0532,None,1
+774,SKU-00774,ELECTRONICS-PRM-12PK-9631,Electronics,Cartons,Ambient,4.45,0.021,Class 3 Flammable,1
+775,SKU-00775,ELECTRONICS-B-12PK-5105,Electronics,Cartons,Ambient,26.08,0.0889,None,1
+776,SKU-00776,AMBIENT-PRM-12PK-5328,Ambient Grocery,Cartons,Ambient,29.72,0.1188,None,1
+777,SKU-00777,AMBIENT-PRM-1EA-6959,Ambient Grocery,Cartons,Ambient,32.22,0.1631,None,1
+778,SKU-00778,AMBIENT-B-12PK-1303,Ambient Grocery,Cartons,Ambient,18.45,0.0691,None,1
+779,SKU-00779,ELECTRONICS-A-12PK-5108,Electronics,Cartons,Ambient,22.91,0.0777,None,1
+780,SKU-00780,MINING-B-48PK-3837,Mining Consumables,Pallets,Ambient,8.5,0.0401,None,1

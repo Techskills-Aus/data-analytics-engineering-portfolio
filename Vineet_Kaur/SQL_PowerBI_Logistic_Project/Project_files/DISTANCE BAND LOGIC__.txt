@@ -1,0 +1,7 @@
+DISTANCE BAND LOGIC__
+
+Band	Range
+Short haul	under 100 km
+Regional	100 to under 400 km
+Long haul	400 to under 1,000 km
+Interstate	1,000 km and over

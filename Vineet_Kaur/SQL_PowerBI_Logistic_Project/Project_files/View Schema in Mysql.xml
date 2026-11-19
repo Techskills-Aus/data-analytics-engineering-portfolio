@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">TABLE_CATALOG</Data></Cell>
+			<Cell><Data ss:Type="String">TABLE_SCHEMA</Data></Cell>
+			<Cell><Data ss:Type="String">TABLE_NAME</Data></Cell>
+			<Cell><Data ss:Type="String">VIEW_DEFINITION</Data></Cell>
+			<Cell><Data ss:Type="String">CHECK_OPTION</Data></Cell>
+			<Cell><Data ss:Type="String">IS_UPDATABLE</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">SECURITY_TYPE</Data></Cell>
+			<Cell><Data ss:Type="String">CHARACTER_SET_CLIENT</Data></Cell>
+			<Cell><Data ss:Type="String">COLLATION_CONNECTION</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_carrier</Data></Cell>
+			<Cell><Data ss:Type="String">select `ca`.`carrier_id` AS `carrier_key`,`ca`.`carrier_name` AS `carrier_name`,`ca`.`carrier_type` AS `carrier_type`,`ca`.`transport_mode` AS `transport_mode`,`ca`.`is_inhouse` AS `is_inhouse`,(case `ca`.`is_inhouse` when 1 then 'In-House' else 'Subcontractor' end) AS `carrier_group`,(case when (length(replace(`ca`.`abn`,' ','')) = 11) then concat(substr(replace(`ca`.`abn`,' ',''),1,2),' ',substr(replace(`ca`.`abn`,' ',''),3,3),' ',substr(replace(`ca`.`abn`,' ',''),6,3),' ',substr(replace(`ca`.`abn`,' ',''),9,3)) else `ca`.`abn` end) AS `abn_formatted`,`ca`.`contract_start` AS `contract_start` from `meridian_freight`.`carriers` `ca`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_consignment_delivery</Data></Cell>
+			<Cell><Data ss:Type="String">select `c`.`consignment_id` AS `consignment_key`,`c`.`consignment_number` AS `consignment_number`,`meridian_freight`.`m`.`surviving_customer_id` AS `customer_key`,`c`.`service_type_id` AS `service_type_key`,`c`.`carrier_id` AS `carrier_key`,`c`.`origin_facility_id` AS `origin_facility_key`,`c`.`destination_facility_id` AS `destination_facility_key`,`c`.`origin_location_id` AS `origin_geography_key`,`c`.`destination_location_id` AS `destination_geography_key`,cast(`c`.`booked_datetime` as date) AS `booked_date`,`c`.`pickup_date` AS `pickup_date`,`c`.`promised_delivery_date` AS `promised_delivery_date`,cast(`c`.`actual_delivery_datetime` as date) AS `actual_delivery_date`,`c`.`actual_delivery_datetime` AS `actual_delivery_datetime`,upper(trim(`c`.`status_code`)) AS `status_code`,(case upper(trim(`c`.`status_code`)) when 'DELIVERED' then 'Delivered' when 'RETURNED' then 'Returned to Sender' when 'LOST' then 'Lost' when 'IN_TRANSIT' then 'In Transit' else 'Unknown' end) AS `status_description`,(case when ((`c`.`actual_delivery_datetime` is not null) and (cast(`c`.`actual_delivery_datetime` as date) < `c`.`pickup_date`)) then 1 else 0 end) AS `dq_delivery_before_pickup`,(case when ((upper(trim(`c`.`status_code`)) = 'DELIVERED') and (`c`.`actual_delivery_datetime` is not null) and (cast(`c`.`actual_delivery_datetime` as date) >= `c`.`pickup_date`)) then (case when (cast(`c`.`actual_delivery_datetime` as date) <= `c`.`promised_delivery_date`) then 1 else 0 end) else NULL end) AS `is_on_time`,(case when ((upper(trim(`c`.`status_code`)) = 'DELIVERED') and (`c`.`actual_delivery_datetime` is not null) and (cast(`c`.`actual_delivery_datetime` as date) >= `c`.`pickup_date`)) then 1 else 0 end) AS `is_measurable_delivery`,(to_days(cast(`c`.`actual_delivery_datetime` as date)) - to_days(`c`.`pickup_date`)) AS `transit_days_actual`,(to_days(`c`.`promised_delivery_date`) - to_days(`c`.`pickup_date`)) AS `transit_days_promised`,(to_days(cast(`c`.`actual_delivery_datetime` as date)) - to_days(`c`.`promised_delivery_date`)) AS `days_late`,`c`.`item_count` AS `item_count`,`c`.`is_dangerous_goods` AS `is_dangerous_goods`,`c`.`chargeable_weight_kg` AS `chargeable_weight_kg`,`c`.`distance_km` AS `distance_km`,`c`.`declared_value_aud` AS `declared_value_aud`,`c`.`freight_charge_aud` AS `freight_charge_aud`,`c`.`fuel_levy_aud` AS `fuel_levy_aud`,`c`.`dg_surcharge_aud` AS `dg_surcharge_aud`,`c`.`residential_fee_aud` AS `residential_fee_aud`,`c`.`total_charge_aud` AS `total_charge_aud`,(case when (`c`.`total_charge_aud` is null) then 1 else 0 end) AS `dq_missing_charge`,(case when (`meridian_freight`.`og`.`state_code` <> `meridian_freight`.`dg`.`state_code`) then 'Interstate' else 'Intrastate' end) AS `lane_type`,concat(`meridian_freight`.`og`.`state_code`,' - ',`meridian_freight`.`dg`.`state_code`) AS `lane_name` from (((`meridian_freight`.`consignments` `c` join `meridian_freight`.`v_customer_dedup_map` `m` on((`meridian_freight`.`m`.`customer_id` = `c`.`customer_id`))) join `meridian_freight`.`v_geography` `og` on((`meridian_freight`.`og`.`geography_key` = `c`.`origin_location_id`))) join `meridian_freight`.`v_geography` `dg` on((`meridian_freight`.`dg`.`geography_key` = `c`.`destination_location_id`)))</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_consignment_line</Data></Cell>
+			<Cell><Data ss:Type="String">select `ci`.`consignment_item_id` AS `consignment_line_key`,`ci`.`consignment_id` AS `consignment_key`,`ci`.`product_id` AS `product_key`,`c`.`pickup_date` AS `pickup_date`,`meridian_freight`.`m`.`surviving_customer_id` AS `customer_key`,`c`.`origin_facility_id` AS `origin_facility_key`,`ci`.`quantity` AS `quantity`,`ci`.`item_weight_kg` AS `item_weight_kg`,`ci`.`item_cubic_m` AS `item_cubic_m`,`ci`.`dangerous_goods_class` AS `dangerous_goods_class` from ((`meridian_freight`.`consignment_items` `ci` join `meridian_freight`.`consignments` `c` on((`c`.`consignment_id` = `ci`.`consignment_id`))) join `meridian_freight`.`v_customer_dedup_map` `m` on((`meridian_freight`.`m`.`customer_id` = `c`.`customer_id`)))</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_customer</Data></Cell>
+			<Cell><Data ss:Type="String">select `c`.`customer_id` AS `customer_key`,`c`.`account_number` AS `account_number`,concat(upper(left(trim(replace(`c`.`customer_name`,'  ',' ')),1)),substr(trim(replace(`c`.`customer_name`,'  ',' ')),2)) AS `customer_name`,nullif(trim(`c`.`industry`),'') AS `industry`,coalesce(nullif(trim(`c`.`industry`),''),'Unclassified') AS `industry_clean`,`c`.`customer_tier` AS `customer_tier`,(case `c`.`customer_tier` when 'Platinum' then 1 when 'Gold' then 2 when 'Silver' then 3 else 4 end) AS `tier_sort_order`,`c`.`billing_location_id` AS `geography_key`,lower(trim(`c`.`contact_email`)) AS `contact_email`,`c`.`credit_limit_aud` AS `credit_limit_aud`,(case when (`c`.`credit_limit_aud` >= 500000) then 'A. 500k+' when (`c`.`credit_limit_aud` >= 250000) then 'B. 250k-500k' when (`c`.`credit_limit_aud` >= 100000) then 'C. 100k-250k' when (`c`.`credit_limit_aud` >= 50000) then 'D. 50k-100k' else 'E. Under 50k' end) AS `credit_limit_band`,`c`.`payment_terms_days` AS `payment_terms_days`,`c`.`onboarded_date` AS `onboarded_date`,`c`.`account_manager_staff_id` AS `staff_key`,`c`.`is_active` AS `is_active` from (`meridian_freight`.`customers` `c` join `meridian_freight`.`v_customer_dedup_map` `m` on((`meridian_freight`.`m`.`customer_id` = `c`.`customer_id`))) where (`meridian_freight`.`m`.`surviving_customer_id` = `c`.`customer_id`)</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_customer_dedup_map</Data></Cell>
+			<Cell><Data ss:Type="String">select `meridian_freight`.`k`.`customer_id` AS `customer_id`,min(`meridian_freight`.`k`.`customer_id`) OVER (PARTITION BY `meridian_freight`.`k`.`match_key`,`meridian_freight`.`k`.`billing_location_id` )  AS `surviving_customer_id` from `meridian_freight`.`v_customer_matchkey` `k`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_customer_matchkey</Data></Cell>
+			<Cell><Data ss:Type="String">select `c`.`customer_id` AS `customer_id`,`c`.`billing_location_id` AS `billing_location_id`,`c`.`customer_name` AS `customer_name`,(case when (trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD','')) like '% GRP') then concat(left(trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD','')),(char_length(trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD',''))) - 4)),' GROUP') when (trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD','')) like '% DIST') then concat(left(trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD','')),(char_length(trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD',''))) - 5)),' DISTRIBUTION') else trim(replace(trim(replace(upper(trim(`c`.`customer_name`)),'  ',' ')),' PTY LTD','')) end) AS `match_key` from `meridian_freight`.`customers` `c`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_driver</Data></Cell>
+			<Cell><Data ss:Type="String">select `d`.`driver_id` AS `driver_key`,`d`.`driver_code` AS `driver_code`,concat(`d`.`first_name`,' ',`d`.`last_name`) AS `driver_name`,`d`.`licence_class` AS `licence_class`,(case `d`.`licence_class` when 'LR' then 'Light Rigid' when 'MR' then 'Medium Rigid' when 'HR' then 'Heavy Rigid' when 'HC' then 'Heavy Combination' when 'MC' then 'Multi Combination' else 'Unknown' end) AS `licence_description`,`d`.`home_facility_id` AS `facility_key`,`d`.`carrier_id` AS `carrier_key`,`d`.`fatigue_accreditation` AS `fatigue_accreditation`,`d`.`hire_date` AS `hire_date`,`d`.`is_active` AS `is_active` from `meridian_freight`.`drivers` `d`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_exception_reason</Data></Cell>
+			<Cell><Data ss:Type="String">select `e`.`exception_reason_id` AS `exception_key`,`e`.`exception_code` AS `exception_code`,`e`.`exception_description` AS `exception_description`,`e`.`exception_stage` AS `exception_stage`,`e`.`responsible_party` AS `responsible_party`,`e`.`is_controllable` AS `is_controllable`,(case `e`.`is_controllable` when 1 then 'Controllable' else 'Non-Controllable' end) AS `controllability` from `meridian_freight`.`exception_reasons` `e`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_facility</Data></Cell>
+			<Cell><Data ss:Type="String">select `f`.`facility_id` AS `facility_key`,`f`.`facility_code` AS `facility_code`,`f`.`facility_name` AS `facility_name`,`f`.`facility_type` AS `facility_type`,`f`.`location_id` AS `geography_key`,`meridian_freight`.`g`.`suburb` AS `suburb`,`meridian_freight`.`g`.`state_code` AS `state_code`,`meridian_freight`.`g`.`region_name` AS `region_name`,`f`.`dock_doors` AS `dock_doors`,`f`.`storage_pallet_capacity` AS `storage_pallet_capacity`,(case when (`f`.`storage_pallet_capacity` > 0) then 'Yes' else 'No' end) AS `has_warehousing`,(case when (`f`.`dock_doors` >= 24) then 'Large' when (`f`.`dock_doors` >= 12) then 'Medium' else 'Small' end) AS `facility_size_band`,`f`.`opened_date` AS `opened_date`,`f`.`is_active` AS `is_active` from (`meridian_freight`.`facilities` `f` join `meridian_freight`.`v_geography` `g` on((`meridian_freight`.`g`.`geography_key` = `f`.`location_id`)))</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_freight_invoice_line</Data></Cell>
+			<Cell><Data ss:Type="String">select `fl`.`invoice_line_id` AS `invoice_line_key`,`fl`.`invoice_id` AS `invoice_key`,`fi`.`invoice_number` AS `invoice_number`,`meridian_freight`.`m`.`surviving_customer_id` AS `customer_key`,`fl`.`service_type_id` AS `service_type_key`,`fi`.`invoice_date` AS `invoice_date`,`fi`.`due_date` AS `due_date`,`fi`.`payment_date` AS `payment_date`,`fl`.`consignment_count` AS `consignment_count`,`fl`.`line_amount_aud` AS `line_amount_aud`,`fl`.`chargeable_weight_kg` AS `chargeable_weight_kg`,upper(`fi`.`invoice_status`) AS `invoice_status`,(case when (`fi`.`payment_date` is null) then NULL else (to_days(`fi`.`payment_date`) - to_days(`fi`.`due_date`)) end) AS `days_beyond_terms`,(case when (`fi`.`payment_date` is null) then 0 when (`fi`.`payment_date` <= `fi`.`due_date`) then 1 else 0 end) AS `is_paid_on_time` from ((`meridian_freight`.`freight_invoice_lines` `fl` join `meridian_freight`.`freight_invoices` `fi` on((`fi`.`invoice_id` = `fl`.`invoice_id`))) join `meridian_freight`.`v_customer_dedup_map` `m` on((`meridian_freight`.`m`.`customer_id` = `fi`.`customer_id`)))</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_geography</Data></Cell>
+			<Cell><Data ss:Type="String">select `l`.`location_id` AS `geography_key`,trim(`l`.`suburb`) AS `suburb_raw`,concat(upper(left(trim(`l`.`suburb`),1)),lower(substr(trim(`l`.`suburb`),2))) AS `suburb`,lpad(trim(`l`.`postcode`),4,'0') AS `postcode`,(case upper(trim(`l`.`state_code`)) when 'NEW SOUTH WALES' then 'NSW' when 'VICTORIA' then 'VIC' when 'QUEENSLAND' then 'QLD' when 'WESTERN AUSTRALIA' then 'WA' when 'SOUTH AUSTRALIA' then 'SA' when 'TASMANIA' then 'TAS' when 'AUSTRALIAN CAPITAL TERRITORY' then 'ACT' when 'NORTHERN TERRITORY' then 'NT' else upper(trim(`l`.`state_code`)) end) AS `state_code`,(case upper(trim(`l`.`state_code`)) when 'NSW' then 'New South Wales' when 'NEW SOUTH WALES' then 'New South Wales' when 'VIC' then 'Victoria' when 'VICTORIA' then 'Victoria' when 'QLD' then 'Queensland' when 'QUEENSLAND' then 'Queensland' when 'WA' then 'Western Australia' when 'WESTERN AUSTRALIA' then 'Western Australia' when 'SA' then 'South Australia' when 'SOUTH AUSTRALIA' then 'South Australia' when 'TAS' then 'Tasmania' when 'TASMANIA' then 'Tasmania' when 'ACT' then 'Australian Capital Territory' when 'AUSTRALIAN CAPITAL TERRITORY' then 'Australian Capital Territory' when 'NT' then 'Northern Territory' when 'NORTHERN TERRITORY' then 'Northern Territory' else 'Unknown' end) AS `state_name`,`l`.`region_name` AS `region_name`,(case when (upper(trim(`l`.`state_code`)) in ('NSW','NEW SOUTH WALES','VIC','VICTORIA','QLD','QUEENSLAND')) then 'East Coast' when (upper(trim(`l`.`state_code`)) in ('WA','WESTERN AUSTRALIA','SA','SOUTH AUSTRALIA')) then 'West / Central' else 'Other' end) AS `zone_name`,`l`.`latitude` AS `latitude`,`l`.`longitude` AS `longitude`,concat('Australia') AS `country` from `meridian_freight`.`locations` `l`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_inventory_snapshot</Data></Cell>
+			<Cell><Data ss:Type="String">select `i`.`inventory_snapshot_id` AS `inventory_snapshot_key`,`i`.`snapshot_date` AS `snapshot_date`,`i`.`facility_id` AS `facility_key`,`i`.`product_category` AS `product_category`,`i`.`pallets_on_hand` AS `pallets_on_hand`,`i`.`pallets_capacity` AS `pallets_capacity`,`i`.`pallets_inbound` AS `pallets_inbound`,`i`.`pallets_outbound` AS `pallets_outbound`,`i`.`pallets_damaged` AS `pallets_damaged`,(case when (`i`.`pallets_capacity` > 0) then (`i`.`pallets_on_hand` / `i`.`pallets_capacity`) end) AS `utilisation_ratio` from `meridian_freight`.`inventory_snapshots` `i`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_product</Data></Cell>
+			<Cell><Data ss:Type="String">select `p`.`product_id` AS `product_key`,`p`.`sku_code` AS `sku_code`,`p`.`product_name` AS `product_name`,substring_index(`p`.`product_name`,'-',1) AS `name_category_token`,substring_index(substring_index(`p`.`product_name`,'-',2),'-',-(1)) AS `product_grade`,substring_index(substring_index(`p`.`product_name`,'-',3),'-',-(1)) AS `pack_size`,cast(replace(replace(substring_index(substring_index(`p`.`product_name`,'-',3),'-',-(1)),'PK',''),'EA','') as unsigned) AS `units_per_pack`,(case when (substring_index(substring_index(`p`.`product_name`,'-',3),'-',-(1)) like '%EA') then 'Each' else 'Multi-Pack' end) AS `pack_format`,substring_index(`p`.`product_name`,'-',-(1)) AS `product_serial`,`p`.`product_category` AS `product_category`,`p`.`uom` AS `uom`,`p`.`temperature_class` AS `temperature_class`,`p`.`unit_weight_kg` AS `unit_weight_kg`,`p`.`unit_cubic_m` AS `unit_cubic_m`,`p`.`dangerous_goods_class` AS `dangerous_goods_class`,(case when (`p`.`dangerous_goods_class` = 'None') then 'Non-DG' else 'Dangerous Goods' end) AS `dg_flag`,`p`.`is_active` AS `is_active` from `meridian_freight`.`products` `p`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_scan_event</Data></Cell>
+			<Cell><Data ss:Type="String">select `se`.`scan_event_id` AS `scan_event_key`,`se`.`consignment_id` AS `consignment_key`,`se`.`scan_type_id` AS `scan_type_key`,`se`.`facility_id` AS `facility_key`,`se`.`scanned_by_staff_id` AS `staff_key`,`se`.`exception_reason_id` AS `exception_key`,`se`.`scan_datetime` AS `scan_datetime`,cast(`se`.`scan_datetime` as date) AS `scan_date`,hour(`se`.`scan_datetime`) AS `scan_hour`,(case when (`se`.`exception_reason_id` is null) then 0 else 1 end) AS `is_exception`,1 AS `scan_count` from `meridian_freight`.`scan_events` `se`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_scan_type</Data></Cell>
+			<Cell><Data ss:Type="String">select `st`.`scan_type_id` AS `scan_type_key`,`st`.`scan_code` AS `scan_code`,`st`.`scan_description` AS `scan_description`,`st`.`sequence_rank` AS `sequence_rank`,(case when (`st`.`scan_code` = 'PU') then '1. Pickup' when (`st`.`scan_code` in ('DIN','SRT','HLD')) then '2. Depot' when (`st`.`scan_code` in ('LHO','LHI')) then '3. Linehaul' when (`st`.`scan_code` in ('OFD','ATT')) then '4. Delivery' else '5. Terminal' end) AS `network_stage` from `meridian_freight`.`scan_event_types` `st`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_service_type</Data></Cell>
+			<Cell><Data ss:Type="String">select `s`.`service_type_id` AS `service_type_key`,`s`.`service_code` AS `service_code`,`s`.`service_name` AS `service_name`,`s`.`target_transit_days` AS `target_transit_days`,`s`.`primary_mode` AS `primary_mode`,`s`.`rate_index` AS `rate_index`,(case `s`.`is_time_definite` when 1 then 'Time Definite' else 'Non Time Definite' end) AS `service_commitment`,(case when ((`s`.`service_code` like 'EXP%') or (`s`.`service_code` = 'SD-MET')) then 'Express' when (`s`.`service_code` like 'CHL%') then 'Temperature Controlled' when (`s`.`service_code` = 'BLK-FR') then 'Bulk' else 'Standard Road' end) AS `service_family` from `meridian_freight`.`service_types` `s`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_staff</Data></Cell>
+			<Cell><Data ss:Type="String">select `s`.`staff_id` AS `staff_key`,`s`.`employee_code` AS `employee_code`,concat(`s`.`first_name`,' ',`s`.`last_name`) AS `staff_name`,`s`.`job_title` AS `job_title`,`s`.`facility_id` AS `facility_key`,`s`.`manager_staff_id` AS `manager_staff_key`,concat(`m`.`first_name`,' ',`m`.`last_name`) AS `manager_name`,coalesce(`m`.`job_title`,'None') AS `manager_job_title`,`s`.`hire_date` AS `hire_date`,`s`.`employment_type` AS `employment_type`,`s`.`is_active` AS `is_active` from (`meridian_freight`.`staff` `s` left join `meridian_freight`.`staff` `m` on((`m`.`staff_id` = `s`.`manager_staff_id`)))</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_trip</Data></Cell>
+			<Cell><Data ss:Type="String">select `t`.`trip_id` AS `trip_key`,`t`.`trip_reference` AS `trip_reference`,`t`.`vehicle_id` AS `vehicle_key`,`t`.`carrier_id` AS `carrier_key`,`t`.`origin_facility_id` AS `origin_facility_key`,`t`.`destination_facility_id` AS `destination_facility_key`,cast(`t`.`planned_departure` as date) AS `departure_date`,`t`.`planned_departure` AS `planned_departure`,`t`.`actual_departure` AS `actual_departure`,`t`.`actual_arrival` AS `actual_arrival`,timestampdiff(MINUTE,`t`.`planned_departure`,`t`.`actual_departure`) AS `departure_delay_minutes`,(timestampdiff(MINUTE,`t`.`actual_departure`,`t`.`actual_arrival`) / 60.0) AS `trip_duration_hours`,`t`.`planned_distance_km` AS `planned_distance_km`,`t`.`actual_distance_km` AS `actual_distance_km`,(`t`.`actual_distance_km` - `t`.`planned_distance_km`) AS `distance_variance_km`,`t`.`fuel_used_litres` AS `fuel_used_litres`,(case when (`t`.`actual_distance_km` > 0) then ((`t`.`fuel_used_litres` / `t`.`actual_distance_km`) * 100) end) AS `litres_per_100km`,`t`.`pallets_loaded` AS `pallets_loaded`,upper(`t`.`trip_status`) AS `trip_status`,(case when (timestampdiff(MINUTE,`t`.`planned_departure`,`t`.`actual_departure`) <= 15) then 1 else 0 end) AS `is_on_time_departure`,1 AS `trip_count` from `meridian_freight`.`trips` `t`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_trip_driver_bridge</Data></Cell>
+			<Cell><Data ss:Type="String">select `td`.`trip_driver_id` AS `trip_driver_key`,`td`.`trip_id` AS `trip_key`,`td`.`driver_id` AS `driver_key`,`td`.`driver_role` AS `driver_role`,`td`.`hours_driven` AS `hours_driven`,(1.0 / count(0) OVER (PARTITION BY `td`.`trip_id` ) ) AS `allocation_factor`,count(0) OVER (PARTITION BY `td`.`trip_id` )  AS `drivers_on_trip` from `meridian_freight`.`trip_drivers` `td`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">NO</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">def</Data></Cell>
+			<Cell><Data ss:Type="String">meridian_freight</Data></Cell>
+			<Cell><Data ss:Type="String">v_vehicle</Data></Cell>
+			<Cell><Data ss:Type="String">select `v`.`vehicle_id` AS `vehicle_key`,`v`.`registration` AS `registration`,`v`.`vehicle_type` AS `vehicle_type`,`v`.`vehicle_class` AS `vehicle_class`,`v`.`capacity_kg` AS `capacity_kg`,`v`.`capacity_pallets` AS `capacity_pallets`,`v`.`model_year` AS `model_year`,(year(curdate()) - `v`.`model_year`) AS `vehicle_age_years`,(case when ((year(curdate()) - `v`.`model_year`) <= 3) then 'A. 0-3 yrs' when ((year(curdate()) - `v`.`model_year`) <= 7) then 'B. 4-7 yrs' else 'C. 8+ yrs' end) AS `vehicle_age_band`,`v`.`home_facility_id` AS `facility_key`,`v`.`carrier_id` AS `carrier_key`,`v`.`euro_emission_std` AS `euro_emission_std`,`v`.`is_active` AS `is_active` from `meridian_freight`.`vehicles` `v`</Data></Cell>
+			<Cell><Data ss:Type="String">NONE</Data></Cell>
+			<Cell><Data ss:Type="String">YES</Data></Cell>
+			<Cell><Data ss:Type="String">root@localhost</Data></Cell>
+			<Cell><Data ss:Type="String">DEFINER</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4</Data></Cell>
+			<Cell><Data ss:Type="String">utf8mb4_0900_ai_ci</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

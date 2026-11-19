@@ -1,0 +1,51 @@
+location_id,suburb,postcode,state_code,region_name,latitude,longitude
+1,Truganina,3029,VIC,Melbourne,-37.8136,144.742
+2,Laverton North,3026,VIC,Melbourne,-37.821,144.808
+3,Derrimut,3026,Victoria,Melbourne,-37.793,144.769
+4,Dandenong South,3175,Victoria,Melbourne,-38.011,145.205
+5,  Somerton ,3062,VIC,Melbourne,-37.648,144.933
+6,Altona North,3025,VIC,Melbourne,-37.829,144.853
+7,  Geelong North ,3215,VIC,Geelong,-38.109,144.348
+8,Ballarat Central,3350,VIC,Ballarat,-37.562,143.85
+9,Eastern Creek,2766,NSW,Sydney,-33.802,150.857
+10,PRESTONS,2170,nsw,Sydney,-33.943,150.871
+11,Chullora,2190,NSW,Sydney,-33.893,151.057
+12,  Erskine Park ,2759,NSW,Sydney,-33.818,150.793
+13,  BOTANY ,2019,NSW,Sydney,-33.945,151.199
+14,WETHERILL PARK,2164,NSW,Sydney,-33.852,150.903
+15,Newcastle West,2302,NSW,Newcastle,-32.927,151.755
+16,Wollongong,2500,NSW,Wollongong,-34.425,150.893
+17,Wacol,4076,QLD,Brisbane,-27.585,152.933
+18,Larapinta,4110,QLD,Brisbane,-27.648,153.018
+19,Hemmant,4174,QLD,Brisbane,-27.446,153.112
+20,Yatala,4207,QLD,Gold Coast,-27.742,153.2
+21,Cairns City,4870,QLD,Cairns,-16.92,145.77
+22,Townsville City,4810,QLD,Townsville,-19.259,146.818
+23,Toowoomba City,4350,QLD,Toowoomba,-27.56,151.953
+24,Kewdale,6105,WA,Perth,-31.98,115.956
+25,Canning Vale,6155,WA,Perth,-32.067,115.911
+26,Bibra Lake,6163,WA,Perth,-32.1,115.82
+27,Port Hedland,6721,WA,Pilbara,-20.31,118.611
+28,Kalgoorlie,6430,Western Australia,Goldfields,-30.749,121.466
+29,REGENCY PARK,5010,sa,Adelaide,-34.863,138.558
+30,Wingfield,5013,SA,Adelaide,-34.842,138.559
+31,Mile End,5031,SA,Adelaide,-34.925,138.572
+32,WHYALLA NORRIE,5608,SA,Whyalla,-33.032,137.561
+33,Derwent Park,7009,TAS,Hobart,-42.828,147.293
+34,Launceston,7250,TAS,Launceston,-41.439,147.135
+35,Devonport,7310,TAS,Devonport,-41.177,146.351
+36,Hume,2620,Australian Capital Territory,Canberra,-35.409,149.158
+37,Mitchell,2911,act,Canberra,-35.221,149.133
+38,Winnellie,820,NT,Darwin,-12.42,130.889
+39,Alice Springs,870,Northern Territory,Alice Springs,-23.698,133.881
+40,BERRIMAH,828,NT,Darwin,-12.426,130.925
+41,Mildura,3500,Victoria,Mildura,-34.185,142.162
+42,Shepparton,3630,VIC,Shepparton,-36.38,145.4
+43,Wagga Wagga,2650,NSW,Wagga Wagga,-35.108,147.369
+44,Dubbo,2830,NSW,Dubbo,-32.253,148.601
+45,Coffs Harbour,2450,NSW,Coffs Harbour,-30.296,153.114
+46,Rockhampton City,4700,QLD,Rockhampton,-23.378,150.511
+47,Mackay,4740,QLD,Mackay,-21.144,149.186
+48,BUNBURY,6230,wa,Bunbury,-33.327,115.64
+49,  MOUNT GAMBIER ,5290,SA,Mount Gambier,-37.829,140.783
+50,Port Augusta,5700,SA,Port Augusta,-32.493,137.766
