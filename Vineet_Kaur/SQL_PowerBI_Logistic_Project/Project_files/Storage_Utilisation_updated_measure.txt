@@ -1,0 +1,9 @@
+Storage Utilisation % =
+VAR LastSnapDate =
+    LASTNONBLANK ( 'v_date'[Date],
+                   CALCULATE ( SUM ( 'meridian_freight v_inventory_snapshot'[pallets_on_hand] ) ) )
+RETURN
+DIVIDE (
+    CALCULATE ( SUM ( 'meridian_freight v_inventory_snapshot'[pallets_on_hand] ),  LastSnapDate ),
+    CALCULATE ( SUM ( 'meridian_freight v_inventory_snapshot'[pallets_capacity] ), LastSnapDate )
+)
