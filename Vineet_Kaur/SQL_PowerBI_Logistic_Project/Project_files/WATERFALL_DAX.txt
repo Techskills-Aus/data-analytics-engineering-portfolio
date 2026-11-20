@@ -1,0 +1,7 @@
+Waterfall Value = 
+SWITCH(
+    SELECTEDVALUE('Waterfall Table'[Category]),
+    "Mix Shift", [OTD Impact from Mix Shift],
+    "Rate Decline", [OTD Impact from Rate Decline],
+    BLANK()
+)
